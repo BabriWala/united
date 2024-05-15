@@ -1,0 +1,15 @@
+@import url(style.css);
+@import url(footer.css);
+@import url(comon_design.css);
+
+.healthCare.massage_ceo_section{
+    padding-bottom: 0;
+}
+.fun_bottom_main.menufactur{
+    padding-top: 0;
+}
+.glance_section.menufactur{
+    background: #2B2B2B;
+    background-image: none;
+    margin-top: 100px;
+}

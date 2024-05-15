@@ -1,0 +1,196 @@
+/* Page header */
+.page_header_section {
+  padding: 50px 0;
+}
+.page_header_right {
+  margin-top: 40px;
+}
+.page_title {
+  max-width: 500px;
+}
+.page_header_text {
+  font-weight: 400;
+  font-size: var(--small-text);
+  line-height: 30px;
+  max-width: 350px;
+  color: var(--neutral-light-black);
+}
+.advisor_left_top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 10px;
+}
+.page_header_small_title {
+  font-size: var(--small-text);
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--brand-primary-red);
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.page_header_border {
+  width: 40px;
+  height: 1px;
+  background: var(--brand-primary-red);
+  margin-top: 12px;
+}
+
+/* Fun fact section start here */
+.fun_fact_section {
+  padding-top: 120px;
+  background: var(--pure-white);
+}
+.fun_fact_single {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 15px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.fun_fact_single:last-child {
+  border-right: none;
+}
+.fun_content .sub_title_2 {
+  margin-bottom: 0;
+}
+.fun_img {
+  width: 45px;
+}
+.fun_img img {
+  width: 45px;
+  height: auto;
+}
+.fun_title {
+  font-size: var(--subtitle);
+  font-weight: 600;
+  line-height: 26px;
+  color: var(--black);
+}
+.fun_bottom_main {
+  padding-top: 40px;
+}
+.fun_list {
+  margin: 30px 0;
+  padding-left: 20px;
+}
+.fun_list_item {
+  list-style: disc;
+}
+.last_para {
+  padding-bottom: 0;
+}
+/* Fun fact section start here */
+
+/* Ceo massage section start here */
+.massage_ceo_section {
+  padding: 80px 0;
+  background: var(--pure-white);
+}
+.ceo_massage_main {
+  background: #f7f7f7;
+  border-radius: 20px 0 0 0;
+}
+.ceo_content {
+  padding: 40px 40px 40px 0;
+}
+.ceo_img {
+  padding-left: 0;
+}
+.ceo_img img {
+  height: 100%;
+  max-width: 470px;
+  border-radius: 20px 0 0 0;
+  margin-right: auto;
+}
+.ceo_name_details {
+  position: relative;
+  margin-top: 40px;
+}
+.ceo_name_border {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 50px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.ceo_name {
+  font-size: var(--subtitle);
+  font-weight: 400;
+  line-height: 26px;
+  color: var(--base-black);
+  margin-bottom: 0;
+}
+.ceo_details {
+  margin-bottom: 0;
+}
+.massage_text {
+  padding-right: 40px;
+  position: relative;
+  border-right: 5px solid rgba(0, 0, 0, 0.05);
+}
+.massage_text .massage_border {
+  position: absolute;
+  top: 0;
+  right: -5px;
+  width: 5px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.5);
+}
+/* Ceo massage section end here */
+
+/* Consern section start here */
+.consern_section {
+  padding: 120px 0;
+  background: #fafafa;
+}
+.consarn_inner {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0;
+  border-radius: 10px;
+  background: var(--pure-white);
+}
+.consarn_single_parson .consarn_img {
+  border-radius: 10px 10px 0 0;
+}
+.single_consern_info {
+  padding: 20px;
+  min-height: 300px;
+}
+.learn_more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: var(--body);
+  font-weight: 400;
+  color: var(--black);
+  transition: 0.25s;
+}
+.learn_more .learn_para {
+  margin-bottom: 0;
+  padding: 15px 30px;
+}
+.learn_more .learnmoreS {
+  width: 55px;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 15px 0;
+  transition: 0.25s;
+  border-radius: 0 0 10px 0;
+}
+.learn_more:hover .learnmoreS {
+  background: var(--brand-primary-red);
+}
+.consarn_sList {
+  margin-left: 0;
+  padding-left: 15px;
+}
+.cList_item {
+  list-style: disc;
+}
+.cList_item::marker {
+  color: #005282;
+}
+/* Consern section end here */

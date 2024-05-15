@@ -1,0 +1,100 @@
+@import url(style.css);
+@import url(comon_design.css);
+
+/* achievement_section design start here */
+.achievement_section {
+  background: #fafafa;
+}
+.achievement_img {
+  text-align: center;
+  padding: 30px;
+}
+.achievement_img img {
+  height: 175px;
+  object-fit: contain;
+  margin-right: auto;
+  margin-left: auto;
+}
+.single_column {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 32%;
+  border-radius: 20px 0 0 0;
+}
+.achievement_body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 2%;
+  overflow: hidden;
+}
+.achievement_title {
+  padding: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.achievement_title .sub_title_2 {
+  text-align: center;
+}
+.mibile_img {
+  max-height: 1200px;
+}
+/* achievement_section design end here */
+
+/* Business section start here */
+.business_body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.business_single .business_icon {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: -1px -1px 4px #6c483a1a;
+}
+.business_icon img {
+  width: 50px;
+}
+.business_single .sub_title_2 {
+  text-align: center;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+.power_genaration {
+  margin-top: 50px;
+  max-width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.power_right {
+  width: 50%;
+}
+.power_left {
+  width: 50%;
+}
+.power_single {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  column-gap: 15px;
+  margin-bottom: 5px;
+}
+.power_text {
+  font-size: var(--subtitle);
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--base-black);
+}
+/* Business section end here */

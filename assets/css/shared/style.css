@@ -1,0 +1,228 @@
+/*=============== Global CSS Start here ==============*/
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Barlow", sans-serif;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+i {
+  font-size: 14px;
+}
+
+/* Variables */
+:root {
+  /* Colors */
+  --brand-primary-red: #f05a23;
+  --alert-light-red: rgba(255, 99, 96, 0.6);
+  --base-black: #000000;
+  --neutral-light-black: #4e4e4e;
+  --pure-white: #ffffff;
+
+  /* Font Sizes */
+  --title-large: 40px;
+  --title-medium: 36px;
+  --title-small: 26px;
+  --subtitle: 20px;
+  --body: 16px;
+  --small-text: 14px;
+}
+
+/* Section here */
+.sections {
+  padding: 120px 0;
+}
+
+/* Title tags here */
+.title {
+  font-size: var(--title-large);
+  line-height: 60px;
+  font-weight: 400;
+  color: var(--black);
+  text-transform: uppercase;
+}
+.sub_title {
+  font-size: var(--title-medium);
+  line-height: 46px;
+  font-weight: 400;
+  color: var(--black);
+  text-transform: uppercase;
+}
+.sub_title_2 {
+  font-size: var(--title-small);
+  font-weight: 400;
+  line-height: 36px;
+  color: var(--base-black);
+  text-transform: uppercase;
+}
+.sub_title_2camel {
+  font-size: var(--title-small);
+  font-weight: 400;
+  line-height: 36px;
+  color: var(--base-black);
+  opacity: 0.6;
+}
+
+.paragraph {
+  font-size: var(--body);
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--neutral-light-black);
+}
+.paragraph_uppercase {
+  font-size: var(--body);
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--base-black);
+  text-transform: uppercase;
+}
+
+/* Buttons Design here */
+.link_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+  width: fit-content;
+  color: var(--black);
+  margin-top: 50px;
+  position: relative;
+}
+.link_button i {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 50%;
+  z-index: 1;
+}
+.link_button span {
+  font-size: var(--small-text);
+  font-weight: 700;
+}
+.link_button .rightIcon {
+  display: none;
+}
+
+.link_button:hover::after {
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: var(--brand-primary-red);
+  animation-name: buttonLink;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+.link_button:hover .leftIcon {
+  display: none;
+}
+.link_button:hover .rightIcon {
+  display: block;
+}
+.link_button::after {
+  z-index: 0;
+  position: absolute;
+  left: 85px;
+  top: 0;
+  content: "";
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background: var(--brand-primary-red);
+  animation-name: buttonLinkReverse;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes buttonLink {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 85px;
+  }
+}
+@keyframes buttonLinkReverse {
+  0% {
+    left: 85px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+/* Slider botton */
+.slider_change_btns {
+  border: 1px solid var(--brand-primary-red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px 0 10px 0;
+  width: fit-content;
+}
+.slide_btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 55px;
+  height: 55px;
+  border-radius: 0 0 10px 0;
+}
+.slide_btn:first-child {
+  border-right: 1px solid var(--brand-primary-red);
+  border-radius: 10px 0 0 0;
+  background: transparent;
+  color: var(--brand-primary-red);
+}
+.slide_right_btn {
+  background: var(--brand-primary-red);
+  color: var(--base-black);
+}
+.slider_change_btns .slide_left_btn:hover {
+  background: var(--brand-primary-red);
+  color: var(--base-black);
+}
+
+/* Back to top */
+.back_to_top {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  background: var(--brand-primary-red);
+  border-radius: 50%;
+  transition: 0.25s;
+  color: var(--pure-white);
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  transform: translateY(100px);
+}
+.back_to_top:hover {
+  background: #424143;
+}
+
+/* Single command */
+.profile_single_parson {
+  max-width: 560px;
+}
+.profile_single_parson .person_img {
+  border-radius: 20px 0 0 0;
+  margin-bottom: 20px;
+}
+/*=============== Global CSS End here ==============*/

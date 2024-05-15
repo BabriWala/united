@@ -1,0 +1,74 @@
+@import url(style.css);
+
+.header {
+  background: #4d4440;
+}
+.hesderLogo img {
+  max-width: unset;
+  height: 60px;
+  width: 140px;
+}
+
+.menu_item {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.menu_inner_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+.menu_link span {
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--pure-white);
+  transition: 0.2s;
+}
+.dMenu_list {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.menu_inner_div .fa-chevron-down {
+  color: var(--pure-white);
+  font-size: 13px;
+}
+.menu_item:hover .menu_link span {
+  color: var(--brand-primary-red);
+}
+.menu_item:hover .menu_link .fa-chevron-down {
+  color: var(--brand-primary-red);
+  transform: rotate(180deg);
+}
+.menu_item:hover .inner_menu {
+  display: block;
+}
+.inner_menu {
+  position: absolute;
+  top: 85px;
+  left: -15px;
+  width: 230px;
+  background: var(--pure-white);
+  padding: 10px;
+  display: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.1);
+}
+.inner_menu_item {
+  padding: 10px;
+  margin: 0;
+}
+.inner_menu_link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--black);
+  transition: 0.25s;
+}
+.inner_menu_item:hover .inner_menu_link {
+  color: var(--brand-primary-red);
+  margin-left: 15px;
+}
