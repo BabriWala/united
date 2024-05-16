@@ -41,6 +41,9 @@
     <!----------- Header CSS Responsive ------------>
     <link rel="stylesheet" href="../assets/css/shared/header.css" />
 
+    <!----------- Secondary Header CSS ------------>
+    <link rel="stylesheet" href="../assets/css/shared/secondary_header.css" />
+
     <!----------- Footer CSS ------------>
     <link rel="stylesheet" href="../assets/css/shared/footer.css" />
 
@@ -59,9 +62,11 @@
       <div class="header_section">
         <div class="container">
           <!-- Desktop Menubar -->
-          <div class="desktop_manu_main row align-items-center">
-            <div class="desktop_logo col-lg-1">
-              <a href="index.html" class="hesderLogo">
+          <div
+            class="desktop_manu_main d-flex align-items-center justify-content-between"
+          >
+            <div class="desktop_logo">
+              <a href="../index.html" class="header_logo">
                 <svg
                   width="116"
                   height="52"
@@ -156,120 +161,180 @@
                 </svg>
               </a>
             </div>
-            <div class="desktop_menubar d-none d-lg-block col-lg-11">
-              <ul
-                class="dMenu_list d-lg-flex justify-content-lg-end column-gap-3"
-              >
+            <div class="desktop_menubar">
+              <ul class="dMenu_list d-lg-flex justify-content-lg-end">
                 <!-- Single menu -->
-                <li class="menu_item">
-                  <a href="#" class="menu_link">
-                    <div class="menu_inner_div">
-                      <span>About United</span>
-                      <i class="fa-solid fa-chevron-down fa-fw"></i>
-                    </div>
-                    <ul class="inner_menu">
-                      <!-- Inner menu single -->
-                      <li class="inner_menu_item">
-                        <a href="#" class="inner_menu_link">About us</a>
-                      </li>
+                <li class="menu_item menu-item-has-children">
+                  <div class="menu_inner_div">
+                    <span>About United</span>
+                    <!-- <i class="fa-solid fa-chevron-down fa-fw"></i> -->
+                  </div>
+                  <ul class="sub_menu">
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a href="../about-us/index.html" class="sub_menu_link"
+                        >About us</a
+                      >
+                    </li>
 
-                      <!-- Inner menu single -->
-                      <li class="inner_menu_item">
-                        <a href="#" class="inner_menu_link">About us</a>
-                      </li>
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a
+                        href="../chief-advisors-note/index.html"
+                        class="sub_menu_link"
+                        >Chief Advisors Note</a
+                      >
+                    </li>
 
-                      <!-- Inner menu single -->
-                      <li class="inner_menu_item">
-                        <a href="#" class="inner_menu_link">About us</a>
-                      </li>
-
-                      <!-- Inner menu single -->
-                      <li class="inner_menu_item">
-                        <a href="#" class="inner_menu_link">About us</a>
-                      </li>
-                    </ul>
-                  </a>
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a
+                        href="../chairman-and-managing-directors-note/index.html"
+                        class="sub_menu_link"
+                        >Chairman & Managing
+                        <br />
+                        Director's Note</a
+                      >
+                    </li>
+                  </ul>
                 </li>
+                <li class="menu_item menu-item-has-children">
+                  <div class="menu_inner_div">
+                    <span>Divisions</span>
+                    <!-- <i class="fa-solid fa-chevron-down fa-fw"></i> -->
+                  </div>
+                  <ul class="sub_menu">
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a href="../power/index.html" class="sub_menu_link"
+                        >Power</a
+                      >
+                    </li>
 
-                <!-- Single menu -->
-                <li class="menu_item">
-                  <a href="#" class="menu_link">
-                    <div class="menu_inner_div">
-                      <span>About United</span>
-                      <i class="fa-solid fa-chevron-down fa-fw"></i>
-                    </div>
-                    <ul class="inner_menu">
-                      <!-- Inner menu single -->
-                      <li class="inner_menu_item">
-                        <a href="" class="inner_menu_link">About us</a>
-                      </li>
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a href="../real-state/index.html" class="sub_menu_link"
+                        >Real State</a
+                      >
+                    </li>
 
-                      <!-- Inner menu single -->
-                      <li class="inner_menu_item">
-                        <a href="" class="inner_menu_link">About us</a>
-                      </li>
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a
+                        href="../retail-and-services/index.html"
+                        class="sub_menu_link"
+                        >Retail & Services</a
+                      >
+                    </li>
 
-                      <!-- Inner menu single -->
-                      <li class="inner_menu_item">
-                        <a href="" class="inner_menu_link">About us</a>
-                      </li>
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a href="../health-care/index.html" class="sub_menu_link"
+                        >Healthcare</a
+                      >
+                    </li>
 
-                      <!-- Inner menu single -->
-                      <li class="inner_menu_item">
-                        <a href="" class="inner_menu_link">About us</a>
-                      </li>
-                    </ul>
-                  </a>
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a
+                        href="../manufacturing/index.html"
+                        class="sub_menu_link"
+                        >Manufacturing</a
+                      >
+                    </li>
+
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a href="../education/index.html" class="sub_menu_link"
+                        >Education</a
+                      >
+                    </li>
+
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a
+                        href="../port-terminal-shipping/index.html"
+                        class="sub_menu_link"
+                        >Port, Terminal & Shipping</a
+                      >
+                    </li>
+                  </ul>
                 </li>
+                <li class="menu_item menu-item-has-children">
+                  <div class="menu_inner_div">
+                    <span>Media Center</span>
+                    <!-- <i class="fa-solid fa-chevron-down fa-fw"></i> -->
+                  </div>
+                  <ul class="sub_menu">
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a
+                        href="../lefe-at-united/index.html"
+                        class="sub_menu_link"
+                        >Life at United</a
+                      >
+                    </li>
 
-                <!-- Single menu -->
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a href="../news/index.html" class="sub_menu_link"
+                        >News</a
+                      >
+                    </li>
+
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a
+                        href="../photo-gallery/index.html"
+                        class="sub_menu_link"
+                        >Photo Gallery</a
+                      >
+                    </li>
+
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a
+                        href="../video-gallery/index.html"
+                        class="sub_menu_link"
+                        >Video Gallery</a
+                      >
+                    </li>
+                  </ul>
+                </li>
                 <li class="menu_item">
-                  <a href="#" class="menu_link">
+                  <a href="../investor-relation/index.html" class="menu_link">
                     <span>Investor Relation</span>
                   </a>
                 </li>
+                <li class="menu_item menu-item-has-children">
+                  <div class="menu_inner_div">
+                    <span>Substainability</span>
+                    <!-- <i class="fa-solid fa-chevron-down fa-fw"></i> -->
+                  </div>
+                  <ul class="sub_menu">
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a href="../united-trust/index.html" class="sub_menu_link"
+                        >United Trust</a
+                      >
+                    </li>
 
-                <!-- Single menu -->
-                <li class="menu_item">
-                  <a href="#" class="menu_link">
-                    <div class="menu_inner_div">
-                      <span>About United</span>
-                      <i class="fa-solid fa-chevron-down fa-fw"></i>
-                    </div>
-                    <ul class="inner_menu">
-                      <!-- Inner menu single -->
-                      <li class="inner_menu_item">
-                        <a href="" class="inner_menu_link">About us</a>
-                      </li>
-
-                      <!-- Inner menu single -->
-                      <li class="inner_menu_item">
-                        <a href="" class="inner_menu_link">About us</a>
-                      </li>
-
-                      <!-- Inner menu single -->
-                      <li class="inner_menu_item">
-                        <a href="" class="inner_menu_link">About us</a>
-                      </li>
-
-                      <!-- Inner menu single -->
-                      <li class="inner_menu_item">
-                        <a href="" class="inner_menu_link">About us</a>
-                      </li>
-                    </ul>
-                  </a>
+                    <!-- Sub Menu single -->
+                    <li class="sub_menu_item">
+                      <a href="../evnironment/index.html" class="sub_menu_link"
+                        >Environment</a
+                      >
+                    </li>
+                  </ul>
                 </li>
-
-                <!-- Single menu -->
                 <li class="menu_item">
-                  <a href="#" class="menu_link">
+                  <a href="../career/index.html" class="menu_link">
                     <span>Career</span>
                   </a>
                 </li>
-                <!-- Single menu -->
                 <li class="menu_item">
-                  <a href="#" class="menu_link">
-                    <span>Contact us</span>
+                  <a href="../contact-us/index.html" class="menu_link">
+                    <span>Contact Us</span>
                   </a>
                 </li>
               </ul>
