@@ -1,16 +1,23 @@
 @import url(style.css);
 
 .header {
-  padding: 10px 0;
+  padding: 0;
   background: #4d4440;
+}
+.desktop_manu_main{
+  padding: 10px 0;
 }
 .header_logo img {
   max-width: unset;
   height: 52px;
   width: 140px;
 }
+.dMenu_list{
+  margin-top: -60px;
+}
 .menu_item {
   cursor: pointer;
+  position: relative;
 }
 .menu-item-has-children {
   position: relative;
@@ -18,7 +25,7 @@
 }
 
 .menu_item {
-  padding: 22px 19px;
+  padding: 22px 10px;
 }
 
 .menu_inner_div {
@@ -26,6 +33,7 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  column-gap: 8px;
 }
 .menu-item-has-children::after {
   content: "";
@@ -92,3 +100,101 @@
 
   padding-left: 10px;
 }
+
+/* Mobile menu design start here */
+.mobile_menu_open{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  z-index: 99;
+}
+
+.offcanvas_toggle_btn{
+  background: transparent;
+  font-size: 2rem;
+  outline: none;
+  border: none;
+}
+.offcanvas_toggle_btn i{
+  color: var(--pure-white);
+  font-size: 30px;
+}
+.mobile_menu_content .offcanvas-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mibile_inner_logo img{
+  height: 40px;
+}
+.mobile_menu_content{
+  background: #2b2b2bf5;
+}
+.offcanvas_close{
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid var(--pure-white);
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  line-height: 24px;
+}
+.offcanvas_close i{
+  font-size: 18px;
+  color: var(--pure-white);
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.mobile_inner_div{
+  font-size: var(--subtitle);
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--pure-white);
+  width: 100%;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+  cursor: pointer;
+  transition: .25s;
+}
+.mobile_link{
+  font-size: var(--subtitle);
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--pure-white);
+  padding: 12px 0;
+}
+.mobile_sub_link{
+  font-size: var(--subtitle);
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--pure-white);
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+  display: block;
+}
+.mobile_inner_div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile_sub_list{
+  padding: 0 15px;
+  display: none;
+}
+.display_block{
+  display: block;
+  transition: .25s;
+}
+.rotate_180{
+  transform: rotate(180deg);
+}
+/* Mobile menu design end here */

@@ -1,3 +1,9 @@
+@import url(../shared/footer.css);
+@import url(../shared/secondary_header.css);
+@import url(../shared/style.css);
+@import url(../shared/header.css);
+@import url(../comon_design.css);
+
 /* Commitment Section start here */
 .commitment_section {
   background: var(--pure-white);
@@ -37,7 +43,7 @@
 
 /* At a glance section start here */
 .glance_section {
-  background: url("../images/atAglanceIcon/AnyConv.com__at-a-glance-scaled-1.webp");
+  background: url("/assets/images/atAglanceIcon/AnyConv.com__at-a-glance-scaled-1.webp");
   background-size: cover;
 }
 .glance_bg {
@@ -179,7 +185,7 @@
 
 /* Video section start here */
 .video_section {
-  background: url("../images/videoSection/AnyConv.com__Video-Thumnail.webp");
+  background: url("/assets/images/videoSection/AnyConv.com__Video-Thumnail.webp");
   background-size: 1920px 650px;
   width: 100%;
   height: 500px;

@@ -1,0 +1,131 @@
+
+@media (max-width: 1400px) {
+
+    /* Home page */
+    .single_division_main{
+        width: 24%;
+    }
+    .commitment_section{
+        padding: 80px 0;
+    }
+    .sections{
+        padding: 80px 0;
+    }
+
+    /* Home page end */
+}
+
+@media (max-width: 1200px) {
+
+    /* Home page start */
+    .s_icon_group{
+        justify-content: flex-end;
+        padding-right: 5px;
+    }
+    .commitment_section{
+        padding: 60px 0;
+    }
+    .header_logo img{
+        height: 40px;
+        width: 100px;
+    }
+    .glance_main{
+        padding: 0 40px;
+    }
+    .sections{
+        padding: 60px 0;
+    }
+    .division_main{
+        padding: 0 40px;
+    }
+    .news_header{
+        padding-left: 40px;
+    }
+    .padding-reght{
+        padding: 0 40px;
+    }
+    .padding-reght .news_header{
+        padding-left: 0;
+    }
+    .brand_main{
+        padding: 0 40px;
+    }
+    .news_body{
+        margin-left: 0;
+    }
+    .glance_right_single{
+        column-gap: 20px;
+    }
+
+    /* Home page end */
+}
+
+
+@media (max-width: 1100px) {
+    .division_main{
+        padding: unset;
+    }
+    .news_header{
+        padding-left: unset;
+    }
+    .padding-reght{
+        padding: 0 10px;
+    }
+    .padding-reght .news_header{
+        padding-left: unset;
+    }
+    .brand_main{
+        padding: unset;
+    }
+    .glance_main{
+        padding: unset;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .division_inner{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .single_division_main{
+        width: 100%;
+    }
+    .division_single img{
+        width: 100%;
+    }
+    .s_icon_group{
+        justify-content: center;
+    }
+    .news_body{
+        flex-direction: column-reverse;
+    }
+    .news_right{
+        width: 100%;
+    }
+    .news_right img{
+        max-height: 500px;
+    }
+    .news_left{
+        display: block;
+        width: 100%;
+    }
+    .lifeat_section{
+        margin-top: 100px;
+    }
+    .footer_min{
+        text-align: center;
+    }
+    .footer_social_div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 15px;
+    }
+    .footer_link{
+        padding-left: 0;
+    }
+    .footer_link i{
+        font-size: 18px;
+    }
+}
