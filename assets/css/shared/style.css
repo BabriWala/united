@@ -1,7 +1,46 @@
+/* Variables */
+:root {
+  /* Colors */
+  --brand-primary-red: #f05a23;
+  --alert-light-red: rgba(255, 99, 96, 0.6);
+  --base-black: #000000;
+  --neutral-light-black: #4e4e4e;
+  --pure-white: #ffffff;
+
+  /* Font Sizes */
+  --title-large: 40px;
+  --title-large-line-height: 60px;
+  --title-medium: 36px;
+  --title-small: 26px;
+  --subtitle: 20px;
+  --subtitle-line-height: 32px;
+  --body: 16px;
+  --small-text: 14px;
+
+  /* Primary Font */
+  --font-primary: Barlow, sans-serif;
+
+  /* Font Weight */
+  --font-weight-normal: 400;
+  --font-weight-medium: 600;
+  --font-weight-bold: 700;
+
+  --app-height: 641px;
+  --survey-widget-space: 24px;
+  --survey-pageless-space: 80px;
+  --colour-neutral-1000: #232e3a;
+  --colour-neutral-600: #6080a0;
+}
+
 /*=============== Global CSS Start here ==============*/
 * {
   padding: 0;
   margin: 0;
+}
+*,
+::after,
+::before {
+  box-sizing: border-box;
 }
 html {
   scroll-behavior: smooth;
@@ -30,23 +69,15 @@ img {
 i {
   font-size: 14px;
 }
-
-/* Variables */
-:root {
-  /* Colors */
-  --brand-primary-red: #f05a23;
-  --alert-light-red: rgba(255, 99, 96, 0.6);
-  --base-black: #000000;
-  --neutral-light-black: #4e4e4e;
-  --pure-white: #ffffff;
-
-  /* Font Sizes */
-  --title-large: 40px;
-  --title-medium: 36px;
-  --title-small: 26px;
-  --subtitle: 20px;
-  --body: 16px;
-  --small-text: 14px;
+.pb--60 {
+  padding-bottom: 60px;
+}
+.pt--60 {
+  padding-top: 60px;
+}
+.section-spacing {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* Reusable Class Name */
@@ -54,6 +85,48 @@ i {
   background-color: var(--pure-white);
 }
 
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+  color: #000000;
+  font-weight: 400;
+  font-family: "Barlow", sans-serif;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+p {
+  font-size: 15px;
+  margin: 0 0 1.6em;
+  color: #000000;
+  line-height: 1.75;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+  max-width: 100%;
+}
+option {
+  font-weight: normal;
+  display: block;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+  white-space: nowrap;
+}
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}
 /* Section here */
 .sections {
   padding: 120px 0;

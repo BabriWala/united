@@ -1,0 +1,125 @@
+@media (max-width: 767.98px) {
+  #single-banner .overlay-text img {
+    height: 200px;
+  }
+}
+@media (max-width: 767.98px) {
+  #single-banner.career-section .overlay-content {
+    padding-left: 15px;
+    bottom: 20px;
+  }
+}
+@media (max-width: 767.98px) {
+  #single-banner.career-section .overlay-content h4,
+  #single-banner.career-section .overlay-content .h4 {
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 767.98px) {
+  #single-banner.career-section .overlay-content h5,
+  #single-banner.career-section .overlay-content .h5 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .united-editor {
+    padding: 60px 0 60px;
+    width: 100%;
+  }
+}
+@media (max-width: 1199.98px) {
+  #message-from-ceo .content-bio {
+    height: calc(var(--app-height) - 460px);
+    padding-right: 10px;
+  }
+}
+@media (max-width: 1199.98px) {
+  #message-from-ceo .message-container .content p {
+    text-align: left;
+  }
+}
+@media (max-width: 1199.98px) {
+  #message-from-ceo .message-container .content .content-title {
+    padding-top: 5px;
+  }
+}
+@media (max-width: 1199.98px) {
+  #csr-activities h2,
+  #csr-activities .h2 {
+    font-size: 38px;
+    line-height: 48px;
+  }
+}
+@media (max-width: 575.98px) {
+  #csr-activities p {
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1199.98px) {
+  #csr-activities .item .icon {
+    width: 50px;
+  }
+}
+@media (max-width: 1199.98px) {
+  #career-opportunties .search-bar {
+    padding: 10px;
+  }
+}
+@media (max-width: 1199.98px) {
+  #career-opportunties .search-bar .categories {
+    width: 150px;
+  }
+}
+@media (max-width: 1199.98px) {
+  #career-opportunties .job-post .job-item .group-item .item {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1199.98px) {
+  #career-opportunties .search-bar .search-job {
+    width: calc(100% - 150px);
+  }
+}
+@media (max-width: 1199.98px) {
+  #career-opportunties .job-post .job-item .group-item {
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 1300px) {
+  #message-from-ceo {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    min-height: 100%;
+  }
+}
+@media (min-width: 1300px) {
+  #message-from-ceo .message-container .content img {
+    height: 100%;
+    max-width: 470px;
+  }
+}
+
+@media (min-width: 1300px) {
+  #message-from-ceo .message-container .content .message {
+    padding: 40px 40px 40px 0;
+  }
+}
+@media (min-width: 1300px) {
+  #message-from-ceo .message-container .content h2,
+  #message-from-ceo .message-container .content .h2 {
+    margin-bottom: 15px;
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  #drop-resume .primay-button {
+    float: right;
+  }
+}
+@media (min-width: 1200px) {
+  #drop-resume .primay-button {
+    float: right;
+  }
+}

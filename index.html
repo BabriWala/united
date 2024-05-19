@@ -31,24 +31,24 @@
     />
 
     <!--------- Custom CSS -------->
-    <link rel="stylesheet" href="./assets/css/pages/home.css">
+    <link rel="stylesheet" href="./asset/css/style.css" />
 
-    <!----------- responsive CSS------------>
-    <link rel="stylesheet" href="./assets/css/shared/responsive.css" />
+    <!----------- Footer CSS------------>
+    <link rel="stylesheet" href="./asset/css/footer.css" />
   </head>
   <body>
     <!-- Header section -->
     <header class="header">
       <div class="header_section">
-        <div class="container-lg container-fluid">
+        <div class="container">
           <!-- Desktop Menubar -->
-          <div class="desktop_manu_main d-none d-lg-block row align-items-center">
+          <div class="desktop_manu_main row align-items-center">
             <div class="desktop_logo col-lg-1">
               <a href="index.html" class="header_logo">
-                <img src="./assets/images/logo/Logo-White.svg" alt="" />
+                <img src="./asset/images/logo/Logo-pure-white.svg" alt="" />
               </a>
             </div>
-            <div class="desktop_menubar col-lg-11">
+            <div class="desktop_menubar d-none d-lg-block col-lg-11">
               <ul
                 class="dMenu_list d-lg-flex justify-content-lg-end column-gap-3"
               >
@@ -167,96 +167,14 @@
               </ul>
             </div>
           </div>
-
-           <!-- mobile Menubar -->
-          
-           <div class="mobile_menu_open d-lg-none">
-              <div class="mobile_lolo">
-                <a href="index.html"><img src="./assets/images/logo/Logo-White.svg" alt=""></a>
-              </div>
-              <div class="mobile_button">
-                <button class="offcanvas_toggle_btn d-lg-none" data-bs-target="#myoffcanvas" data-bs-toggle="offcanvas"><i class="fa-solid fa-bars"></i></button>
-              </div>
-           </div>
-
-           <!-- Off canvas menu -->
-           <div class="offcanvas offcanvas-start mobile_menu_content w-100" id="myoffcanvas">
-            <div class="offcanvas-header">
-              <div class="mibile_inner_logo">
-                <a href="index.html" class="mobole_inner_logo">
-                  <img src="./assets/images/logo/Logo-White.svg" alt="">
-                </a>
-              </div>
-              <div class="mibile_inner_botton">
-                <button class="offcanvas_close" data-bs-dismiss="offcanvas"><i class="fa-solid fa-xmark fa-fw"></i></button>
-              </div>
-            </div>
-
-            <!-- Offcanvas body -->
-            <div class="offcanvas-body">
-              <div class="mobile_menu_inner">
-
-                <!-- mobile menu list  -->
-                <ul class="mobile_menu_list mt-4">
-
-                  <!-- Mobile menu item -->
-                  <li class="mobile_item">
-                    <div class="mobile_inner_div">
-                      <span>About United</span>
-                      <i class="fa-solid fa-chevron-down fa-fw"></i>
-                    </div>
-                    
-                    <!-- mobile sub menu -->
-                    <ul class="mobile_sub_list">
-                      <li class="mobile_sub_item">
-                        <a href="#" class="mobile_sub_link">About united</a>
-                      </li>
-                      <li class="mobile_sub_item">
-                        <a href="#" class="mobile_sub_link">Chief Advisor's note</a>
-                      </li>
-                      <li class="mobile_sub_item">
-                        <a href="#" class="mobile_sub_link">Chief Advisor's note</a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <!-- Mobile menu item -->
-                  <li class="mobile_item">
-                    <div class="mobile_inner_div">
-                      <span>Division</span>
-                      <i class="fa-solid fa-chevron-down fa-fw"></i>
-                    </div>
-
-                    <!-- mobile sub menu -->
-                    <ul class="mobile_sub_list">
-                      <li class="mobile_sub_item">
-                        <a href="#" class="mobile_sub_link">Power</a>
-                      </li>
-                      <li class="mobile_sub_item">
-                        <a href="#" class="mobile_sub_link">Realestate</a>
-                      </li>
-                      <li class="mobile_sub_item">
-                        <a href="#" class="mobile_sub_link">Retail Service</a>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <!-- Mobile menu item -->
-                  <li class="mobile_item">
-                    <a href="#" class="mobile_link">Career</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-           </div>
         </div>
       </div>
     </header>
 
     <!---------- Commitment section (third section) --------->
     <section class="commitment_section">
-      <div class="container-fluid container-lg">
-        <div class="commitment_main row align-items-center offset-xl-1">
+      <div class="container">
+        <div class="commitment_main row align-items-center offset-lg-1">
           <!-- Commitment Left side -->
           <div class="commitment_left col-lg-7">
             <div class="commitment_left_content">
@@ -281,9 +199,9 @@
           </div>
 
           <!-- Commitment right side -->
-          <div class="commitment_right col-lg-4 text-center text-lg-end text-xl-center">
+          <div class="commitment_right col-lg-4 text-center">
             <h3 class="follow_us_body">FOLLOW US</h3>
-            <div class="s_icon_group text-center">
+            <div class="s_icon_group">
               <a href="#" class="s_icon_body"
                 ><i class="fa-brands fa-facebook-f"></i
               ></a>
@@ -299,7 +217,7 @@
     <!-- AT A GLANCE Section -->
     <section class="glance_section" id="glance_section">
       <div class="glance_bg">
-        <div class="container-fluid container-xl ">
+        <div class="container">
           <div class="glance_main row">
             <!-- Glance left side -->
             <div class="glance_left col-lg-5">
@@ -312,7 +230,7 @@
                 <div class="col-lg-6 glance_right_single">
                   <div class="glance_icon">
                     <img
-                      src="./assets/images/atAglanceIcon/Active-Concerns.svg"
+                      src="./asset/images/atAglanceIcon/Active-Concerns.svg"
                       alt=""
                     />
                   </div>
@@ -324,7 +242,7 @@
                 <div class="col-lg-6 glance_right_single">
                   <div class="glance_icon">
                     <img
-                      src="./assets/images/atAglanceIcon/Employees.svg"
+                      src="./asset/images/atAglanceIcon/Employees.svg"
                       alt=""
                     />
                   </div>
@@ -336,7 +254,7 @@
                 <div class="col-lg-6 glance_right_single">
                   <div class="glance_icon">
                     <img
-                      src="./assets/images/atAglanceIcon/Sectors.svg"
+                      src="./asset/images/atAglanceIcon/Sectors.svg"
                       alt=""
                     />
                   </div>
@@ -348,7 +266,7 @@
                 <div class="col-lg-6 glance_right_single">
                   <div class="glance_icon">
                     <img
-                      src="./assets/images/atAglanceIcon/Power-Portfolio.svg"
+                      src="./asset/images/atAglanceIcon/Power-Portfolio.svg"
                       alt=""
                     />
                   </div>
@@ -360,7 +278,7 @@
                 <div class="col-lg-6 glance_right_single">
                   <div class="glance_icon">
                     <img
-                      src="./assets/images/atAglanceIcon/Projects-in-Development.svg"
+                      src="./asset/images/atAglanceIcon/Projects-in-Development.svg"
                       alt=""
                     />
                   </div>
@@ -380,9 +298,9 @@
 
     <!-- OUR DIVISIONS section -->
     <section class="ourdivision_section sections">
-      <div class="container-fluid container-xl">
+      <div class="container">
         <div class="division_main">
-          <h2 class="title text-white text-center mb-4 mb-lg-5">
+          <h2 class="title text-pure-white text-center mb-4 mb-lg-5">
             Our Division
           </h2>
 
@@ -392,7 +310,7 @@
             <div class="single_division_main">
               <div class="division_single">
                 <img
-                  src="./assets/images/division/8.webp"
+                  src="./asset/images/division/8.webp"
                   alt="Division Photo"
                 />
                 <div class="division_text">
@@ -412,7 +330,7 @@
 
               <div class="division_single">
                 <img
-                  src="./assets/images/division/4.webp"
+                  src="./asset/images/division/4.webp"
                   alt="Division Photo"
                 />
                 <div class="division_text">
@@ -435,7 +353,7 @@
             <div class="single_division_main">
               <div class="division_single">
                 <img
-                  src="./assets/images/division/1.webp"
+                  src="./asset/images/division/1.webp"
                   alt="Division Photo"
                 />
                 <div class="division_text">
@@ -455,7 +373,7 @@
 
               <div class="division_single">
                 <img
-                  src="./assets/images/division/5.webp"
+                  src="./asset/images/division/5.webp"
                   alt="Division Photo"
                 />
                 <div class="division_text">
@@ -480,7 +398,7 @@
             <div class="single_division_main">
               <div class="division_single">
                 <img
-                  src="./assets/images/division/9.webp"
+                  src="./asset/images/division/9.webp"
                   alt="Division Photo"
                 />
                 <div class="division_text">
@@ -500,7 +418,7 @@
 
               <div class="division_single">
                 <img
-                  src="./assets/images/division/6.webp"
+                  src="./asset/images/division/6.webp"
                   alt="Division Photo"
                 />
                 <div class="division_text">
@@ -523,7 +441,7 @@
             <div class="single_division_main">
               <div class="division_single">
                 <img
-                  src="./assets/images/division/3.webp"
+                  src="./asset/images/division/3.webp"
                   alt="Division Photo"
                 />
                 <div class="division_text">
@@ -543,7 +461,7 @@
 
               <div class="division_single">
                 <img
-                  src="./assets/images/division/7.webp"
+                  src="./asset/images/division/7.webp"
                   alt="Division Photo"
                 />
                 <div class="division_text">
@@ -570,7 +488,7 @@
 
     <!-- Our Brand section -->
     <section class="brand_section sections">
-      <div class="container-fluid container-xl">
+      <div class="container">
         <div class="brand_main">
           <!-- Brand header -->
           <div class="brand_header mb-4 mb-lg-5">
@@ -588,50 +506,50 @@
           <!-- Brand contents -->
           <div class="brand_content">
             <div class="brand_icon_single">
-              <a href="#"><img src="./assets/images/brands/10.png" alt="" /></a>
+              <a href="#"><img src="./asset/images/brands/10.png" alt="" /></a>
             </div>
             <div class="brand_icon_single">
               <a href="#">
-                <img src="./assets/images/brands/brands10.png" alt=""
+                <img src="./asset/images/brands/brands10.png" alt=""
               /></a>
             </div>
             <div class="brand_icon_single">
               <a href="#"
-                ><img src="./assets/images/brands/brands5.png" alt=""
+                ><img src="./asset/images/brands/brands5.png" alt=""
               /></a>
             </div>
             <div class="brand_icon_single">
               <a href="#"
-                ><img src="./assets/images/brands/comilla.png" alt=""
+                ><img src="./asset/images/brands/comilla.png" alt=""
               /></a>
             </div>
             <div class="brand_icon_single">
               <a href="#"
-                ><img src="./assets/images/brands/Hospital-Ticker.png" alt=""
+                ><img src="./asset/images/brands/Hospital-Ticker.png" alt=""
               /></a>
             </div>
             <div class="brand_icon_single">
               <a href="#"
                 ><img
-                  src="./assets/images/brands/Petronas-Logo-ticker-1.png"
+                  src="./asset/images/brands/Petronas-Logo-ticker-1.png"
                   alt=""
               /></a>
             </div>
             <div class="brand_icon_single">
               <a href="#"
                 ><img
-                  src="./assets/images/brands/photo_2022-08-16_12-08-58.jpg"
+                  src="./asset/images/brands/photo_2022-08-16_12-08-58.jpg"
                   alt=""
               /></a>
             </div>
             <div class="brand_icon_single">
               <a href="#"
-                ><img src="./assets/images/brands/SJWS_logo.png" alt=""
+                ><img src="./asset/images/brands/SJWS_logo.png" alt=""
               /></a>
             </div>
             <div class="brand_icon_single">
               <a href="#"
-                ><img src="./assets/images/brands/UIU-ticker.png" alt=""
+                ><img src="./asset/images/brands/UIU-ticker.png" alt=""
               /></a>
             </div>
           </div>
@@ -642,13 +560,13 @@
     <!-- Video Section -->
     <section class="video_section">
       <div class="video_section_bg">
-        <div class="container-fluid container-lg">
+        <div class="container">
           <div class="video_main_div">
             <div class="video_inner">
               <a href="#" class="video_icon">
                 <i class="fa-sharp fa-regular fa-play"></i>
               </a>
-              <h2 class="title text-white">WATCH OUR VIDEO</h2>
+              <h2 class="title text-pure-white">WATCH OUR VIDEO</h2>
             </div>
           </div>
         </div>
@@ -657,7 +575,7 @@
 
     <!-- News section -->
     <section class="news_section sections">
-      <div class="container-fluid container-xl">
+      <div class="container">
         <div class="news_header mb-4 mb-lg-5">
           <h2 class="title">news</h2>
           <div class="news_change_icon slider_change_btns">
@@ -690,7 +608,7 @@
           </div>
           <div class="news_right">
             <img
-              src="./assets/images/news/AnyConv.com__Chefs-Table-Award-1.webp"
+              src="./asset/images/news/AnyConv.com__Chefs-Table-Award-1.webp"
               alt=""
             />
           </div>
@@ -700,7 +618,7 @@
 
     <!-- LIFE AT UNITED section -->
     <section class="lifeat_section sections">
-      <div class="container-fluid container-xl padding-reght">
+      <div class="container">
         <!-- Life at united header -->
         <div class="news_header mb-4 mb-lg-5">
           <h2 class="title">LIFE AT UNITED</h2>
@@ -718,12 +636,11 @@
         <div class="lifeAt_main">
           <!-- single Slider -->
           <div class="lifeAt_inner">
-
             <!-- single column -->
             <div class="lifeAt_single col-lg-4">
               <div class="life_single_img">
                 <img
-                  src="./assets/images/lifeAt/AnyConv.com__1633599873collage.webp"
+                  src="./asset/images/lifeAt/46th-Foundation-Day.png"
                   alt=""
                 />
               </div>
@@ -739,7 +656,7 @@
             <div class="lifeAt_single col-lg-4">
               <div class="life_single_img">
                 <img
-                  src="./assets/images/lifeAt/AnyConv.com__1633599873collage.webp"
+                  src="./asset/images/lifeAt/46th-Foundation-Day2.png"
                   alt=""
                 />
               </div>
@@ -755,7 +672,7 @@
             <div class="lifeAt_single col-lg-4">
               <div class="life_single_img">
                 <img
-                  src="./assets/images/lifeAt/AnyConv.com__1633599873collage.webp"
+                  src="./asset/images/lifeAt/AnyConv.com__1633599873collage.webp"
                   alt=""
                 />
               </div>
@@ -771,7 +688,7 @@
             <div class="lifeAt_single col-lg-4">
               <div class="life_single_img">
                 <img
-                  src="./assets/images/lifeAt/AnyConv.com__1633599873collage.webp"
+                  src="./asset/images/lifeAt/AnyConv.com__1633599873collage.webp"
                   alt=""
                 />
               </div>
@@ -789,14 +706,14 @@
 
     <!-- Footer section -->
     <section class="footer_section">
-      <div class="container-fluid container-lg">
+      <div class="container">
         <div class="footer_min row">
           <!-- Footer logo div -->
           <div class="col-12 col-lg-3 footer_logo_div">
             <div class="footer_logo">
               <a href="index.html" class="f_logo_link">
                 <img
-                  src="./assets/images/logo/Logo-White.svg"
+                  src="./asset/images/logo/Logo-pure-white.svg"
                   alt="Footer Logo"
                 />
               </a>
@@ -822,7 +739,7 @@
           </div>
 
           <!-- Footer Single social -->
-          <div class="footer_social_div col-12 col-lg-3">
+          <div class="col-12 col-lg-3">
             <a href="#" class="footer_link">
               <i class="fa-brands fa-facebook-f fa-fw"></i>
             </a>
@@ -853,6 +770,6 @@
     ></script>
 
     <!-------- Custom js ------------->
-    <script src="./assets/js/script.js"></script>
+    <script src="./asset/js/script.js"></script>
   </body>
 </html>

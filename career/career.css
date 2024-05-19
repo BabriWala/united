@@ -1,0 +1,363 @@
+#single-banner .overlay-text {
+  position: relative;
+}
+#single-banner .overlay-text img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 700px;
+}
+#single-banner.career-section .overlay-content {
+  position: absolute;
+  bottom: 100px;
+  z-index: 10;
+  left: 0;
+  padding-left: 100px;
+}
+#single-banner.career-section .overlay-text::after {
+  content: "";
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000066;
+}
+#single-banner.career-section .overlay-content h4,
+#single-banner.career-section .overlay-content .h4 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 30px;
+}
+#single-banner.career-section .overlay-content h5,
+#single-banner.career-section .overlay-content .h5 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 26px;
+}
+#single-banner.career-section .overlay-text::after {
+  content: "";
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000066;
+}
+
+/* United Editor Setting */
+.united-editor {
+  width: 100%;
+  width: 950px;
+  margin: 0 auto;
+}
+.spacing-bottom-none {
+  padding-bottom: 0 !important;
+}
+
+/* Message From CEO */
+#message-from-ceo {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  min-height: var(--app-height);
+}
+#message-from-ceo .message-container {
+  background-color: #f7f7f7;
+  border-radius: 20px 0 0 0;
+  overflow: hidden;
+}
+#message-from-ceo .message-container .content {
+  margin: auto;
+}
+.align-content-center {
+  align-content: center !important;
+}
+
+#message-from-ceo .message-container .content img {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+img.litespeed-loaded {
+  -webkit-transition: opacity 0.5s linear 0.2s;
+  -moz-transition: opacity 0.5s linear 0.2s;
+  transition: opacity 0.5s linear 0.2s;
+  opacity: 1;
+}
+
+.for-desktop {
+  display: none;
+}
+
+#message-from-ceo .message-container .content .message {
+  padding: 15px 15px 20px 15px;
+}
+
+#message-from-ceo .message-container .content h2,
+#message-from-ceo .message-container .content .h2 {
+  text-align: left;
+  font-size: 28px;
+  line-height: 48px;
+  margin-bottom: 10px;
+}
+#message-from-ceo .content-bio {
+  height: 210px;
+  overflow: auto;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+#message-from-ceo .message-container .content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+#message-from-ceo .message-container .content .name {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 0px;
+  position: relative;
+}
+#message-from-ceo .message-container .content span {
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  display: block;
+  text-transform: uppercase;
+}
+#message-from-ceo .message-container .content span {
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  display: block;
+  text-transform: uppercase;
+}
+/* CSR */
+#csr-activities {
+  background-color: #2b2b2b;
+  position: relative;
+  background-size: cover;
+}
+
+.pb--60 {
+  padding-bottom: 60px;
+}
+
+#csr-activities h2,
+#csr-activities .h2 {
+  font-size: 40px;
+  line-height: 60px;
+  color: #ffffff;
+}
+#csr-activities p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  opacity: 0.8;
+}
+#csr-activities .item {
+  display: flex;
+  margin-bottom: 30px;
+}
+#csr-activities .item .icon {
+  margin-right: 15px;
+  width: 90px;
+  height: 90px;
+}
+#csr-activities .item .icon img {
+  max-width: inherit;
+  max-width: 50px;
+  max-height: 50px;
+}
+img.litespeed-loaded {
+  -webkit-transition: opacity 0.5s linear 0.2s;
+  -moz-transition: opacity 0.5s linear 0.2s;
+  transition: opacity 0.5s linear 0.2s;
+  opacity: 1;
+}
+#csr-activities .item .content {
+  width: calc(100% - 100px);
+}
+#csr-activities .item .content h5,
+#csr-activities .item .content .h5 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+}
+/* Career Opportunities */
+
+#career-opportunties .section-page-header {
+  margin-bottom: 60px;
+}
+
+#career-opportunties .search-bar {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+}
+#career-opportunties .search-bar .categories {
+  width: 200px;
+  height: 100%;
+  position: relative;
+}
+#career-opportunties .search-bar .categories select {
+  width: 130px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4e4e;
+  outline: none;
+}
+#career-opportunties .search-bar .categories::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  top: 10px;
+  right: -15px;
+  display: inline-block;
+  width: 61px;
+  transform: rotate(90deg);
+  background-color: #dddfe3;
+}
+#career-opportunties .search-bar .search-job {
+  width: calc(100% - 200px);
+  position: relative;
+}
+#career-opportunties .search-bar .search-job input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4e4e;
+}
+#career-opportunties .search-bar .search-job::after {
+  content: "";
+  position: absolute;
+  background-image: url('data:image/svg+xml, %3Csvg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="%234E4E4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M20.9999 21L16.6499 16.65" stroke="%234E4E4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  top: 8px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+}
+#career-opportunties .job-post .job-item {
+  border: 1px solid #dddfe3;
+  box-sizing: border-box;
+  border-radius: 10px 0px 0px 0px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#career-opportunties .job-post .job-item h3 a,
+#career-opportunties .job-post .job-item .h3 a {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  color: #4e4e4e;
+  margin-bottom: 20px;
+}
+#career-opportunties .job-post .job-item .group-item .item {
+  border: 1px solid #dddfe3;
+  box-sizing: border-box;
+  border-radius: 5px 0px 0px 0px;
+  background: #fafafa;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4e4e;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+#career-opportunties .job-post .job-item .group-item .item svg {
+  margin-right: 5px;
+}
+#career-opportunties .job-post .job-item .navigate {
+  text-align: right;
+}
+#career-opportunties .job-post .job-item .navigate a {
+  background-color: #f05a23;
+  border-radius: 0px 0px 10px 0px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 48px;
+  text-align: center;
+}
+#career-opportunties .job-post .job-item .navigate a:hover {
+  background-color: rgba(255, 99, 96, 0.6);
+}
+/* Drop Resume */
+#drop-resume {
+  background-color: #fef7f4;
+  padding: 80px 0 80px;
+}
+#drop-resume h3,
+#drop-resume .h3 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  margin-bottom: 30px;
+}
+
+#drop-resume .primay-button {
+  background-color: #f05a23;
+  border-radius: 5px 0px 0px 0px;
+  width: 245px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 50px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  transition: all 1ms ease-in-out;
+}
+#drop-resume .primay-button {
+  width: 260px !important;
+}
+#drop-resume .primay-button:hover {
+  transition: all 1ms ease-in;
+  background-color: #424143;
+  color: #ffffff;
+}
+
+#drop-resume a:hover span {
+  padding-right: 5px;
+}
+#drop-resume a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+#drop-resume a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+#drop-resume a:hover span:after {
+  opacity: 1;
+  right: -20px;
+}
+#drop-resume a span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -40px;
+  transition: 0.5s;
+}

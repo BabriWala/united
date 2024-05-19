@@ -1,8 +1,5 @@
-@import url(./shared/style.css);
-@import url(./shared/footer.css);
-@import url(./shared/header.css);
-@import url(./shared/secondary_header.css);
-@import url(./shared/responsive.css);
+@import url(style.css);
+@import url(footer.css);
 @import url(comon_design.css);
 
 .healthCare.massage_ceo_section{
@@ -15,25 +12,4 @@
     background: #2B2B2B;
     background-image: none;
     margin-top: 100px;
-}
-.glance_right_single{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    column-gap: 30;
-    margin-bottom: 30px;
-}
-.glance_icon{
-    width: 90px;
-    height: 90px;
-}
-.glance_icon img{
-    width: 50px;
-    height: 50px;
-}
-.glacne_paragraph{
-    font-size: var(--body);
-    color: var(--pure-white);
-    opacity: .6;
-    font-weight: 400;
 }

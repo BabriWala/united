@@ -1,8 +1,4 @@
-@import url(./shared/footer.css);
-@import url(./shared/header.css);
-@import url(./shared/secondary_header.css);
-@import url(./shared/style.css);
-@import url(./shared/responsive.css);
+@import url(style.css);
 @import url(comon_design.css);
 
 /* achievement_section design start here */
