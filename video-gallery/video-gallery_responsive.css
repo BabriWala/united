@@ -1,0 +1,65 @@
+@media (min-width: 1200px) {
+  #generic-banner .right {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  #generic-banner {
+    padding: 50px 0 50px;
+  }
+}
+@media (min-width: 1200px) {
+  #generic-banner .left {
+    width: 80%;
+  }
+}
+@media (min-width: 1200px) {
+  #generic-banner .left h1,
+  #generic-banner .left .h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  #generic-banner .right {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  #image-slider .swiper .swiper-slide {
+    height: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  #image-slider .swiper .swiper-slide .slider-content img {
+    height: 600px;
+  }
+}
+@media (min-width: 1200px) {
+  #image-slider .swiper .swiper-slide .slider-content img {
+    height: 600px;
+  }
+}
+@media (min-width: 1300px) {
+  .section-spacing {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media (min-width: 1300px) {
+  .section-spacing {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  .d-flex-dekstop {
+    display: flex;
+  }
+}
+@media (min-width: 1300px) {
+  .section-spacing {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
