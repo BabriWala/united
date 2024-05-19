@@ -52,6 +52,9 @@ body {
 a {
   text-decoration: none;
 }
+a:hover {
+  --bs-link-color-rgb: var(--bs-link-hover-color-rgb);
+}
 li {
   list-style: none;
 }
