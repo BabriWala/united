@@ -140,6 +140,11 @@ i {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+img {
+  vertical-align: middle;
+  border-style: none;
+  max-width: 100%;
+}
 
 /* Reusable Class Name */
 .bg-white {
