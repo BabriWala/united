@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Details</title>
+    <!---------- Google Font ---------->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!---------- FontAwesome cdn ------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!--------- Bootstrap css cdn -------->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Animate Css -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!--------- Main CSS -------->
+    <link rel="stylesheet" href="../assets/css/shared/style.css" />
+
+    <!--------- Career Details CSS -------->
+    <link rel="stylesheet" href="./career-application-form.css" />
+
+    <!--------- Main CSS Responsive -------->
+    <link rel="stylesheet" href="../assets/css/shared/style.css" />
+
+    <!----------- Career Details Responsive CSS ------------>
+    <link rel="stylesheet" href="./career-application-form_responsive.css" />
+
+    <!----------- Header CSS ------------>
+    <link rel="stylesheet" href="../assets/css/shared/header.css" />
+
+    <!----------- Header CSS Responsive ------------>
+    <link rel="stylesheet" href="../assets/css/shared/header.css" />
+
+    <!----------- Secondary Header CSS ------------>
+    <link rel="stylesheet" href="../assets/css/shared/secondary_header.css" />
+
+    <!----------- Footer CSS ------------>
+    <link rel="stylesheet" href="../assets/css/shared/footer.css" />
+
+    <!----------- Footer CSS Responsive ------------>
+    <link rel="stylesheet" href="../assets/css/shared/footer.css" />
+  </head>
+  <body>
+    <section id="application-form" class="section-spacing">
+      <div class="container">
+        <div class="page-header">
+          <h2>Application Form</h2>
+          <p>Drop your resume and we will get back to you soon</p>
+        </div>
+        <form
+          method="POST"
+          action="https://www.united.com.bd/wp-admin/admin-post.php"
+          enctype="multipart/form-data"
+        >
+          <input type="hidden" name="action" value="add_resume_default" />
+          <input
+            type="hidden"
+            name="job_title"
+            id="job_title"
+            value="Marketing Executive ULPGL"
+          />
+          <div id="verify-email">
+            <span></span>
+            <div class="form-row">
+              <div class="verify-email col-lg-10">
+                <input
+                  id="Email"
+                  type="email"
+                  name="email"
+                  placeholder="Enter your Email"
+                  required=""
+                />
+              </div>
+              <div class="col-lg-2">
+                <button
+                  id="verify-email-btn"
+                  type="submit"
+                  name="submission_submit"
+                  value="verify email"
+                >
+                  <span>VERIFY EMAIL</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="alert mt--10" role="alert"></div>
+          <div id="applicate-form-resume" class="disible">
+            <h3>Application Form</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <input
+                  type="text"
+                  id="verifyCode"
+                  name="verification_code"
+                  placeholder="Enter the Verification Code"
+                  disabled=""
+                />
+              </div>
+              <div class="col-lg-6">
+                <input
+                  type="text"
+                  id="Name"
+                  name="name"
+                  placeholder="Full Name"
+                  disabled=""
+                />
+              </div>
+              <div class="col-lg-6">
+                <input
+                  type="text"
+                  id="Phone"
+                  name="phone"
+                  placeholder="Phone Number"
+                  disabled=""
+                />
+              </div>
+              <div class="col-lg-6">
+                <input
+                  type="text"
+                  id="currentCompany"
+                  name="current_company"
+                  placeholder="Current Company"
+                  disabled=""
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="fake-file-input d-flex align-content-center">
+                  <div class="fake-content">
+                    <svg
+                      width="40"
+                      height="35"
+                      viewBox="0 0 40 35"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M19.9061 15.3198L20.0533 15.4469L25.3033 20.6969C25.8158 21.2095 25.8158 22.0405 25.3033 22.5531C24.8373 23.019 24.1081 23.0614 23.5943 22.6802L23.4471 22.5531L20.4377 19.5425V33C20.4377 33.7249 19.8501 34.3125 19.1252 34.3125C18.4607 34.3125 17.9116 33.8187 17.8247 33.1781L17.8127 33V19.5425L14.8033 22.5531C14.3373 23.019 13.6081 23.0614 13.0943 22.6802L12.9471 22.5531C12.4811 22.0871 12.4388 21.358 12.82 20.8441L12.9471 20.6969L18.1971 15.4469C18.6631 14.981 19.3922 14.9386 19.9061 15.3198ZM17.9243 0.1875C24.3745 0.1875 29.7284 4.93965 30.537 11.1456L30.5684 11.4365L30.5967 11.4375C35.3874 11.4375 39.3017 15.1742 39.5044 19.8674L39.5127 20.25C39.5127 24.4577 36.5172 28.1134 32.4626 28.9726L32.0795 29.0449L31.865 29.0625H27.8752C27.1503 29.0625 26.5627 28.4749 26.5627 27.75C26.5627 27.0855 27.0565 26.5364 27.6971 26.4495L27.8752 26.4375H31.7409L31.9671 26.394C34.6855 25.7941 36.7313 23.3834 36.8791 20.5756L36.8877 20.25C36.8877 16.8368 34.0751 14.0625 30.5967 14.0625C30.3584 14.0625 30.1233 14.0755 29.8921 14.1012L29.5484 14.1494L28.032 14.4065L28.0127 12.4568C27.8554 7.09735 23.3914 2.8125 17.9243 2.8125C12.3463 2.8125 7.83166 7.26573 7.83166 12.75L7.83876 13.1235L7.87615 14.0948L6.95792 14.4138C4.46232 15.2807 2.7627 17.6084 2.7627 20.25C2.7627 23.5531 5.39673 26.2578 8.71918 26.4289L9.05364 26.4375H10.3752C11.1001 26.4375 11.6877 27.0251 11.6877 27.75C11.6877 28.4145 11.1939 28.9636 10.5533 29.0505L10.3752 29.0625H9.05364C4.1335 29.0625 0.137695 25.1211 0.137695 20.25C0.137695 16.8815 2.06656 13.879 4.99908 12.3991L5.21445 12.294L5.23484 11.9068C5.66465 5.49775 10.9586 0.408163 17.4962 0.194486L17.9243 0.1875Z"
+                        fill="#F05A23"
+                      ></path>
+                    </svg>
+                    <br />
+                    <h3>Upload Your Resume</h3>
+                  </div>
+                  <input id="pdf_file" type="file" name="resume" disabled="" />
+                </div>
+                <span class="filename">No file choosen</span>
+              </div>
+            </div>
+            <div class="ug-application-submit">
+              <input
+                id="submit"
+                class="verify_sent_resume"
+                type="submit"
+                name="submit"
+                value="Submit Application"
+                disabled=""
+              />
+              <button
+                id="submit"
+                type="submit"
+                name="submit"
+                class="primary-btn-anim"
+              >
+                <span>Submit</span>
+              </button>
+            </div>
+          </div>
+          <input
+            type="hidden"
+            id="cpt_nonce_field"
+            name="cpt_nonce_field"
+            value="a2719b4a54"
+          /><input
+            type="hidden"
+            name="_wp_http_referer"
+            value="/application-form/?form=marketing-executive-ulpgl"
+          />
+        </form>
+      </div>
+    </section>
+    <!-- jQuery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!------------- Bootstrap js cdn ------------>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

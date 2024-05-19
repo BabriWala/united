@@ -1,0 +1,326 @@
+#application-form {
+  background-color: #fafafa;
+}
+
+.section-spacing {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+#application-form .page-header {
+  max-width: 530px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#application-form .page-header h2,
+#application-form .page-header .h2 {
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.page-header h2,
+.page-header .h2 {
+  text-align: center;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+#application-form form input,
+#application-form form select {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+  padding: 10px;
+  color: #4e4e4e;
+}
+#application-form form input,
+#application-form form select {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+  padding: 10px;
+  color: #4e4e4e;
+}
+#application-form form #verify-email {
+  background-color: #fff;
+  padding: 20px;
+}
+#application-form form #verify-email span {
+  color: #4e4e4e;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+#application-form form #verify-email .form-row {
+  display: flex;
+  margin-top: 20px;
+}
+#application-form form #verify-email .verify-email input {
+  margin-bottom: 0;
+}
+#application-form form input,
+#application-form form select {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+  padding: 10px;
+  color: #4e4e4e;
+}
+#verify-email-btn {
+  background-color: #f05a23;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 1ms ease-in-out;
+}
+#application-form form #verify-email span {
+  color: #4e4e4e;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+#verify-email-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #000000 !important;
+  margin-bottom: 0 !important;
+  font-weight: 500 !important;
+}
+#verify-email-btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -40px;
+  transition: 0.5s;
+}
+.mt--10 {
+  margin-top: 10px;
+}
+.alert {
+  position: relative;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+#application-form form #applicate-form-resume h3,
+#application-form form #applicate-form-resume .h3 {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+#application-form form #applicate-form-resume.disible input,
+#application-form form #applicate-form-resume.disible select {
+  color: #7b7b7b;
+}
+#application-form form #applicate-form-resume.disible input,
+#application-form form #applicate-form-resume.disible select {
+  color: rgba(78, 78, 78, 0.5);
+}
+#application-form form input,
+#application-form form select {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+  padding: 10px;
+  color: #4e4e4e;
+}
+#application-form form #applicate-form-resume.disible .fake-file-input {
+  border: 1px dashed #c0c0c0;
+}
+#application-form form .fake-file-input {
+  border: 1px dashed #f05a23;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 178px;
+  position: relative;
+}
+#application-form form .fake-file-input .fake-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+}
+#application-form
+  form
+  #applicate-form-resume.disible
+  .fake-file-input
+  .fake-content
+  h3,
+#application-form
+  form
+  #applicate-form-resume.disible
+  .fake-file-input
+  .fake-content
+  .h3 {
+  color: rgba(0, 0, 0, 0.5);
+}
+#application-form form #applicate-form-resume h3,
+#application-form form #applicate-form-resume .h3 {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+#application-form form .fake-file-input .fake-content h3,
+#application-form form .fake-file-input .fake-content .h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+#application-form form #applicate-form-resume.disible input,
+#application-form form #applicate-form-resume.disible select {
+  color: #7b7b7b;
+}
+#application-form form #applicate-form-resume.disible input,
+#application-form form #applicate-form-resume.disible select {
+  color: rgba(78, 78, 78, 0.5);
+}
+#application-form form .fake-file-input input {
+  height: 178px;
+  opacity: 0;
+  cursor: pointer;
+}
+span.filename {
+  font-weight: 500;
+  margin-top: 10px;
+  display: block;
+  color: #424143;
+}
+#application-form form #applicate-form-resume.disible #submit {
+  background-color: #dddfe3;
+  color: #424143;
+}
+#application-form form #applicate-form-resume.disible input,
+#application-form form #applicate-form-resume.disible select {
+  color: #7b7b7b;
+}
+#application-form form #applicate-form-resume.disible input,
+#application-form form #applicate-form-resume.disible select {
+  color: rgba(78, 78, 78, 0.5);
+}
+#application-form form #submit {
+  margin-top: 30px;
+  width: 254px;
+  height: 50px;
+  background: #f05a23;
+  border-radius: 5px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 50px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  transition: all 1ms ease-in-out;
+}
+#application-form form input[type="submit"] {
+  color: #000000;
+}
+#application-form form .ug-application-submit input {
+  display: none !important;
+}
+#application-form form input,
+#application-form form select {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+  padding: 10px;
+  color: #4e4e4e;
+}
+#application-form form #applicate-form-resume.disible #submit {
+  background-color: #dddfe3;
+  color: #424143;
+}
+#application-form form #submit {
+  margin-top: 30px;
+  width: 254px;
+  height: 50px;
+  background: #f05a23;
+  border-radius: 5px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 50px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  transition: all 1ms ease-in-out;
+}
+.primary-btn-anim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  border: none;
+}
+.primary-btn-anim span {
+  position: relative;
+  transition: all 0.3s ease;
+}
+.primary-btn-anim span::after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -10px;
+  transition: all 0.3s ease;
+}
+#verify-email-btn:hover {
+  transition: all 1ms ease-in;
+  background-color: #424143;
+}
+#verify-email-btn:hover span:after {
+  opacity: 1;
+  right: -20px;
+}
+#verify-email-btn:hover span {
+  color: #ffffff !important;
+}
+.primary-btn-anim:hover span::after {
+  right: -20px;
+  opacity: 1;
+}
