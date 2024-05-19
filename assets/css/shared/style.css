@@ -188,6 +188,13 @@ svg {
   overflow: hidden;
   vertical-align: middle;
 }
+a {
+  color: #f05a23;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
 /* Section here */
 .sections {
   padding: 120px 0;
