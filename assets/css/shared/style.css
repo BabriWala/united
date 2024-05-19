@@ -414,3 +414,122 @@ a:hover {
   margin-bottom: 20px;
 }
 /*=============== Global CSS End here ==============*/
+
+/* CTA */
+.cta {
+  padding-top: 30px;
+  height: 65px;
+  position: relative;
+  max-width: 145px;
+  cursor: pointer;
+}
+.cta a {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #000000;
+  position: relative;
+  z-index: 9;
+  font-size: 14px;
+  animation-name: paddinganimation;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+  max-width: 145px;
+  display: inline-block;
+  text-indent: 5px;
+}
+.cta a::before {
+  content: "";
+  background-image: url('data:image/svg+xml, %3Csvg width="14" height="2" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cline x1="8.74228e-08" y1="1" x2="14" y2="1" stroke="black" stroke-width="2"/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  transform: translate(11px, 10px);
+}
+.cta a::after {
+  content: "";
+  background-image: url('data:image/svg+xml, %3Csvg width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M13.324 6.40909L1.43816 6.40909C0.950653 6.40909 0.555447 6.00208 0.555447 5.5C0.555447 4.99792 0.950653 4.59091 1.43816 4.59091L13.324 4.59091L10.4485 1.62951C10.0866 1.25674 10.0866 0.652353 10.4485 0.27958C10.8105 -0.0931935 11.3973 -0.0931935 11.7593 0.27958L16.1729 4.82503C16.5348 5.19781 16.5348 5.80219 16.1729 6.17497L11.7593 10.7204C11.3973 11.0932 10.8105 11.0932 10.4485 10.7204C10.0866 10.3476 10.0866 9.74326 10.4485 9.37049L13.324 6.40909Z" fill="black"/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: -15px;
+  left: 74px;
+  transform: translate(20px, 20px);
+  opacity: 0;
+}
+.cta::after {
+  z-index: 0;
+  position: absolute;
+  left: -20px;
+  top: 25px;
+  content: "";
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #f05a23;
+  background-color: #f05a23;
+  animation-name: mymove2;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+.cta:hover a {
+  padding-left: 0px !important;
+  text-indent: 0px;
+}
+.cta:hover::after {
+  animation-name: mymove;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+.cta:hover a::before {
+  content: "";
+  background-image: url("");
+}
+.cta:hover a::after {
+  opacity: 1;
+}
+.cta a::after {
+  content: "";
+  background-image: url('data:image/svg+xml, %3Csvg width="17" height="11" viewBox="0 0 17 11" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M13.324 6.40909L1.43816 6.40909C0.950653 6.40909 0.555447 6.00208 0.555447 5.5C0.555447 4.99792 0.950653 4.59091 1.43816 4.59091L13.324 4.59091L10.4485 1.62951C10.0866 1.25674 10.0866 0.652353 10.4485 0.27958C10.8105 -0.0931935 11.3973 -0.0931935 11.7593 0.27958L16.1729 4.82503C16.5348 5.19781 16.5348 5.80219 16.1729 6.17497L11.7593 10.7204C11.3973 11.0932 10.8105 11.0932 10.4485 10.7204C10.0866 10.3476 10.0866 9.74326 10.4485 9.37049L13.324 6.40909Z" fill="black"/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  top: -15px;
+  left: 74px;
+  transform: translate(20px, 20px);
+  opacity: 0;
+}
+
+@keyframes paddinganimation {
+  0% {
+    padding-left: 0;
+    opacity: 0;
+  }
+  100% {
+    padding-left: 35px;
+    opacity: 1;
+  }
+}
+@keyframes mymove {
+  0% {
+    left: 0px;
+  }
+
+  100% {
+    left: 85px;
+  }
+}
+@keyframes mymove2 {
+  0% {
+    left: 85px;
+  }
+  100% {
+    left: 0px;
+  }
+}
