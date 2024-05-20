@@ -1,3 +1,18 @@
+@media (max-width: 991.98px) {
+  #image-slider .banner-slide-prev-btn {
+    top: 50%;
+    bottom: 50%;
+    left: 0;
+  }
+}
+@media (max-width: 991.98px) {
+  #image-slider .banner-slide-next-btn {
+    top: 50%;
+    bottom: 50%;
+    right: 0;
+  }
+}
+
 @media (min-width: 1300px) {
   .section-spacing {
     padding-top: 80px;
