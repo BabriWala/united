@@ -1,12 +1,4 @@
 $(document).ready(function () {
-  var noswiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
   var awardSwiper = new Swiper(".awardsSwiper", {
     slidesPerView: 3,
     loop: true,
@@ -17,6 +9,16 @@ $(document).ready(function () {
     navigation: {
       nextEl: ".awards-prev-btn",
       prevEl: ".awards-next-btn",
+    },
+    breakpoints: {
+      768: {
+        // This breakpoint is for screens 768px and above
+        slidesPerView: 3,
+      },
+      0: {
+        // This breakpoint is for screens less than 768px
+        slidesPerView: 1,
+      },
     },
   });
   var swiper = new Swiper(".heroSwiper", {

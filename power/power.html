@@ -35,6 +35,12 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
 
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
     <!--------- Main CSS -------->
     <link rel="stylesheet" href="../assets/css/shared/style.css" />
 
@@ -533,7 +539,7 @@
               </div>
               <div class="col-lg-6 position-relative">
                 <div class="navigation wow fadeInUp">
-                  <div class="prev awards-prev-btn" tabindex="0">
+                  <div class="prev awards-prev-btn active" tabindex="0">
                     <svg
                       width="16"
                       height="11"
@@ -543,11 +549,11 @@
                     >
                       <path
                         d="M3.65151 4.81405L14.5476 4.81405C14.9945 4.81405 15.3568 5.1728 15.3568 5.61533C15.3568 6.05787 14.9945 6.41662 14.5476 6.41662L3.65151 6.41662L6.28755 9.02682C6.61936 9.35539 6.61936 9.8881 6.28755 10.2167C5.95573 10.5452 5.41775 10.5452 5.08593 10.2167L1.03988 6.21026C0.708061 5.88169 0.708061 5.34898 1.03988 5.02041L5.08593 1.014C5.41775 0.685437 5.95573 0.685437 6.28755 1.014C6.61936 1.34257 6.61936 1.87528 6.28755 2.20385L3.65151 4.81405Z"
-                        fill="#F05A23"
+                        fill="white"
                       ></path>
                     </svg>
                   </div>
-                  <div class="next .awards-next-btn">
+                  <div class="next awards-next-btn">
                     <svg
                       width="15"
                       height="11"
@@ -564,20 +570,6 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">Slide 1</div>
-              <div class="swiper-slide">Slide 2</div>
-              <div class="swiper-slide">Slide 3</div>
-              <div class="swiper-slide">Slide 4</div>
-              <div class="swiper-slide">Slide 5</div>
-              <div class="swiper-slide">Slide 6</div>
-              <div class="swiper-slide">Slide 7</div>
-              <div class="swiper-slide">Slide 8</div>
-              <div class="swiper-slide">Slide 9</div>
-            </div>
-            <div class="swiper-pagination"></div>
           </div>
           <div class="awards-main swiper awardsSwiper">
             <div class="swiper-wrapper">
@@ -1003,28 +995,9 @@
     <section class="core-services section-spacing">
       <div class="container">
         <div class="page-header">
-          <h2
-            class="wow fadeInUp"
-            data-wow-delay="0s"
-            style="
-              visibility: hidden;
-              animation-duration: 1s;
-              animation-delay: 0s;
-              animation-name: none;
-            "
-          >
-            Core Business
-          </h2>
+          <h2 class="wow fadeInUp" data-wow-delay="0s">Core Business</h2>
           <div class="services-highlighted-row">
-            <div
-              class="service wow fadeInUp"
-              style="
-                visibility: hidden;
-                animation-duration: 1s;
-                animation-delay: 0.2s;
-                animation-name: none;
-              "
-            >
+            <div class="service wow fadeInUp">
               <div class="icon">
                 <img
                   data-lazyloaded="1"
@@ -1050,15 +1023,7 @@
                 <h4><span>Engineering Procurement & Construction</span></h4>
               </div>
             </div>
-            <div
-              class="service wow fadeInUp"
-              style="
-                visibility: hidden;
-                animation-duration: 1s;
-                animation-delay: 0.4s;
-                animation-name: none;
-              "
-            >
+            <div class="service wow fadeInUp">
               <div class="icon">
                 <img
                   data-lazyloaded="1"
@@ -1084,15 +1049,7 @@
                 <h4><span>Power Generation Project</span></h4>
               </div>
             </div>
-            <div
-              class="service wow fadeInUp"
-              style="
-                visibility: hidden;
-                animation-duration: 1s;
-                animation-delay: 0.6s;
-                animation-name: none;
-              "
-            >
+            <div class="service wow fadeInUp">
               <div class="icon">
                 <img
                   data-lazyloaded="1"
@@ -1121,15 +1078,7 @@
           </div>
           <h2 class="support-business-title">Support Business</h2>
           <div class="services-highlighted-row">
-            <div
-              class="service wow fadeInUp"
-              style="
-                visibility: hidden;
-                animation-duration: 1s;
-                animation-delay: 0.2s;
-                animation-name: none;
-              "
-            >
+            <div class="service wow fadeInUp">
               <div class="icon">
                 <img
                   data-lazyloaded="1"
@@ -1155,15 +1104,7 @@
                 <h4><span>Fuel Sourcing & Procurement</span></h4>
               </div>
             </div>
-            <div
-              class="service wow fadeInUp"
-              style="
-                visibility: hidden;
-                animation-duration: 1s;
-                animation-delay: 0.4s;
-                animation-name: none;
-              "
-            >
+            <div class="service wow fadeInUp">
               <div class="icon">
                 <img
                   data-lazyloaded="1"
@@ -1189,15 +1130,7 @@
                 <h4><span>Fuel Shipping & Logistics</span></h4>
               </div>
             </div>
-            <div
-              class="service wow fadeInUp"
-              style="
-                visibility: hidden;
-                animation-duration: 1s;
-                animation-delay: 0.6s;
-                animation-name: none;
-              "
-            >
+            <div class="service wow fadeInUp">
               <div class="icon">
                 <img
                   data-lazyloaded="1"
@@ -1230,15 +1163,7 @@
             </div>
             <div class="right">
               <div class="list-row">
-                <div
-                  class="list wow fadeInUp"
-                  style="
-                    visibility: hidden;
-                    animation-duration: 1s;
-                    animation-delay: 0.2s;
-                    animation-name: none;
-                  "
-                >
+                <div class="list wow fadeInUp">
                   <div class="icon">
                     <img
                       data-lazyloaded="1"
@@ -1265,15 +1190,7 @@
                     >
                   </div>
                 </div>
-                <div
-                  class="list wow fadeInUp"
-                  style="
-                    visibility: hidden;
-                    animation-duration: 1s;
-                    animation-delay: 0.4s;
-                    animation-name: none;
-                  "
-                >
+                <div class="list wow fadeInUp">
                   <div class="icon">
                     <img
                       data-lazyloaded="1"
@@ -1297,15 +1214,7 @@
                     <span>EPC to O&amp;M</span>
                   </div>
                 </div>
-                <div
-                  class="list wow fadeInUp"
-                  style="
-                    visibility: hidden;
-                    animation-duration: 1s;
-                    animation-delay: 0.6s;
-                    animation-name: none;
-                  "
-                >
+                <div class="list wow fadeInUp">
                   <div class="icon">
                     <img
                       data-lazyloaded="1"
@@ -1331,15 +1240,7 @@
                     >
                   </div>
                 </div>
-                <div
-                  class="list wow fadeInUp"
-                  style="
-                    visibility: hidden;
-                    animation-duration: 1s;
-                    animation-delay: 0.8s;
-                    animation-name: none;
-                  "
-                >
+                <div class="list wow fadeInUp">
                   <div class="icon">
                     <img
                       data-lazyloaded="1"

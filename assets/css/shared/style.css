@@ -269,7 +269,7 @@ a:hover {
   background-color: #f05a23;
   transition: all 1ms ease-in;
 }
-#awards .header-highlight .navigation a.next {
+#awards .header-highlight .navigation .next {
   width: 50px;
   height: 50px;
   display: flex;
@@ -280,7 +280,7 @@ a:hover {
   border-radius: 0 0 5px;
   transition: all 0.25s ease-in-out;
 }
-#awards .header-highlight .navigation a.prev {
+#awards .header-highlight .navigation .prev {
   width: 50px;
   height: 50px;
   display: flex;
@@ -291,11 +291,11 @@ a:hover {
   border-radius: 5px 0 0;
   transition: all 0.25s ease-in;
 }
-#awards .header-highlight .navigation a.next.active {
+#awards .header-highlight .navigation .next.active {
   background-color: #f05a23;
   transition: all 0.25s ease-in-out;
 }
-#awards .header-highlight .navigation a.prev.active {
+#awards .header-highlight .navigation .prev.active {
   background-color: #f05a23;
   transition: all 0.25s ease-in-out;
 }
