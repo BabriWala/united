@@ -1,0 +1,99 @@
+#cheif-message .cheif-message-archive {
+  width: 100%;
+  margin: 0 auto 40px auto;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 2px solid #dddfe3;
+}
+@media (min-width: 1300px) {
+  #cheif-message .cheif-message-archive {
+    width: 930px;
+  }
+}
+#cheif-message .cheif-message-archive .swiper-wrapper {
+  padding-bottom: 10px;
+}
+#cheif-message .cheif-message-archive .swiper-wrapper .swiper-slide {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #4e4e4e;
+  cursor: pointer;
+}
+#cheif-message
+  .cheif-message-archive
+  .swiper-wrapper
+  .swiper-slide.swiper-slide-active {
+  color: #f05a23;
+  padding-left: 20px;
+}
+#cheif-message .cheif-message-archive .cheif-button-prev {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+  left: 0px;
+  cursor: pointer;
+  z-index: 9;
+}
+#cheif-message .cheif-message-archive .cheif-button-next {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  z-index: 9;
+}
+#cheif-message .cheif-message-content {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-bottom: 2px solid #dddfe3;
+}
+@media (min-width: 1300px) {
+  #cheif-message .cheif-message-content {
+    width: 930px;
+  }
+}
+@media (max-width: 991.98px) {
+  #cheif-message .cheif-message-content h2,
+  #cheif-message .cheif-message-content .h2 {
+    font-size: 32px;
+    line-height: 48px;
+  }
+}
+#cheif-message .cheif-message-content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #4e4e4e;
+  margin-bottom: 15px;
+}
+#cheif-message .bio {
+  width: 100%;
+  text-align: left;
+  padding-top: 60px;
+}
+@media (min-width: 1200px) {
+  #cheif-message .bio {
+    width: 930px;
+    margin: 0 auto;
+  }
+}
+#cheif-message .bio h3,
+#cheif-message .bio .h3 {
+  font-size: 26px;
+  font-weight: 400;
+}
+#cheif-message .bio h4,
+#cheif-message .bio .h4 {
+  font-size: 26px;
+  font-weight: 400;
+}
+@media (max-width: 1199.98px) {
+  #cheif-message .bio .social {
+    padding-top: 30px;
+  }
+}
+#cheif-message .bio .social li a {
+  padding: 15px;
+}

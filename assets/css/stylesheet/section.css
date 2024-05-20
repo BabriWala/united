@@ -1,0 +1,251 @@
+section.about-us {
+  height: 100%;
+  /*
+   .tilter__figure,
+   .tilter__deco,
+   .tilter__caption {
+   will-change: transform;
+   }*/
+  /* Example 5 (line animating) */
+}
+section.about-us h2,
+section.about-us .h2 {
+  font-size: 32px;
+}
+@media (min-width: 1200px) {
+  section.about-us h2,
+  section.about-us .h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+section.about-us p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #4e4e4e;
+}
+section.about-us .thumb-col {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #dddfe3;
+  border-bottom: 1px solid #dddfe3;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+section.about-us .thumb-col .image {
+  margin-right: 20px;
+}
+section.about-us .main-about-content h4,
+section.about-us .main-about-content .h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+section.about-us .main-about-content .list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+section.about-us .main-about-content .list .icon {
+  margin-right: 15px;
+}
+section.about-us .main-about-content .list .content {
+  padding: 0;
+}
+section.about-us .main-about-content .list .content span {
+  font-size: 16px;
+  line-height: 26px;
+  color: #4e4e4e;
+}
+section.about-us .tilter {
+  display: block;
+  position: relative;
+  color: #fd7e14;
+  flex: none;
+  perspective: 1000px;
+}
+section.about-us .tilter * {
+  pointer-events: none;
+}
+section.about-us .tilter:hover,
+section.about-us .tilter:focus {
+  color: #fd7e14;
+  outline: none;
+}
+section.about-us .tilter:hover .tilter__deco.tilter__deco--shine,
+section.about-us .tilter:focus .tilter__deco.tilter__deco--shine {
+  background-color: #00000063;
+}
+section.about-us .tilter__figure,
+section.about-us .tilter__image {
+  margin: 0;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+}
+@media (min-width: 1300px) {
+  section.about-us .tilter__figure,
+  section.about-us .tilter__image {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+}
+@media (min-width: 1500px) {
+  section.about-us .tilter__figure,
+  section.about-us .tilter__image {
+    width: 100%;
+    height: 810px;
+  }
+}
+section.about-us .tilter__figure > * {
+  transform: translateZ(0px);
+  /* Force correct stacking order */
+}
+section.about-us .smooth .tilter__figure,
+section.about-us .smooth .tilter__deco--overlay,
+section.about-us .smooth .tilter__deco--lines,
+section.about-us .smooth .tilter__deco--shine div,
+section.about-us .smooth .tilter__caption {
+  transition: transform 0.2s ease-out;
+}
+section.about-us .tilter__figure {
+  position: relative;
+}
+section.about-us .tilter__figure::before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 5%;
+  left: 5%;
+  box-shadow: 0 30px 20px rgba(35, 32, 39, 0.5);
+}
+section.about-us .tilter__deco {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+section.about-us .tilter__deco--shine div {
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background-image: linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(255, 255, 255, 0.25) 50%,
+    transparent 100%
+  );
+}
+section.about-us .tilter__deco--lines {
+  fill: none;
+  stroke: #ffffff;
+  opacity: 0.6;
+  stroke-width: 1.5px;
+}
+section.about-us .tilter__caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.about-us .tilter__title {
+  margin: 0;
+  font-family: Josefin Sans;
+  font-weight: normal;
+  line-height: 56px;
+  opacity: 0;
+  transition: all 0.25s ease;
+  font-size: 36px;
+  color: #ffffff;
+  width: 300px;
+  text-align: center;
+  line-height: 55px;
+  text-transform: uppercase;
+}
+@media (max-width: 767.98px) {
+  section.about-us .tilter__title {
+    font-size: 22px;
+  }
+}
+@media (max-width: 767.98px) {
+  section.about-us .tilter__title {
+    width: 230px;
+  }
+}
+section.about-us .tilter__description {
+  margin: 1em 0 0 0;
+  font-size: 0.85em;
+  letter-spacing: 0.15em;
+}
+section.about-us .tilter--5 .tilter__deco--lines path {
+  stroke-dasharray: 1270;
+  stroke-dashoffset: 1270;
+  transition: stroke-dashoffset 0.7s;
+}
+section.about-us .tilter--5:hover .tilter__caption h3,
+section.about-us .tilter--5:hover .tilter__caption .h3 {
+  opacity: 1;
+  transition: all 0.25s ease;
+}
+section.about-us .tilter--5:hover .tilter__deco--lines path {
+  stroke-dashoffset: 0;
+}
+section.about-us .tilter--5 .tilter__figure::before {
+  box-shadow: none;
+}
+section.about-us .follow-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section.about-us .follow-social span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  display: block;
+}
+section.about-us .follow-social .icon-group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 130px;
+  align-items: center;
+  justify-content: center;
+}
+section.about-us .follow-social .icon-group a {
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #666;
+  box-sizing: border-box;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.25 ease-in-out;
+}
+section.about-us .follow-social .icon-group a:last-child {
+  margin-right: 0;
+}
+section.about-us .follow-social .icon-group a svg path {
+  fill: #666;
+}
+section.about-us .follow-social .icon-group a:hover {
+  border: 1px solid #f05a23;
+  transition: all 0.25 ease-in;
+}
+section.about-us .follow-social .icon-group a:hover svg path {
+  fill: #f05a23;
+}

@@ -1,0 +1,367 @@
+#career-opportunties .section-page-header {
+  margin-bottom: 60px;
+}
+#career-opportunties .search-bar {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px 30px;
+  margin-bottom: 30px;
+}
+@media (max-width: 1199.98px) {
+  #career-opportunties .search-bar {
+    padding: 10px;
+  }
+}
+#career-opportunties .search-bar .categories {
+  width: 200px;
+  height: 100%;
+  position: relative;
+}
+@media (max-width: 1199.98px) {
+  #career-opportunties .search-bar .categories {
+    width: 150px;
+  }
+}
+#career-opportunties .search-bar .categories select {
+  width: 130px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4e4e;
+  outline: none;
+}
+#career-opportunties .search-bar .categories::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  top: 10px;
+  right: -15px;
+  display: inline-block;
+  width: 61px;
+  transform: rotate(90deg);
+  background-color: #dddfe3;
+}
+#career-opportunties .search-bar .search-job {
+  width: calc(100% - 200px);
+  position: relative;
+}
+@media (max-width: 1199.98px) {
+  #career-opportunties .search-bar .search-job {
+    width: calc(100% - 150px);
+  }
+}
+#career-opportunties .search-bar .search-job input {
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4e4e;
+}
+#career-opportunties .search-bar .search-job::after {
+  content: "";
+  position: absolute;
+  background-image: url('data:image/svg+xml, %3Csvg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z" stroke="%234E4E4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/%3E%3Cpath d="M20.9999 21L16.6499 16.65" stroke="%234E4E4E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/%3E%3C/svg%3E');
+  background-repeat: no-repeat;
+  top: 8px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+}
+#career-opportunties .job-post .job-item {
+  border: 1px solid #dddfe3;
+  box-sizing: border-box;
+  border-radius: 10px 0px 0px 0px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+#career-opportunties .job-post .job-item .navigate {
+  text-align: right;
+}
+#career-opportunties .job-post .job-item .navigate a {
+  background-color: #f05a23;
+  border-radius: 0px 0px 10px 0px;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  line-height: 48px;
+  text-align: center;
+}
+#career-opportunties .job-post .job-item .navigate a:hover {
+  background-color: rgba(255, 99, 96, 0.6);
+}
+#career-opportunties .job-post .job-item h3 a,
+#career-opportunties .job-post .job-item .h3 a {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  color: #4e4e4e;
+  margin-bottom: 20px;
+}
+@media (max-width: 1199.98px) {
+  #career-opportunties .job-post .job-item .group-item {
+    justify-content: flex-start;
+  }
+}
+#career-opportunties .job-post .job-item .group-item .item {
+  border: 1px solid #dddfe3;
+  box-sizing: border-box;
+  border-radius: 5px 0px 0px 0px;
+  background: #fafafa;
+  padding: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4e4e;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+@media (max-width: 1199.98px) {
+  #career-opportunties .job-post .job-item .group-item .item {
+    margin-bottom: 15px;
+  }
+}
+#career-opportunties .job-post .job-item .group-item .item svg {
+  margin-right: 5px;
+}
+#drop-resume {
+  background-color: #fef7f4;
+  padding: 80px 0 80px;
+}
+#drop-resume h3,
+#drop-resume .h3 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  margin-bottom: 30px;
+}
+#drop-resume .primay-button {
+  background-color: #f05a23;
+  border-radius: 5px 0px 0px 0px;
+  width: 245px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 50px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  transition: all 1ms ease-in-out;
+}
+@media (min-width: 1200px) {
+  #drop-resume .primay-button {
+    float: right;
+  }
+}
+#drop-resume .primay-button:hover {
+  transition: all 1ms ease-in;
+  background-color: #424143;
+  color: #ffffff;
+}
+#application-form {
+  background-color: #fafafa;
+}
+#application-form .page-header {
+  max-width: 530px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#application-form .page-header h2,
+#application-form .page-header .h2 {
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+@media (min-width: 1200px) {
+  #application-form .page-header h2,
+  #application-form .page-header .h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+#application-form .page-header h2 p,
+#application-form .page-header .h2 p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #4e4e4e;
+}
+#application-form form {
+  /* For IE10 */
+}
+#application-form form input,
+#application-form form select {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+  padding: 10px;
+  color: #4e4e4e;
+}
+#application-form form .fake-file-input {
+  border: 1px dashed #f05a23;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 178px;
+  position: relative;
+}
+#application-form form .fake-file-input .fake-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+}
+#application-form form .fake-file-input .fake-content h3,
+#application-form form .fake-file-input .fake-content .h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+}
+#application-form form .fake-file-input input {
+  height: 178px;
+  opacity: 0;
+  cursor: pointer;
+}
+#application-form form #submit {
+  margin-top: 30px;
+  width: 254px;
+  height: 50px;
+  background: #f05a23;
+  border-radius: 5px 0px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 13px 50px;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+  transition: all 1ms ease-in-out;
+}
+#application-form form #submit:hover {
+  background-color: #424143;
+  color: #ffffff;
+  transition: all 1ms ease-in;
+}
+#application-form form #verify-email {
+  background-color: #fff;
+  padding: 20px;
+}
+#application-form form #verify-email span {
+  color: #4e4e4e;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+#application-form form #verify-email .form-row {
+  display: flex;
+  margin-top: 20px;
+}
+@media (max-width: 991.98px) {
+  #application-form form #verify-email .form-row {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1199.98px) {
+  #application-form form #verify-email .verify-email {
+    margin-bottom: 20px;
+  }
+}
+#application-form form #verify-email .verify-email input {
+  margin-bottom: 0;
+}
+@media (max-width: 991.98px) {
+  #application-form form #verify-email .col-lg-2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+#application-form form #applicate-form-resume h3,
+#application-form form #applicate-form-resume .h3 {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+#application-form form #applicate-form-resume.disible input,
+#application-form form #applicate-form-resume.disible select {
+  color: rgba(78, 78, 78, 0.5);
+}
+#application-form form #applicate-form-resume.disible .fake-file-input {
+  border: 1px dashed #c0c0c0;
+}
+#application-form
+  form
+  #applicate-form-resume.disible
+  .fake-file-input
+  .fake-content
+  svg
+  path {
+  fill: rgba(0, 0, 0, 0.5);
+}
+#application-form
+  form
+  #applicate-form-resume.disible
+  .fake-file-input
+  .fake-content
+  h3,
+#application-form
+  form
+  #applicate-form-resume.disible
+  .fake-file-input
+  .fake-content
+  .h3 {
+  color: rgba(0, 0, 0, 0.5);
+}
+#application-form form #applicate-form-resume.disible #submit {
+  background-color: #dddfe3;
+  color: #424143;
+}
+#application-form form .arrow {
+  position: relative;
+}
+#application-form form .arrow::after {
+  position: absolute;
+  content: "";
+  background-image: url('data:image/svg+xml, %3Csvg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath fill-rule="evenodd" clip-rule="evenodd" d="M16.0773 6.07739L17.2559 7.2559L9.99994 14.5118L2.74402 7.2559L3.92253 6.07739L9.99994 12.1548L16.0773 6.07739Z" fill="%234E4E4E"/%3E%3C/svg%3E');
+  right: 0;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  top: 15px;
+}
+#application-form form input[type="submit"] {
+  color: #000000;
+}
+#application-form form select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}
+#application-form form select::-ms-expand {
+  display: none;
+}
+#application-form form #applicate-form-resume.disible input,
+#application-form form #applicate-form-resume.disible select {
+  color: #7b7b7b;
+}

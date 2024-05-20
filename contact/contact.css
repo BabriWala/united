@@ -25,6 +25,9 @@
 .main-menu-area .nav-menu li.menu-item-has-children {
   position: relative;
 }
+.menu-bar {
+  cursor: pointer;
+}
 .transparent-header .main-menu-area .nav-menu li a {
   color: #000000;
   transition: all 1ms ease-in;
@@ -138,8 +141,18 @@
   transition: all 0.3s ease-in-out;
   padding: 20px;
 }
-
+.open-mobile-menu {
+  overflow: hidden;
+}
+.open-mobile-menu .mobile-menu {
+  transform: translate3d(0%, 0, 0) scaleX(1);
+  animation: scale-easeOutElastic;
+  z-index: 9999999;
+  height: 100%;
+  overflow-y: auto;
+}
 .mobile-menu .close-menu {
+  cursor: pointer;
   text-align: right;
 }
 .mobile-menu .nav-menu {

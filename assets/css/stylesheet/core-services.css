@@ -1,0 +1,181 @@
+.core-services {
+  position: relative;
+}
+.core-services .services-highlighted-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 60px 0 60px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.core-services .services-highlighted-row .service {
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (max-width: 1199.98px) {
+  .core-services .services-highlighted-row .service {
+    width: 320px;
+  }
+}
+@media (max-width: 991.98px) {
+  .core-services .services-highlighted-row .service {
+    margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+}
+@media (max-width: 767.98px) {
+  .core-services .services-highlighted-row .service {
+    width: 100%;
+  }
+}
+.core-services .services-highlighted-row .service .icon {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  box-shadow: -1px -1px 4px #6c483a1a;
+}
+.core-services .services-highlighted-row .service .icon img {
+  width: 50px;
+  height: auto;
+}
+.core-services .services-highlighted-row .service .icon-content h4,
+.core-services .services-highlighted-row .service .icon-content .h4 {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  color: #000000;
+  text-align: center;
+}
+@media (max-width: 1199.98px) {
+  .core-services .services-highlighted-row .service .icon-content h4,
+  .core-services .services-highlighted-row .service .icon-content .h4 {
+    font-size: 22px;
+  }
+}
+.core-services h3,
+.core-services .h3 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+}
+.core-services .service-list-row {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 60px;
+  border-bottom: 1px solid #dddfe3;
+  width: 100%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+@media (min-width: 1200px) {
+  .core-services .service-list-row {
+    flex-direction: row;
+  }
+}
+.core-services .service-list-row .list {
+  display: flex;
+  align-items: center;
+  width: 360px;
+  justify-content: center;
+}
+@media (max-width: 1199.98px) {
+  .core-services .service-list-row .list {
+    padding-bottom: 20px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+.core-services .service-list-row .list .icon {
+  margin-right: 15px;
+  width: 15px;
+}
+.core-services .service-list-row .list .content {
+  padding-right: 30px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #c0c0c0;
+}
+.core-services .short-list-row {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 1200px) {
+  .core-services .short-list-row {
+    width: 920px;
+  }
+}
+.core-services .short-list-row h3,
+.core-services .short-list-row .h3 {
+  font-size: 40px;
+  line-height: 60px;
+  text-align: left;
+}
+@media (max-width: 1199.98px) {
+  .core-services .short-list-row h3,
+  .core-services .short-list-row .h3 {
+    font-size: 32px;
+    line-height: 48px;
+    padding-bottom: 60px;
+  }
+}
+.core-services .short-list-row .left {
+  width: 50%;
+}
+@media (max-width: 1199.98px) {
+  .core-services .short-list-row .left {
+    width: 100%;
+  }
+}
+.core-services .short-list-row .right {
+  width: 50%;
+}
+@media (max-width: 1199.98px) {
+  .core-services .short-list-row .right {
+    width: 100%;
+  }
+}
+.core-services .short-list-row .right .list-row .list {
+  display: flex;
+  padding-bottom: 20px;
+}
+@media (max-width: 1199.98px) {
+  .core-services .short-list-row .right .list-row .list {
+    flex-wrap: nowrap;
+    align-content: center;
+  }
+}
+.core-services .short-list-row .right .list-row .list .icon {
+  margin-right: 10px;
+  width: 40px;
+  margin-top: 5px;
+}
+.core-services .short-list-row .right .list-row .list .content {
+  width: calc(100% - 40px);
+}
+.core-services .short-list-row .right .list-row .list .content span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+.core-services .support-bussiness-title {
+  margin: 30px 0 0;
+}

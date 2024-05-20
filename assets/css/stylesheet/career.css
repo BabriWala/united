@@ -1,0 +1,207 @@
+.headroom {
+  will-change: transform;
+  transition: transform 200ms linear;
+}
+.headroom--pinned {
+  transform: translateY(0%);
+}
+.headroom--unpinned {
+  transform: translateY(-100%);
+}
+.lg-sub-html h3,
+.lg-sub-html .h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+.lg-sub-html p {
+  font-size: 12px;
+  margin: 5px 0 0;
+  color: #fff;
+}
+.image-group-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.image-group-grid img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+@media (min-width: 1200px) {
+  .image-group-grid img {
+    width: 50%;
+    margin-bottom: 0;
+    object-fit: cover;
+  }
+}
+.our-concerns-template-default.single.single-our-concerns.postid-1795
+  #image-slider
+  .swiper
+  .swiper-slide
+  img,
+.our-concerns-template-default.single.single-our-concerns.postid-1179
+  #image-slider
+  .swiper
+  .swiper-slide
+  img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+}
+.page-id-240 #message-from-ceo {
+  margin-bottom: 0;
+}
+@media (min-width: 1200px) {
+  .d-flex-dekstop {
+    display: flex;
+  }
+}
+span.filename {
+  font-weight: 500;
+  margin-top: 10px;
+  display: block;
+  color: #424143;
+}
+.postid-1102 #image-slider img {
+  object-fit: contain !important;
+}
+@media (min-width: 576px) {
+  .for-sm-desktop {
+    display: block;
+  }
+  .for-sm-mobile {
+    display: none;
+  }
+}
+@media (max-width: 575.98px) {
+  .for-sm-desktop {
+    display: none;
+  }
+  .for-sm-mobile {
+    display: block;
+  }
+}
+.postid-1102 #full-single-image .for-sm-desktop img {
+  height: auto;
+  object-fit: contain;
+}
+.postid-3632 #image-slider img {
+  object-fit: contain !important;
+  height: auto !important;
+}
+#cheif-message .cheif-message-content p {
+  text-align: justify;
+}
+.wpcf7-submit {
+  border-radius: 10px 0px 0px 0px;
+  background-color: #f05a23;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  padding: 9px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 10px;
+  font-weight: 500;
+}
+.wpcf7-submit span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.wpcf7-submit span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.wpcf7-submit:hover span {
+  padding-right: 25px;
+}
+.wpcf7-submit:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+#drop-resume .primay-button {
+  width: 260px !important;
+}
+#drop-resume a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+#drop-resume a span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+#drop-resume a span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -40px;
+  transition: 0.5s;
+}
+#drop-resume a:hover span {
+  padding-right: 5px;
+}
+#drop-resume a:hover span:after {
+  opacity: 1;
+  right: -20px;
+}
+#verify-email-btn {
+  background-color: #f05a23;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  padding: 12px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 1ms ease-in-out;
+}
+#verify-email-btn:hover {
+  transition: all 1ms ease-in;
+  background-color: #424143;
+}
+#verify-email-btn:hover span {
+  color: #ffffff !important;
+}
+#verify-email-btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #000000 !important;
+  margin-bottom: 0 !important;
+  font-weight: 500 !important;
+}
+#verify-email-btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -40px;
+  transition: 0.5s;
+}
+#verify-email-btn:hover span {
+  padding-right: 5px;
+}
+#verify-email-btn:hover span:after {
+  opacity: 1;
+  right: -20px;
+}

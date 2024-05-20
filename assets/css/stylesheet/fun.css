@@ -1,0 +1,424 @@
+.fun-fact {
+  padding-bottom: 0;
+}
+.fun-fact .single-funfact {
+  display: flex;
+  margin-bottom: 40px;
+  height: 55px;
+  align-items: center;
+  max-width: 100%;
+}
+@media (min-width: 1200px) {
+  .fun-fact .single-funfact {
+    border-right: 1px solid #dddfe3;
+  }
+}
+.fun-fact .single-funfact:last-child {
+  border: none;
+}
+.fun-fact .single-funfact .thumb {
+  width: 50px;
+}
+.fun-fact .single-funfact .thumb img {
+  width: 45px;
+  height: auto;
+}
+.fun-fact .single-funfact .text {
+  width: calc(100% - 50px);
+  padding-left: 15px;
+}
+.fun-fact .single-funfact .text h4,
+.fun-fact .single-funfact .text .h4 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  margin-bottom: 2px;
+}
+.fun-fact .single-funfact .text span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4e4e;
+}
+.fun-fact .content p {
+  font-size: 16px;
+  line-height: 26px;
+  color: #4e4e4e;
+}
+.team .modal {
+  visibility: hidden;
+  height: 0;
+  opacity: 0;
+}
+.team .modal.open {
+  visibility: visible;
+  height: 100%;
+  opacity: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 9999;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@media (max-width: 767.98px) {
+  .team .modal.open {
+    overflow: hidden;
+    height: 100vh;
+  }
+}
+.team .modal.open .modal-dialog {
+  position: relative;
+  width: auto;
+  max-width: 1140px;
+  margin: auto;
+}
+.team .modal.open .modal-dialog .modal-content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+  position: relative;
+}
+@media (max-width: 767.98px) {
+  .team .modal.open .modal-dialog .modal-content {
+    height: 100vh;
+  }
+}
+.team .modal.open .modal-dialog .modal-content .custom-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 767.98px) {
+  .team .modal.open .modal-dialog .modal-content .custom-row {
+    justify-content: space-between;
+  }
+}
+.team .modal.open .modal-dialog .modal-content .custom-row .left {
+  flex: 100%;
+}
+@media (min-width: 768px) {
+  .team .modal.open .modal-dialog .modal-content .custom-row .left {
+    order: 2;
+    flex: 1 1 40%;
+  }
+}
+.team .modal.open .modal-dialog .modal-content .custom-row .left .member-img {
+  position: relative;
+}
+.team
+  .modal.open
+  .modal-dialog
+  .modal-content
+  .custom-row
+  .left
+  .member-img
+  .name-section {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  background: linear-gradient(360deg, #4b4b4b 0%, rgba(75, 75, 75, 0) 33.54%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.team
+  .modal.open
+  .modal-dialog
+  .modal-content
+  .custom-row
+  .left
+  .member-img
+  .name-section
+  h3,
+.team
+  .modal.open
+  .modal-dialog
+  .modal-content
+  .custom-row
+  .left
+  .member-img
+  .name-section
+  .h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.team
+  .modal.open
+  .modal-dialog
+  .modal-content
+  .custom-row
+  .left
+  .member-img
+  .name-section
+  span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 0px;
+}
+.team .modal.open .modal-dialog .modal-content .custom-row .right {
+  flex: 100%;
+}
+@media (min-width: 768px) {
+  .team .modal.open .modal-dialog .modal-content .custom-row .right {
+    order: 1;
+    flex: 1 1 60%;
+  }
+}
+.team .modal.open .modal-dialog .modal-content .details {
+  padding: 40px 20px 40px 40px;
+}
+@media (max-width: 767.98px) {
+  .team .modal.open .modal-dialog .modal-content .details {
+    padding: 0px 15px 0px 15px;
+  }
+}
+.team .modal.open .modal-dialog .modal-content .details h3,
+.team .modal.open .modal-dialog .modal-content .details .h3 {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 46px;
+  margin-bottom: 15px;
+}
+@media (max-width: 767.98px) {
+  .team .modal.open .modal-dialog .modal-content .details h3,
+  .team .modal.open .modal-dialog .modal-content .details .h3 {
+    font-size: 32px;
+    line-height: 46px;
+  }
+}
+.team .modal.open .modal-dialog .modal-content .details span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #4e4e4e;
+  margin-bottom: 20px;
+  display: block;
+  border-bottom: 1px solid #dddfe3;
+  padding-bottom: 20px;
+}
+.team .modal.open .modal-dialog .modal-content .details p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4e4e;
+  padding-right: 20px;
+}
+.team .modal.open .modal-dialog .modal-content .details .overview {
+  overflow: auto;
+  position: relative;
+  /* Track */
+}
+@media (min-width: 768px) {
+  .team .modal.open .modal-dialog .modal-content .details .overview {
+    max-height: 280px;
+  }
+}
+@media (max-width: 767.98px) {
+  .team .modal.open .modal-dialog .modal-content .details .overview p {
+    padding-top: 10px;
+  }
+  .team
+    .modal.open
+    .modal-dialog
+    .modal-content
+    .details
+    .overview
+    p:last-child {
+    padding-bottom: 30px;
+  }
+}
+.team
+  .modal.open
+  .modal-dialog
+  .modal-content
+  .details
+  .overview::-webkit-scrollbar {
+  width: 5px;
+}
+.team
+  .modal.open
+  .modal-dialog
+  .modal-content
+  .details
+  .overview::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.team
+  .modal.open
+  .modal-dialog
+  .modal-content
+  .details
+  .overview::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.team
+  .modal.open
+  .modal-dialog
+  .modal-content
+  .details
+  .overview::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.team .modal.open .modal-dialog .modal-content .member-img .close-modal {
+  position: absolute;
+  background: #f05a23;
+  width: 60px;
+  z-index: 9999;
+  height: 60px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  top: 0;
+  transition: all 0.25s ease-in-out;
+  margin: 20px;
+  cursor: pointer;
+}
+@media (max-width: 767.98px) {
+  .team .modal.open .modal-dialog .modal-content .member-img .close-modal {
+    height: 50px;
+    width: 50px;
+    top: 0;
+    right: 0;
+  }
+}
+.team .modal.open .modal-dialog .modal-content .member-img .close-modal:hover {
+  background: #ffffff;
+  transition: all 0.25s ease-in;
+}
+.team
+  .modal.open
+  .modal-dialog
+  .modal-content
+  .member-img
+  .close-modal:hover
+  svg
+  path {
+  fill: #000000;
+}
+.team .modal.open .modal-dialog .modal-content .member-img img {
+  width: 100%;
+  border-radius: 0;
+}
+.team .modal.open .modal-dialog .modal-content .member-img img.team-mobile {
+  display: none;
+}
+@media (max-width: 767.98px) {
+  .team .modal.open .modal-dialog .modal-content .member-img img.team-mobile {
+    display: block;
+  }
+}
+.team .modal.open .modal-dialog .modal-content .member-img img.team-desktop {
+  display: none;
+}
+@media (min-width: 768px) {
+  .team .modal.open .modal-dialog .modal-content .member-img img.team-desktop {
+    display: block;
+  }
+}
+@media (max-width: 767.98px) {
+  .team .modal.open .modal-dialog .modal-content .member-img img {
+    object-position: top center;
+    object-fit: cover;
+  }
+}
+.team h2,
+.team .h2 {
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 60px;
+}
+@media (min-width: 1200px) {
+  .team h2,
+  .team .h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+.team .member {
+  padding-bottom: 40px;
+}
+.team .member h3,
+.team .member .h3 {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38px;
+  margin: 20px 0px 10px;
+}
+.team .member img {
+  height: auto;
+  border-radius: 20px 0 0;
+}
+@media (min-width: 1200px) {
+  .team .member img {
+    max-height: 500px;
+  }
+}
+.team .member span {
+  font-size: 16px;
+  line-height: 26px;
+  color: #4e4e4e;
+  margin-bottom: 10px;
+}
+@keyframes mymove {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 85px;
+  }
+}
+@keyframes mymove2 {
+  0% {
+    left: 85px;
+  }
+  100% {
+    left: 0px;
+  }
+}
+@keyframes paddinganimation {
+  0% {
+    padding-left: 0;
+    opacity: 0;
+  }
+  100% {
+    padding-left: 35px;
+    opacity: 1;
+  }
+}
+@keyframes removepaddinganimation {
+  0% {
+    opacity: 0;
+    padding-left: 35px;
+  }
+  100% {
+    padding-left: 0;
+    opacity: 1;
+  }
+}

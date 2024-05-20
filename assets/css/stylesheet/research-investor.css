@@ -1,0 +1,172 @@
+#reserach-investor .research-nav-menu {
+  margin-bottom: 60px;
+}
+#reserach-investor .research-nav-menu li a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #4e4e4e;
+  border-bottom: 2px solid #dddfe3;
+  padding: 0 50px 10px 50px;
+  transition: all 0.25s ease-in-out;
+}
+#reserach-investor .research-nav-menu li a.active {
+  border-bottom: 2px solid #f05a23;
+  transition: all 0.25s ease-in;
+}
+#reserach-investor #research-accordion .accordion-item {
+  border: none;
+  margin-bottom: 30px;
+}
+#reserach-investor #research-accordion .accordion-item .accordion-header {
+  margin-bottom: 0;
+  border-top: 1px solid #00000008;
+  border-bottom: 1px solid #00000008;
+}
+#reserach-investor
+  #research-accordion
+  .accordion-item
+  .accordion-button:not(.collapsed) {
+  background-color: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+#reserach-investor
+  #research-accordion
+  .accordion-item
+  .accordion-button:not(.collapsed)::after {
+  background-image: url('data:image/svg+xml, %3Csvg width="15" height="3" viewBox="0 0 15 3" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M14.7917 0.458344H0.208374V2.54168H14.7917V0.458344Z" fill="%23F05A23"/%3E%3C/svg%3E');
+}
+#reserach-investor
+  #research-accordion
+  .accordion-item
+  .accordion-item:first-of-type
+  .accordion-button {
+  background-color: transparent;
+  border-radius: 0;
+}
+#reserach-investor #research-accordion .accordion-item .accordion-button {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+  text-transform: uppercase;
+}
+#reserach-investor #research-accordion .accordion-item .accordion-button:focus {
+  border: none;
+  box-shadow: none;
+}
+#reserach-investor
+  #research-accordion
+  .accordion-item
+  .accordion-button::after {
+  background-image: url('data:image/svg+xml, %3Csvg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M14.7917 8.54167H8.54171V14.7917H6.45837V8.54167H0.208374V6.45834H6.45837V0.208336H8.54171V6.45834H14.7917V8.54167Z" fill="black"/%3E%3C/svg%3E');
+}
+#reserach-investor #research-accordion .accordion-item .accordion-body {
+  margin-top: 20px;
+  padding: 0;
+}
+#reserach-investor #research-accordion .accordion-item .accordion-body .item {
+  background: #f5f5f582;
+  padding: 15px;
+}
+#reserach-investor
+  #research-accordion
+  .accordion-item
+  .accordion-body
+  .item
+  .left {
+  padding-right: 30px;
+}
+#reserach-investor #research-accordion .accordion-item .accordion-body .item h3,
+#reserach-investor
+  #research-accordion
+  .accordion-item
+  .accordion-body
+  .item
+  .h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0;
+  color: #000000;
+}
+#reserach-investor #research-accordion .accordion-item .accordion-body .item h4,
+#reserach-investor
+  #research-accordion
+  .accordion-item
+  .accordion-body
+  .item
+  .h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #4e4e4e;
+}
+#reserach-investor #research-accordion .accordion-item .accordion-body .item a {
+  color: #f05a23;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+#reserach-investor
+  #research-accordion
+  .accordion-item
+  .accordion-body
+  .item
+  a
+  svg {
+  position: relative;
+  top: -4px;
+}
+@media (max-width: 575.98px) {
+  #reserach-investor
+    #research-accordion
+    .accordion-item
+    .accordion-body
+    .item
+    a
+    span {
+    display: none;
+  }
+}
+#reserach-investor
+  #research-accordion
+  .accordion-item
+  .accordion-body
+  .item:first-child {
+  border: 1px solid #00000008;
+  background: #f5f5f5;
+}
+#reserach-investor .research-nav-mobile.for-mobile {
+  margin-bottom: 30px;
+  border-bottom: 2px solid #dddfe3;
+  padding-bottom: 10px;
+  position: relative;
+}
+#reserach-investor .research-nav-mobile.for-mobile::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  background-color: #f05a23;
+  height: 2px;
+  width: 50%;
+}
+#reserach-investor .research-nav-mobile.for-mobile .swiper-slide {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+#reserach-investor
+  .research-nav-mobile.for-mobile
+  .swiper-slide.swiper-slide-active
+  a {
+  color: #f05a23;
+  font-weight: 500;
+}
+#reserach-investor .research-nav-mobile.for-mobile .swiper-slide {
+  max-width: 200px;
+  text-align: left;
+}

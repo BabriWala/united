@@ -1,0 +1,95 @@
+.single-career .career-banner-bg {
+  padding: 200px 0 200px;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+.single-career .career-banner-bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.6;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  z-index: -1;
+}
+.single-career .career-banner-bg .content {
+  max-width: 730px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.single-career .career-banner-bg .content h2,
+.single-career .career-banner-bg .content .h2 {
+  font-family: Barlow;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 75px;
+  text-align: center;
+  color: #fff;
+  text-transform: none;
+  margin-bottom: 0;
+}
+.single-career .career-banner-bg .content .group-action {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.single-career .career-banner-bg .content .group-action .item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  flex-wrap: wrap;
+  min-width: 130px;
+  min-height: 40px;
+  box-sizing: border-box;
+  padding: 8px 20px;
+  border-radius: 5px 0px 0px 0px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #ffffff;
+  transition: all 0.3s ease;
+}
+.single-career .career-banner-bg .content .group-action .item:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+.single-career .career-banner-bg .content .group-action .item .item-content {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: default;
+}
+@media (min-width: 1200px) {
+  .single-career #career-content-details .content {
+    max-width: 830px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .single-career .career-banner-bg .content h2,
+  .single-career .career-banner-bg .content .h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .single-career .career-banner-bg .content {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .single-career .career-banner-bg .content .group-action {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

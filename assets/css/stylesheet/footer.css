@@ -1,0 +1,109 @@
+.site-footer {
+  background-color: #2b2b2b;
+}
+.site-footer a.footer-logo {
+  padding-bottom: 60px;
+  display: block;
+}
+@media (max-width: 1199.98px) {
+  .site-footer a.footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.site-footer span.copyright {
+  display: block;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin-bottom: 15px;
+}
+@media (max-width: 1199.98px) {
+  .site-footer span.copyright {
+    text-align: center;
+  }
+}
+.site-footer ul.footer-menu-bottom {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 1199.98px) {
+  .site-footer ul.footer-menu-bottom {
+    justify-content: center;
+    margin: 0 0 30px 0;
+  }
+}
+.site-footer ul.footer-menu-bottom li a {
+  border-right: 1px solid;
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+  opacity: 0.6;
+  line-height: 14px;
+  margin-right: 10px;
+  padding-right: 10px;
+  transition: all 0.25s ease-in-out;
+}
+.site-footer ul.footer-menu-bottom li a:hover {
+  transition: all 0.25s ease-in;
+  color: #f05a23;
+}
+.site-footer ul.footer-menu-bottom li:last-child a {
+  border: none;
+}
+.site-footer ul.footer-menu {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+@media (min-width: 992px) {
+  .site-footer ul.footer-menu {
+    padding: 0 0 0 50px;
+  }
+}
+.site-footer ul.footer-menu li {
+  padding-bottom: 30px;
+}
+.site-footer ul.footer-menu li a {
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  transition: all 0.25s ease-in-out;
+}
+.site-footer ul.footer-menu li a svg path {
+  fill: #ffffff;
+}
+.site-footer ul.footer-menu li a:hover {
+  transition: all 0.25s ease-in;
+  color: #f05a23;
+}
+.site-footer ul.footer-menu li a:hover svg path {
+  fill: #f05a23;
+}
+@media (max-width: 1199.98px) {
+  .site-footer .footer-social ul {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .site-footer .footer-social ul li {
+    margin-right: 20px;
+  }
+  .site-footer .footer-item-2 {
+    display: flex;
+    width: 50%;
+    text-align: left;
+  }
+}
+@media (max-width: 1199.98px) and (max-width: 1199.98px) {
+  .site-footer .footer-item-2 {
+    display: inline-block;
+    text-align: center;
+  }
+}
