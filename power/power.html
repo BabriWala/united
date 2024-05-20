@@ -42,25 +42,10 @@
     <link rel="stylesheet" href="./power.css" />
 
     <!--------- Main CSS Responsive -------->
-    <link rel="stylesheet" href="../assets/css/shared/style.css" />
+    <link rel="stylesheet" href="../assets/css/shared/responsive.css" />
 
     <!----------- Career Details Responsive CSS ------------>
     <link rel="stylesheet" href="./power_responsive.css" />
-
-    <!----------- Header CSS ------------>
-    <link rel="stylesheet" href="../assets/css/shared/header.css" />
-
-    <!----------- Header CSS Responsive ------------>
-    <link rel="stylesheet" href="../assets/css/shared/header.css" />
-
-    <!----------- Secondary Header CSS ------------>
-    <link rel="stylesheet" href="../assets/css/shared/secondary_header.css" />
-
-    <!----------- Footer CSS ------------>
-    <link rel="stylesheet" href="../assets/css/shared/footer.css" />
-
-    <!----------- Footer CSS Responsive ------------>
-    <link rel="stylesheet" href="../assets/css/shared/footer.css" />
   </head>
   <body>
     <section id="generic-banner">
@@ -70,7 +55,6 @@
             <div class="left">
               <span
                 class="wow fadeIn"
-                data-wow-duration="1s"
                 data-wow-delay="0s"
                 style="
                   visibility: visible;
@@ -82,7 +66,6 @@
               >
               <h1
                 class="wow fadeInUp"
-                data-wow-duration="1s"
                 data-wow-delay="0.1s"
                 style="
                   visibility: visible;
@@ -98,7 +81,6 @@
           <div class="col-lg-5">
             <div
               class="right wow fadeInUp"
-              data-wow-duration="1s"
               data-wow-delay="0.5s"
               style="
                 visibility: visible;
@@ -124,27 +106,9 @@
       </div>
     </section>
     <section id="hero" class="half-sm-height">
-      <div
-        class="swiper hero--banner-slider swiper-fade swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden"
-      >
-        <div
-          class="swiper-wrapper"
-          id="swiper-wrapper-76d96dd435ee782d"
-          aria-live="off"
-          style="transition-duration: 0ms"
-        >
-          <div
-            class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next"
-            data-swiper-slide-index="2"
-            style="
-              width: 1349px;
-              transition-duration: 0ms;
-              opacity: 1;
-              transform: translate3d(0px, 0px, 0px);
-            "
-            role="group"
-            aria-label="3 / 3"
-          >
+      <div class="heroSwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
             <div class="slider-item">
               <div
                 class="slider-image slider-desktop"
@@ -168,18 +132,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="swiper-slide swiper-slide-prev"
-            data-swiper-slide-index="0"
-            style="
-              width: 1349px;
-              transition-duration: 0ms;
-              opacity: 1;
-              transform: translate3d(-1349px, 0px, 0px);
-            "
-            role="group"
-            aria-label="1 / 3"
-          >
+          <div class="swiper-slide">
             <div class="slider-item">
               <div
                 class="slider-image slider-desktop"
@@ -203,18 +156,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="swiper-slide swiper-slide-visible swiper-slide-active"
-            data-swiper-slide-index="1"
-            style="
-              width: 1349px;
-              transition-duration: 0ms;
-              opacity: 1;
-              transform: translate3d(-2698px, 0px, 0px);
-            "
-            role="group"
-            aria-label="2 / 3"
-          >
+          <div class="swiper-slide">
             <div class="slider-item">
               <div
                 class="slider-image slider-desktop"
@@ -238,84 +180,8 @@
               </div>
             </div>
           </div>
-          <div
-            class="swiper-slide swiper-slide-next"
-            data-swiper-slide-index="2"
-            style="
-              width: 1349px;
-              transition-duration: 0ms;
-              opacity: 0;
-              transform: translate3d(-4047px, 0px, 0px);
-            "
-            role="group"
-            aria-label="3 / 3"
-          >
-            <div class="slider-item">
-              <div
-                class="slider-image slider-desktop"
-                style="
-                  background-image: url(https://www.united.com.bd/wp-content/uploads/2021/12/Power-Banner-3.jpg);
-                "
-              ></div>
-              <div
-                class="slider-image slider-mobile"
-                style="
-                  background-image: url(https://www.united.com.bd/wp-content/uploads/2021/12/Mobile-Power-Banner-3.png);
-                "
-              ></div>
-              <div class="slider-content">
-                <a href="#"
-                  ><h1>
-                    BEST POWER <br />
-                    PRODUCER AWARD 2018
-                  </h1></a
-                >
-              </div>
-            </div>
-          </div>
-          <div
-            class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
-            data-swiper-slide-index="0"
-            style="
-              width: 1349px;
-              transition-duration: 0ms;
-              opacity: 0;
-              transform: translate3d(-5396px, 0px, 0px);
-            "
-            role="group"
-            aria-label="1 / 3"
-          >
-            <div class="slider-item">
-              <div
-                class="slider-image slider-desktop"
-                style="
-                  background-image: url(https://www.united.com.bd/wp-content/uploads/2021/12/Power-Banner.jpg);
-                "
-              ></div>
-              <div
-                class="slider-image slider-mobile"
-                style="
-                  background-image: url(https://www.united.com.bd/wp-content/uploads/2021/12/Mobile-Power-1.png);
-                "
-              ></div>
-              <div class="slider-content">
-                <a href="#"
-                  ><h1>
-                    CONTRIBUTING 1146 MW TO THE <br />
-                    NATIONAL GRID
-                  </h1></a
-                >
-              </div>
-            </div>
-          </div>
         </div>
-        <div
-          class="banner-slide-prev-btn"
-          tabindex="0"
-          role="button"
-          aria-label="Previous slide"
-          aria-controls="swiper-wrapper-76d96dd435ee782d"
-        >
+        <div class="banner-slide-prev-btn">
           <svg
             width="16"
             height="11"
@@ -329,13 +195,7 @@
             ></path>
           </svg>
         </div>
-        <div
-          class="banner-slide-next-btn active"
-          tabindex="0"
-          role="button"
-          aria-label="Next slide"
-          aria-controls="swiper-wrapper-76d96dd435ee782d"
-        >
+        <div class="banner-slide-next-btn active">
           <svg
             width="15"
             height="11"
@@ -345,7 +205,7 @@
           >
             <path
               d="M11.9959 6.35245L1.09986 6.35245C0.65295 6.35245 0.290654 5.9937 0.290654 5.55117C0.290654 5.10863 0.65295 4.74989 1.09986 4.74989L11.9959 4.74989L9.35991 2.13968C9.0281 1.81111 9.0281 1.2784 9.35991 0.949837C9.69173 0.621271 10.2297 0.621271 10.5615 0.949837L14.6076 4.95625C14.9394 5.28481 14.9394 5.81752 14.6076 6.14609L10.5615 10.1525C10.2297 10.4811 9.69173 10.4811 9.35991 10.1525C9.0281 9.82393 9.0281 9.29122 9.35991 8.96266L11.9959 6.35245Z"
-              fill="black"
+              fill="white"
             ></path>
           </svg>
         </div>
@@ -510,15 +370,21 @@
               <div class="col-lg-5">
                 <img
                   data-lazyloaded="1"
-                  src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                  src="https://www.united.com.bd/wp-content/uploads/2022/01/Moinul-Sir-Power.jpeg"
                   decoding="async"
                   width="523"
                   height="568"
                   data-src="https://www.united.com.bd/wp-content/uploads/2022/01/Moinul-Sir-Power.jpeg"
-                  class="for-desktop"
+                  class="for-desktop entered litespeed-loaded"
                   alt=""
                   data-srcset="https://www.united.com.bd/wp-content/uploads/2022/01/Moinul-Sir-Power.jpeg 523w, https://www.united.com.bd/wp-content/uploads/2022/01/Moinul-Sir-Power-276x300.jpeg 276w"
                   data-sizes="(max-width: 523px) 100vw, 523px"
+                  data-ll-status="loaded"
+                  sizes="(max-width: 523px) 100vw, 523px"
+                  srcset="
+                    https://www.united.com.bd/wp-content/uploads/2022/01/Moinul-Sir-Power.jpeg         523w,
+                    https://www.united.com.bd/wp-content/uploads/2022/01/Moinul-Sir-Power-276x300.jpeg 276w
+                  "
                 /><noscript
                   ><img
                     decoding="async"
@@ -663,40 +529,11 @@
           <div class="header-highlight">
             <div class="row">
               <div class="col-lg-6">
-                <h2
-                  class="wow fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay="0s"
-                  style="
-                    visibility: hidden;
-                    animation-duration: 1s;
-                    animation-delay: 0s;
-                    animation-name: none;
-                  "
-                >
-                  Achievements
-                </h2>
+                <h2 class="wow fadeInUp">Achievements</h2>
               </div>
               <div class="col-lg-6 position-relative">
-                <div
-                  class="navigation wow fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay="0.2s"
-                  style="
-                    visibility: hidden;
-                    animation-duration: 1s;
-                    animation-delay: 0.2s;
-                    animation-name: none;
-                  "
-                >
-                  <a
-                    href="#"
-                    class="prev"
-                    tabindex="0"
-                    role="button"
-                    aria-label="Previous slide"
-                    aria-controls="swiper-wrapper-0196701713e98ae5"
-                  >
+                <div class="navigation wow fadeInUp">
+                  <div class="prev awards-prev-btn" tabindex="0">
                     <svg
                       width="16"
                       height="11"
@@ -709,15 +546,8 @@
                         fill="#F05A23"
                       ></path>
                     </svg>
-                  </a>
-                  <a
-                    href="#"
-                    class="next active"
-                    tabindex="0"
-                    role="button"
-                    aria-label="Next slide"
-                    aria-controls="swiper-wrapper-0196701713e98ae5"
-                  >
+                  </div>
+                  <div class="next .awards-next-btn">
                     <svg
                       width="15"
                       height="11"
@@ -730,39 +560,28 @@
                         fill="black"
                       ></path>
                     </svg>
-                  </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div
-            class="awards-main swiper-initialized swiper-horizontal swiper-pointer-events"
-          >
-            <div
-              class="swiper-wrapper"
-              id="swiper-wrapper-0196701713e98ae5"
-              aria-live="polite"
-              style="
-                transform: translate3d(-1140px, 0px, 0px);
-                transition-duration: 0ms;
-              "
-            >
-              <div
-                class="swiper-slide wow fadeInUp swiper-slide-duplicate"
-                data-wow-duration="1s"
-                data-wow-delay="0.6s"
-                style="
-                  width: 350px;
-                  visibility: hidden;
-                  animation-duration: 1s;
-                  animation-delay: 0.6s;
-                  animation-name: none;
-                  margin-right: 30px;
-                "
-                role="group"
-                aria-label="3 / 5"
-                data-swiper-slide-index="2"
-              >
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              <div class="swiper-slide">Slide 4</div>
+              <div class="swiper-slide">Slide 5</div>
+              <div class="swiper-slide">Slide 6</div>
+              <div class="swiper-slide">Slide 7</div>
+              <div class="swiper-slide">Slide 8</div>
+              <div class="swiper-slide">Slide 9</div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="awards-main swiper awardsSwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide wow fadeInUp">
                 <div class="single-awards">
                   <div class="thumb">
                     <img
@@ -798,22 +617,7 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="swiper-slide wow fadeInUp swiper-slide-duplicate"
-                data-wow-duration="1s"
-                data-wow-delay="0.8s"
-                style="
-                  width: 350px;
-                  visibility: hidden;
-                  animation-duration: 1s;
-                  animation-delay: 0.8s;
-                  animation-name: none;
-                  margin-right: 30px;
-                "
-                role="group"
-                aria-label="4 / 5"
-                data-swiper-slide-index="3"
-              >
+              <div class="swiper-slide wow fadeInUp">
                 <div class="single-awards">
                   <div class="thumb">
                     <img
@@ -849,22 +653,7 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="swiper-slide wow fadeInUp swiper-slide-duplicate swiper-slide-prev"
-                data-wow-duration="1s"
-                data-wow-delay="0.10s"
-                style="
-                  width: 350px;
-                  visibility: hidden;
-                  animation-duration: 1s;
-                  animation-delay: 0.1s;
-                  animation-name: none;
-                  margin-right: 30px;
-                "
-                role="group"
-                aria-label="5 / 5"
-                data-swiper-slide-index="4"
-              >
+              <div class="swiper-slide wow fadeInUp">
                 <div class="single-awards">
                   <div class="thumb">
                     <img
@@ -900,22 +689,7 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="swiper-slide wow fadeInUp swiper-slide-active"
-                data-wow-duration="1s"
-                data-wow-delay="0.2s"
-                style="
-                  width: 350px;
-                  visibility: hidden;
-                  animation-duration: 1s;
-                  animation-delay: 0.2s;
-                  animation-name: none;
-                  margin-right: 30px;
-                "
-                role="group"
-                aria-label="1 / 5"
-                data-swiper-slide-index="0"
-              >
+              <div class="swiper-slide wow fadeInUp">
                 <div class="single-awards">
                   <div class="thumb">
                     <img
@@ -943,22 +717,7 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="swiper-slide wow fadeInUp swiper-slide-next"
-                data-wow-duration="1s"
-                data-wow-delay="0.4s"
-                style="
-                  width: 350px;
-                  visibility: hidden;
-                  animation-duration: 1s;
-                  animation-delay: 0.4s;
-                  animation-name: none;
-                  margin-right: 30px;
-                "
-                role="group"
-                aria-label="2 / 5"
-                data-swiper-slide-index="1"
-              >
+              <div class="swiper-slide wow fadeInUp">
                 <div class="single-awards">
                   <div class="thumb">
                     <img
@@ -986,22 +745,7 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="swiper-slide wow fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.6s"
-                style="
-                  width: 350px;
-                  visibility: hidden;
-                  animation-duration: 1s;
-                  animation-delay: 0.6s;
-                  animation-name: none;
-                  margin-right: 30px;
-                "
-                role="group"
-                aria-label="3 / 5"
-                data-swiper-slide-index="2"
-              >
+              <div class="swiper-slide wow fadeInUp">
                 <div class="single-awards">
                   <div class="thumb">
                     <img
@@ -1037,22 +781,7 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="swiper-slide wow fadeInUp"
-                data-wow-duration="1s"
-                data-wow-delay="0.8s"
-                style="
-                  width: 350px;
-                  visibility: hidden;
-                  animation-duration: 1s;
-                  animation-delay: 0.8s;
-                  animation-name: none;
-                  margin-right: 30px;
-                "
-                role="group"
-                aria-label="4 / 5"
-                data-swiper-slide-index="3"
-              >
+              <div class="swiper-slide wow fadeInUp">
                 <div class="single-awards">
                   <div class="thumb">
                     <img
@@ -1088,22 +817,7 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="swiper-slide wow fadeInUp swiper-slide-duplicate-prev"
-                data-wow-duration="1s"
-                data-wow-delay="0.10s"
-                style="
-                  width: 350px;
-                  visibility: hidden;
-                  animation-duration: 1s;
-                  animation-delay: 0.1s;
-                  animation-name: none;
-                  margin-right: 30px;
-                "
-                role="group"
-                aria-label="5 / 5"
-                data-swiper-slide-index="4"
-              >
+              <div class="swiper-slide wow fadeInUp">
                 <div class="single-awards">
                   <div class="thumb">
                     <img
@@ -1139,22 +853,7 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="swiper-slide wow fadeInUp swiper-slide-duplicate swiper-slide-duplicate-active"
-                data-wow-duration="1s"
-                data-wow-delay="0.2s"
-                style="
-                  width: 350px;
-                  visibility: hidden;
-                  animation-duration: 1s;
-                  animation-delay: 0.2s;
-                  animation-name: none;
-                  margin-right: 30px;
-                "
-                role="group"
-                aria-label="1 / 5"
-                data-swiper-slide-index="0"
-              >
+              <div class="swiper-slide wow fadeInUp">
                 <div class="single-awards">
                   <div class="thumb">
                     <img
@@ -1182,22 +881,7 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="swiper-slide wow fadeInUp swiper-slide-duplicate swiper-slide-duplicate-next"
-                data-wow-duration="1s"
-                data-wow-delay="0.4s"
-                style="
-                  width: 350px;
-                  visibility: hidden;
-                  animation-duration: 1s;
-                  animation-delay: 0.4s;
-                  animation-name: none;
-                  margin-right: 30px;
-                "
-                role="group"
-                aria-label="2 / 5"
-                data-swiper-slide-index="1"
-              >
+              <div class="swiper-slide wow fadeInUp">
                 <div class="single-awards">
                   <div class="thumb">
                     <img
@@ -1225,22 +909,7 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="swiper-slide wow fadeInUp swiper-slide-duplicate"
-                data-wow-duration="1s"
-                data-wow-delay="0.6s"
-                style="
-                  width: 350px;
-                  visibility: hidden;
-                  animation-duration: 1s;
-                  animation-delay: 0.6s;
-                  animation-name: none;
-                  margin-right: 30px;
-                "
-                role="group"
-                aria-label="3 / 5"
-                data-swiper-slide-index="2"
-              >
+              <div class="swiper-slide wow fadeInUp">
                 <div class="single-awards">
                   <div class="thumb">
                     <img
@@ -1277,11 +946,6 @@
                 </div>
               </div>
             </div>
-            <span
-              class="swiper-notification"
-              aria-live="assertive"
-              aria-atomic="true"
-            ></span>
           </div>
         </div>
       </div>
@@ -1339,34 +1003,1647 @@
     <section class="core-services section-spacing">
       <div class="container">
         <div class="page-header">
-          <h2 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0s; animation-name: none;">Core Business
+          <h2
+            class="wow fadeInUp"
+            data-wow-delay="0s"
+            style="
+              visibility: hidden;
+              animation-duration: 1s;
+              animation-delay: 0s;
+              animation-name: none;
+            "
+          >
+            Core Business
           </h2>
           <div class="services-highlighted-row">
-            <div class="service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.2s; animation-name: none;">
+            <div
+              class="service wow fadeInUp"
+              style="
+                visibility: hidden;
+                animation-duration: 1s;
+                animation-delay: 0.2s;
+                animation-name: none;
+              "
+            >
               <div class="icon">
-                  <img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" decoding="async" width="95" height="95" data-src="https://www.united.com.bd/wp-content/uploads/2022/01/7578767_crane_building_construction_industry_icon-1.svg" class="attachment-full size-full" alt="">
-                  <noscript><img decoding="async" width="95" height="95" src="https://www.united.com.bd/wp-content/uploads/2022/01/7578767_crane_building_construction_industry_icon-1.svg" class="attachment-full size-full" alt="" /></noscript>
-                </div>
-                <div class="icon-content">
-                  <h4> 
-                  <span>Engineering Procurement &amp; Construction</span>
-                </h4>
+                <img
+                  data-lazyloaded="1"
+                  src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                  decoding="async"
+                  width="95"
+                  height="95"
+                  data-src="https://www.united.com.bd/wp-content/uploads/2022/01/7578767_crane_building_construction_industry_icon-1.svg"
+                  class="attachment-full size-full"
+                  alt="gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                />
+                <noscript
+                  ><img
+                    decoding="async"
+                    width="95"
+                    height="95"
+                    src="https://www.united.com.bd/wp-content/uploads/2022/01/7578767_crane_building_construction_industry_icon-1.svg"
+                    class="attachment-full size-full"
+                    alt="7578767_crane_building_construction_industry_icon-1"
+                /></noscript>
+              </div>
+              <div class="icon-content">
+                <h4><span>Engineering Procurement & Construction</span></h4>
               </div>
             </div>
-            <div class="service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.4s; animation-name: none;">
+            <div
+              class="service wow fadeInUp"
+              style="
+                visibility: hidden;
+                animation-duration: 1s;
+                animation-delay: 0.4s;
+                animation-name: none;
+              "
+            >
               <div class="icon">
-<img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" decoding="async" width="95" height="95" data-src="https://www.united.com.bd/wp-content/uploads/2022/01/2656190_electric_electricity_energy_mast_pylon_icon-1.svg" class="attachment-full size-full" alt=""><noscript><img decoding="async" width="95" height="95" src="https://www.united.com.bd/wp-content/uploads/2022/01/2656190_electric_electricity_energy_mast_pylon_icon-1.svg" class="attachment-full size-full" alt="" /></noscript></div><div class="icon-content"><h4> <span>Power Generation Project</span></h4></div></div><div class="service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.6s; animation-name: none;"><div class="icon">
-<img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" decoding="async" width="96" height="95" data-src="https://www.united.com.bd/wp-content/uploads/2022/01/7578777_engineering_engineer_cog_gear_wrench_icon-1.svg" class="attachment-full size-full" alt=""><noscript><img decoding="async" width="96" height="95" src="https://www.united.com.bd/wp-content/uploads/2022/01/7578777_engineering_engineer_cog_gear_wrench_icon-1.svg" class="attachment-full size-full" alt="" /></noscript></div><div class="icon-content"><h4> <span>Operation &amp; Maintenance</span></h4></div></div></div><h2 class="support-bussiness-title">Support Business</h2><div class="services-highlighted-row"><div class="service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.2s; animation-name: none;"><div class="icon">
-<img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" decoding="async" width="95" height="95" data-src="https://www.united.com.bd/wp-content/uploads/2022/01/2656151_eco_ecology_fuel_gas_green_icon-1.svg" class="attachment-full size-full" alt=""><noscript><img decoding="async" width="95" height="95" src="https://www.united.com.bd/wp-content/uploads/2022/01/2656151_eco_ecology_fuel_gas_green_icon-1.svg" class="attachment-full size-full" alt="" /></noscript></div><div class="icon-content"><h4> <span>Fuel Sourcing &amp; Procurement</span></h4></div></div><div class="service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.4s; animation-name: none;"><div class="icon">
-<img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" decoding="async" width="95" height="95" data-src="https://www.united.com.bd/wp-content/uploads/2022/01/2656168_earth_ecology_green_planet_save_icon-1.svg" class="attachment-full size-full" alt=""><noscript><img decoding="async" width="95" height="95" src="https://www.united.com.bd/wp-content/uploads/2022/01/2656168_earth_ecology_green_planet_save_icon-1.svg" class="attachment-full size-full" alt="" /></noscript></div><div class="icon-content"><h4> <span>Fuel Shipping &amp; Logistics</span></h4></div></div><div class="service wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.6s; animation-name: none;"><div class="icon">
-<img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" decoding="async" width="95" height="95" data-src="https://www.united.com.bd/wp-content/uploads/2022/01/401896_fuel-tank_petrol_petrol-tanker_petroleum_petroleum-tank_icon-1.svg" class="attachment-full size-full" alt=""><noscript><img decoding="async" width="95" height="95" src="https://www.united.com.bd/wp-content/uploads/2022/01/401896_fuel-tank_petrol_petrol-tanker_petroleum_petroleum-tank_icon-1.svg" class="attachment-full size-full" alt="" /></noscript></div><div class="icon-content"><h4> <span>Fuel Storage &amp; Handling </span></h4></div></div></div><div class="short-list-row"><div class="left"><h3>Power generation value chain</h3></div><div class="right"><div class="list-row"><div class="list wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.2s; animation-name: none;"><div class="icon">
-<img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img width="28" height="28" decoding="async" src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""></noscript></div><div class="content">
-<span> Upstream and downstream investments </span></div></div><div class="list wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.4s; animation-name: none;"><div class="icon">
-<img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img width="28" height="28" decoding="async" src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""></noscript></div><div class="content">
-<span> EPC to O&amp;M </span></div></div><div class="list wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.6s; animation-name: none;"><div class="icon">
-<img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img width="28" height="28" decoding="async" src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""></noscript></div><div class="content">
-<span> Fuel sourcing to storage to shipping to end user </span></div></div><div class="list wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.8s; animation-name: none;"><div class="icon">
-<img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img data-lazyloaded="1" src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs=" width="28" height="28" decoding="async" data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""><noscript><img width="28" height="28" decoding="async" src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png" alt=""></noscript></div><div class="content">
-<span> Only business house in Bangladesh offering such end to end portfolio service in the power sector </span></div></div></div></div></div></div></div></section>
+                <img
+                  data-lazyloaded="1"
+                  src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                  decoding="async"
+                  width="95"
+                  height="95"
+                  data-src="https://www.united.com.bd/wp-content/uploads/2022/01/2656190_electric_electricity_energy_mast_pylon_icon-1.svg"
+                  class="attachment-full size-full"
+                  alt="gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                />
+                <noscript
+                  ><img
+                    decoding="async"
+                    width="95"
+                    height="95"
+                    src="https://www.united.com.bd/wp-content/uploads/2022/01/2656190_electric_electricity_energy_mast_pylon_icon-1.svg"
+                    class="attachment-full size-full"
+                    alt="2656190_electric_electricity_energy_mast_pylon_icon-1"
+                /></noscript>
+              </div>
+              <div class="icon-content">
+                <h4><span>Power Generation Project</span></h4>
+              </div>
+            </div>
+            <div
+              class="service wow fadeInUp"
+              style="
+                visibility: hidden;
+                animation-duration: 1s;
+                animation-delay: 0.6s;
+                animation-name: none;
+              "
+            >
+              <div class="icon">
+                <img
+                  data-lazyloaded="1"
+                  src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                  decoding="async"
+                  width="96"
+                  height="95"
+                  data-src="https://www.united.com.bd/wp-content/uploads/2022/01/7578777_engineering_engineer_cog_gear_wrench_icon-1.svg"
+                  class="attachment-full size-full"
+                  alt="gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                />
+                <noscript
+                  ><img
+                    decoding="async"
+                    width="96"
+                    height="95"
+                    src="https://www.united.com.bd/wp-content/uploads/2022/01/7578777_engineering_engineer_cog_gear_wrench_icon-1.svg"
+                    class="attachment-full size-full"
+                    alt="7578777_engineering_engineer_cog_gear_wrench_icon-1"
+                /></noscript>
+              </div>
+              <div class="icon-content">
+                <h4><span>Operation & Maintenance</span></h4>
+              </div>
+            </div>
+          </div>
+          <h2 class="support-business-title">Support Business</h2>
+          <div class="services-highlighted-row">
+            <div
+              class="service wow fadeInUp"
+              style="
+                visibility: hidden;
+                animation-duration: 1s;
+                animation-delay: 0.2s;
+                animation-name: none;
+              "
+            >
+              <div class="icon">
+                <img
+                  data-lazyloaded="1"
+                  src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                  decoding="async"
+                  width="95"
+                  height="95"
+                  data-src="https://www.united.com.bd/wp-content/uploads/2022/01/2656151_eco_ecology_fuel_gas_green_icon-1.svg"
+                  class="attachment-full size-full"
+                  alt="gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                />
+                <noscript
+                  ><img
+                    decoding="async"
+                    width="95"
+                    height="95"
+                    src="https://www.united.com.bd/wp-content/uploads/2022/01/2656151_eco_ecology_fuel_gas_green_icon-1.svg"
+                    class="attachment-full size-full"
+                    alt="2656151_eco_ecology_fuel_gas_green_icon-1"
+                /></noscript>
+              </div>
+              <div class="icon-content">
+                <h4><span>Fuel Sourcing & Procurement</span></h4>
+              </div>
+            </div>
+            <div
+              class="service wow fadeInUp"
+              style="
+                visibility: hidden;
+                animation-duration: 1s;
+                animation-delay: 0.4s;
+                animation-name: none;
+              "
+            >
+              <div class="icon">
+                <img
+                  data-lazyloaded="1"
+                  src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                  decoding="async"
+                  width="95"
+                  height="95"
+                  data-src="https://www.united.com.bd/wp-content/uploads/2022/01/2656168_earth_ecology_green_planet_save_icon-1.svg"
+                  class="attachment-full size-full"
+                  alt="gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                />
+                <noscript
+                  ><img
+                    decoding="async"
+                    width="95"
+                    height="95"
+                    src="https://www.united.com.bd/wp-content/uploads/2022/01/2656168_earth_ecology_green_planet_save_icon-1.svg"
+                    class="attachment-full size-full"
+                    alt="2656168_earth_ecology_green_planet_save_icon-1"
+                /></noscript>
+              </div>
+              <div class="icon-content">
+                <h4><span>Fuel Shipping & Logistics</span></h4>
+              </div>
+            </div>
+            <div
+              class="service wow fadeInUp"
+              style="
+                visibility: hidden;
+                animation-duration: 1s;
+                animation-delay: 0.6s;
+                animation-name: none;
+              "
+            >
+              <div class="icon">
+                <img
+                  data-lazyloaded="1"
+                  src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                  decoding="async"
+                  width="95"
+                  height="95"
+                  data-src="https://www.united.com.bd/wp-content/uploads/2022/01/401896_fuel-tank_petrol_petrol-tanker_petroleum_petroleum-tank_icon-1.svg"
+                  class="attachment-full size-full"
+                  alt="gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                />
+                <noscript
+                  ><img
+                    decoding="async"
+                    width="95"
+                    height="95"
+                    src="https://www.united.com.bd/wp-content/uploads/2022/01/401896_fuel-tank_petrol_petrol-tanker_petroleum_petroleum-tank_icon-1.svg"
+                    class="attachment-full size-full"
+                    alt="401896_fuel-tank_petrol_petrol-tanker_petroleum_petroleum-tank_icon-1"
+                /></noscript>
+              </div>
+              <div class="icon-content">
+                <h4><span>Fuel Storage & Handling</span></h4>
+              </div>
+            </div>
+          </div>
+          <div class="short-list-row">
+            <div class="left">
+              <h3>Power generation value chain</h3>
+            </div>
+            <div class="right">
+              <div class="list-row">
+                <div
+                  class="list wow fadeInUp"
+                  style="
+                    visibility: hidden;
+                    animation-duration: 1s;
+                    animation-delay: 0.2s;
+                    animation-name: none;
+                  "
+                >
+                  <div class="icon">
+                    <img
+                      data-lazyloaded="1"
+                      src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                      width="28"
+                      height="28"
+                      decoding="async"
+                      data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png"
+                      alt="gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                    />
+                    <noscript
+                      ><img
+                        width="28"
+                        height="28"
+                        decoding="async"
+                        src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png"
+                        alt="blue-list-icon"
+                    /></noscript>
+                  </div>
+                  <div class="content">
+                    <span
+                      >Upstream
+                      <span>Upstream and downstream investments</span></span
+                    >
+                  </div>
+                </div>
+                <div
+                  class="list wow fadeInUp"
+                  style="
+                    visibility: hidden;
+                    animation-duration: 1s;
+                    animation-delay: 0.4s;
+                    animation-name: none;
+                  "
+                >
+                  <div class="icon">
+                    <img
+                      data-lazyloaded="1"
+                      src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                      width="28"
+                      height="28"
+                      decoding="async"
+                      data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png"
+                      alt="gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                    />
+                    <noscript
+                      ><img
+                        width="28"
+                        height="28"
+                        decoding="async"
+                        src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png"
+                        alt="blue-list-icon"
+                    /></noscript>
+                  </div>
+                  <div class="content">
+                    <span>EPC to O&amp;M</span>
+                  </div>
+                </div>
+                <div
+                  class="list wow fadeInUp"
+                  style="
+                    visibility: hidden;
+                    animation-duration: 1s;
+                    animation-delay: 0.6s;
+                    animation-name: none;
+                  "
+                >
+                  <div class="icon">
+                    <img
+                      data-lazyloaded="1"
+                      src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                      width="28"
+                      height="28"
+                      decoding="async"
+                      data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png"
+                      alt="gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                    />
+                    <noscript
+                      ><img
+                        width="28"
+                        height="28"
+                        decoding="async"
+                        src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png"
+                        alt="blue-list-icon"
+                    /></noscript>
+                  </div>
+                  <div class="content">
+                    <span
+                      >Fuel sourcing to storage to shipping to end user</span
+                    >
+                  </div>
+                </div>
+                <div
+                  class="list wow fadeInUp"
+                  style="
+                    visibility: hidden;
+                    animation-duration: 1s;
+                    animation-delay: 0.8s;
+                    animation-name: none;
+                  "
+                >
+                  <div class="icon">
+                    <img
+                      data-lazyloaded="1"
+                      src="data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                      width="28"
+                      height="28"
+                      decoding="async"
+                      data-src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png"
+                      alt="gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs="
+                    />
+                    <noscript
+                      ><img
+                        width="28"
+                        height="28"
+                        decoding="async"
+                        src="https://www.united.com.bd/wp-content/themes/united-group/dist/img/blue-list-icon.png"
+                        alt="blue-list-icon"
+                    /></noscript>
+                  </div>
+                  <div class="content">
+                    <span
+                      >Only business house in Bangladesh offering such
+                      end-to-end portfolio service in the power sector</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="generic-concerns" class="add-bg blue-icon section-spacing">
+      <div class="container">
+        <div class="page-header">
+          <h2
+            class="wow fadeInUp"
+            data-wow-delay="0s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0s;
+              animation-name: fadeInUp;
+            "
+          >
+            Our concerns
+          </h2>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-4 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.1s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="single-concerns-items">
+              <div class="thumb">
+                <a href="https://www.united.com.bd/our-concerns/upgd-depz/">
+                  <img
+                    data-lazyloaded="1"
+                    src="https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-scaled.jpg"
+                    decoding="async"
+                    width="2560"
+                    height="1707"
+                    data-src="https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-scaled.jpg"
+                    class="attachment-full size-full entered litespeed-loaded"
+                    alt=""
+                    data-srcset="https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-scaled.jpg 2560w, https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-300x200.jpg 300w, https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-1024x683.jpg 1024w, https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-768x512.jpg 768w, https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-1536x1024.jpg 1536w, https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-2048x1365.jpg 2048w"
+                    data-sizes="(max-width: 2560px) 100vw, 2560px"
+                    data-ll-status="loaded"
+                    sizes="(max-width: 2560px) 100vw, 2560px"
+                    srcset="
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-scaled.jpg    2560w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-300x200.jpg    300w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-1024x683.jpg  1024w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-768x512.jpg    768w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-1536x1024.jpg 1536w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-2048x1365.jpg 2048w
+                    "
+                  /><noscript
+                    ><img
+                      decoding="async"
+                      width="2560"
+                      height="1707"
+                      src="https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-scaled.jpg"
+                      class="attachment-full size-full"
+                      alt=""
+                      srcset="
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-scaled.jpg    2560w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-300x200.jpg    300w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-1024x683.jpg  1024w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-768x512.jpg    768w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-1536x1024.jpg 1536w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Z6A9021-2048x1365.jpg 2048w
+                      "
+                      sizes="(max-width: 2560px) 100vw, 2560px"
+                  /></noscript>
+                </a>
+              </div>
+              <div class="content">
+                <h3>UPGD DEPZ</h3>
+                <p>
+                  <span style="font-weight: 400"
+                    >In 2007, United Power Generation &amp; Distribution Co.
+                    Ltd. (formerly known as Malancha Holdings Ltd.) was born out
+                    of the necessity for ensuring uninterrupted,</span
+                  >
+                </p>
+                <ul>
+                  <li>
+                    <span style="font-weight: 400">Plant Name: UPGD DEPZ</span>
+                  </li>
+                  <li><span style="font-weight: 400">Loc: Dhaka</span></li>
+                </ul>
+                <a
+                  href="https://www.united.com.bd/our-concerns/upgd-depz/"
+                  class="read-more"
+                >
+                  Learn More
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.0988 10.1977L3 10.1977C2.58579 10.1977 2.25 9.86132 2.25 9.44633C2.25 9.03133 2.58579 8.69491 3 8.69491L13.0988 8.69492L10.6557 6.24716C10.3481 5.93904 10.3481 5.43949 10.6557 5.13137C10.9632 4.82325 11.4618 4.82325 11.7693 5.13137L15.5193 8.88843C15.8269 9.19655 15.8269 9.69611 15.5193 10.0042L11.7693 13.7613C11.4618 14.0694 10.9632 14.0694 10.6557 13.7613C10.3481 13.4532 10.3481 12.9536 10.6557 12.6455L13.0988 10.1977Z"
+                      fill="black"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 wow fadeInUp"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.2s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="single-concerns-items">
+              <div class="thumb">
+                <a href="https://www.united.com.bd/our-concerns/upgd-cepz/">
+                  <img
+                    data-lazyloaded="1"
+                    src="https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ.jpg"
+                    decoding="async"
+                    width="1920"
+                    height="1275"
+                    data-src="https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ.jpg"
+                    class="attachment-full size-full entered litespeed-loaded"
+                    alt=""
+                    data-srcset="https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ.jpg 1920w, https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ-300x199.jpg 300w, https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ-1024x680.jpg 1024w, https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ-768x510.jpg 768w, https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ-1536x1020.jpg 1536w"
+                    data-sizes="(max-width: 1920px) 100vw, 1920px"
+                    data-ll-status="loaded"
+                    sizes="(max-width: 1920px) 100vw, 1920px"
+                    srcset="
+                      https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ.jpg           1920w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ-300x199.jpg    300w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ-1024x680.jpg  1024w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ-768x510.jpg    768w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ-1536x1020.jpg 1536w
+                    "
+                  /><noscript
+                    ><img
+                      decoding="async"
+                      width="1920"
+                      height="1275"
+                      src="https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ.jpg"
+                      class="attachment-full size-full"
+                      alt=""
+                      srcset="
+                        https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ.jpg           1920w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ-300x199.jpg    300w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ-1024x680.jpg  1024w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ-768x510.jpg    768w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/CEPZ-1536x1020.jpg 1536w
+                      "
+                      sizes="(max-width: 1920px) 100vw, 1920px"
+                  /></noscript>
+                </a>
+              </div>
+              <div class="content">
+                <h3>UPGD CEPZ</h3>
+                <p>
+                  After successful commissioning of Dhaka EPZ plant, Malancha
+                  Holdings <span style="font-weight: 400">Ltd.</span> (Later
+                  renamed to United Power Generation &amp; Distribution Co.
+                  <span style="font-weight: 400">Ltd.</span>) was awarded to
+                  operate another plant at Chattogram EPZ,
+                </p>
+                <ul>
+                  <li>Plant Name: UPGD CEPZ</li>
+                  <li>Loc: Chattogram</li>
+                </ul>
+                <a
+                  href="https://www.united.com.bd/our-concerns/upgd-cepz/"
+                  class="read-more"
+                >
+                  Learn More
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.0988 10.1977L3 10.1977C2.58579 10.1977 2.25 9.86132 2.25 9.44633C2.25 9.03133 2.58579 8.69491 3 8.69491L13.0988 8.69492L10.6557 6.24716C10.3481 5.93904 10.3481 5.43949 10.6557 5.13137C10.9632 4.82325 11.4618 4.82325 11.7693 5.13137L15.5193 8.88843C15.8269 9.19655 15.8269 9.69611 15.5193 10.0042L11.7693 13.7613C11.4618 14.0694 10.9632 14.0694 10.6557 13.7613C10.3481 13.4532 10.3481 12.9536 10.6557 12.6455L13.0988 10.1977Z"
+                      fill="black"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 wow fadeInUp"
+            data-wow-delay="0.3s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.3s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="single-concerns-items">
+              <div class="thumb">
+                <a
+                  href="https://www.united.com.bd/our-concerns/leviathan-global-bd-ltd/"
+                >
+                  <img
+                    data-lazyloaded="1"
+                    src="https://www.united.com.bd/wp-content/uploads/2021/11/Leviathan.jpg"
+                    decoding="async"
+                    width="624"
+                    height="312"
+                    data-src="https://www.united.com.bd/wp-content/uploads/2021/11/Leviathan.jpg"
+                    class="attachment-full size-full entered litespeed-loaded"
+                    alt=""
+                    data-srcset="https://www.united.com.bd/wp-content/uploads/2021/11/Leviathan.jpg 624w, https://www.united.com.bd/wp-content/uploads/2021/11/Leviathan-300x150.jpg 300w, https://www.united.com.bd/wp-content/uploads/2021/11/Leviathan-600x300.jpg 600w"
+                    data-sizes="(max-width: 624px) 100vw, 624px"
+                    data-ll-status="loaded"
+                    sizes="(max-width: 624px) 100vw, 624px"
+                    srcset="
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Leviathan.jpg         624w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Leviathan-300x150.jpg 300w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Leviathan-600x300.jpg 600w
+                    "
+                  /><noscript
+                    ><img
+                      decoding="async"
+                      width="624"
+                      height="312"
+                      src="https://www.united.com.bd/wp-content/uploads/2021/11/Leviathan.jpg"
+                      class="attachment-full size-full"
+                      alt=""
+                      srcset="
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Leviathan.jpg         624w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Leviathan-300x150.jpg 300w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Leviathan-600x300.jpg 600w
+                      "
+                      sizes="(max-width: 624px) 100vw, 624px"
+                  /></noscript>
+                </a>
+              </div>
+              <div class="content">
+                <h3>Leviathan Global BD Ltd.</h3>
+                <p>
+                  <span style="font-weight: 400"
+                    >Bangladesh is number 2 in the world of exporting ready made
+                    garments industry.</span
+                  >
+                </p>
+                <ul>
+                  <li>
+                    <span style="font-weight: 400"
+                      >Plant Name: Leviathan Global BD Ltd.</span
+                    >
+                  </li>
+                  <li><span style="font-weight: 400">Loc: Chattogram</span></li>
+                </ul>
+                <a
+                  href="https://www.united.com.bd/our-concerns/leviathan-global-bd-ltd/"
+                  class="read-more"
+                >
+                  Learn More
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.0988 10.1977L3 10.1977C2.58579 10.1977 2.25 9.86132 2.25 9.44633C2.25 9.03133 2.58579 8.69491 3 8.69491L13.0988 8.69492L10.6557 6.24716C10.3481 5.93904 10.3481 5.43949 10.6557 5.13137C10.9632 4.82325 11.4618 4.82325 11.7693 5.13137L15.5193 8.88843C15.8269 9.19655 15.8269 9.69611 15.5193 10.0042L11.7693 13.7613C11.4618 14.0694 10.9632 14.0694 10.6557 13.7613C10.3481 13.4532 10.3481 12.9536 10.6557 12.6455L13.0988 10.1977Z"
+                      fill="black"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 wow fadeInUp"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.4s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="single-concerns-items">
+              <div class="thumb">
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-anwara-power-ltd-uanpl/"
+                >
+                  <img
+                    data-lazyloaded="1"
+                    src="https://www.united.com.bd/wp-content/uploads/2021/11/United-Anwara.jpg"
+                    decoding="async"
+                    width="800"
+                    height="462"
+                    data-src="https://www.united.com.bd/wp-content/uploads/2021/11/United-Anwara.jpg"
+                    class="attachment-full size-full entered litespeed-loaded"
+                    alt=""
+                    data-srcset="https://www.united.com.bd/wp-content/uploads/2021/11/United-Anwara.jpg 800w, https://www.united.com.bd/wp-content/uploads/2021/11/United-Anwara-300x173.jpg 300w, https://www.united.com.bd/wp-content/uploads/2021/11/United-Anwara-768x444.jpg 768w"
+                    data-sizes="(max-width: 800px) 100vw, 800px"
+                    data-ll-status="loaded"
+                    sizes="(max-width: 800px) 100vw, 800px"
+                    srcset="
+                      https://www.united.com.bd/wp-content/uploads/2021/11/United-Anwara.jpg         800w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/United-Anwara-300x173.jpg 300w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/United-Anwara-768x444.jpg 768w
+                    "
+                  /><noscript
+                    ><img
+                      decoding="async"
+                      width="800"
+                      height="462"
+                      src="https://www.united.com.bd/wp-content/uploads/2021/11/United-Anwara.jpg"
+                      class="attachment-full size-full"
+                      alt=""
+                      srcset="
+                        https://www.united.com.bd/wp-content/uploads/2021/11/United-Anwara.jpg         800w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/United-Anwara-300x173.jpg 300w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/United-Anwara-768x444.jpg 768w
+                      "
+                      sizes="(max-width: 800px) 100vw, 800px"
+                  /></noscript>
+                </a>
+              </div>
+              <div class="content">
+                <h3>United Anwara Power Ltd. (UAnPL)</h3>
+                <p>
+                  <span style="font-weight: 400"
+                    >UAnPL is by far our most ambitious completed project. It is
+                    one of the two biggest</span
+                  >
+                </p>
+                <ul>
+                  <li>
+                    <span style="font-weight: 400"
+                      >Plant Name: United Anwara Power Ltd. (UAnPL)</span
+                    >
+                  </li>
+                  <li><span style="font-weight: 400">Loc: Anwara</span></li>
+                </ul>
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-anwara-power-ltd-uanpl/"
+                  class="read-more"
+                >
+                  Learn More
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.0988 10.1977L3 10.1977C2.58579 10.1977 2.25 9.86132 2.25 9.44633C2.25 9.03133 2.58579 8.69491 3 8.69491L13.0988 8.69492L10.6557 6.24716C10.3481 5.93904 10.3481 5.43949 10.6557 5.13137C10.9632 4.82325 11.4618 4.82325 11.7693 5.13137L15.5193 8.88843C15.8269 9.19655 15.8269 9.69611 15.5193 10.0042L11.7693 13.7613C11.4618 14.0694 10.9632 14.0694 10.6557 13.7613C10.3481 13.4532 10.3481 12.9536 10.6557 12.6455L13.0988 10.1977Z"
+                      fill="black"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 wow fadeInUp"
+            data-wow-delay="0.5s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.5s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="single-concerns-items">
+              <div class="thumb">
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-ashuganj-energy-ltd-uael/"
+                >
+                  <img
+                    data-lazyloaded="1"
+                    src="https://www.united.com.bd/wp-content/uploads/2021/11/United-Ashuganj.jpg"
+                    decoding="async"
+                    width="1280"
+                    height="720"
+                    data-src="https://www.united.com.bd/wp-content/uploads/2021/11/United-Ashuganj.jpg"
+                    class="attachment-full size-full entered litespeed-loaded"
+                    alt=""
+                    data-srcset="https://www.united.com.bd/wp-content/uploads/2021/11/United-Ashuganj.jpg 1280w, https://www.united.com.bd/wp-content/uploads/2021/11/United-Ashuganj-300x169.jpg 300w, https://www.united.com.bd/wp-content/uploads/2021/11/United-Ashuganj-1024x576.jpg 1024w, https://www.united.com.bd/wp-content/uploads/2021/11/United-Ashuganj-768x432.jpg 768w"
+                    data-sizes="(max-width: 1280px) 100vw, 1280px"
+                    data-ll-status="loaded"
+                    sizes="(max-width: 1280px) 100vw, 1280px"
+                    srcset="
+                      https://www.united.com.bd/wp-content/uploads/2021/11/United-Ashuganj.jpg          1280w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/United-Ashuganj-300x169.jpg   300w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/United-Ashuganj-1024x576.jpg 1024w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/United-Ashuganj-768x432.jpg   768w
+                    "
+                  /><noscript
+                    ><img
+                      decoding="async"
+                      width="1280"
+                      height="720"
+                      src="https://www.united.com.bd/wp-content/uploads/2021/11/United-Ashuganj.jpg"
+                      class="attachment-full size-full"
+                      alt=""
+                      srcset="
+                        https://www.united.com.bd/wp-content/uploads/2021/11/United-Ashuganj.jpg          1280w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/United-Ashuganj-300x169.jpg   300w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/United-Ashuganj-1024x576.jpg 1024w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/United-Ashuganj-768x432.jpg   768w
+                      "
+                      sizes="(max-width: 1280px) 100vw, 1280px"
+                  /></noscript>
+                </a>
+              </div>
+              <div class="content">
+                <h3>United Ashuganj Energy Ltd. (UAEL)</h3>
+                <p></p>
+                <p>
+                  UAEL is the first Joint Venture power plant project with the
+                  Government of Bangladesh located
+                </p>
+                <ul>
+                  <li>Plant Name: United Ashuganj Energy Ltd. (UAEL)</li>
+                  <li>Loc: Ashuganj</li>
+                </ul>
+                <p></p>
+                <p></p>
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-ashuganj-energy-ltd-uael/"
+                  class="read-more"
+                >
+                  Learn More
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.0988 10.1977L3 10.1977C2.58579 10.1977 2.25 9.86132 2.25 9.44633C2.25 9.03133 2.58579 8.69491 3 8.69491L13.0988 8.69492L10.6557 6.24716C10.3481 5.93904 10.3481 5.43949 10.6557 5.13137C10.9632 4.82325 11.4618 4.82325 11.7693 5.13137L15.5193 8.88843C15.8269 9.19655 15.8269 9.69611 15.5193 10.0042L11.7693 13.7613C11.4618 14.0694 10.9632 14.0694 10.6557 13.7613C10.3481 13.4532 10.3481 12.9536 10.6557 12.6455L13.0988 10.1977Z"
+                      fill="black"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 wow fadeInUp"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.6s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="single-concerns-items">
+              <div class="thumb">
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-ashuganj-power-ltd-uapl/"
+                >
+                  <img
+                    data-lazyloaded="1"
+                    src="https://www.united.com.bd/wp-content/uploads/2021/11/2021-11-19-7.png"
+                    decoding="async"
+                    width="1360"
+                    height="535"
+                    data-src="https://www.united.com.bd/wp-content/uploads/2021/11/2021-11-19-7.png"
+                    class="attachment-full size-full entered litespeed-loaded"
+                    alt=""
+                    data-srcset="https://www.united.com.bd/wp-content/uploads/2021/11/2021-11-19-7.png 1360w, https://www.united.com.bd/wp-content/uploads/2021/11/2021-11-19-7-300x118.png 300w, https://www.united.com.bd/wp-content/uploads/2021/11/2021-11-19-7-1024x403.png 1024w, https://www.united.com.bd/wp-content/uploads/2021/11/2021-11-19-7-768x302.png 768w"
+                    data-sizes="(max-width: 1360px) 100vw, 1360px"
+                    data-ll-status="loaded"
+                    sizes="(max-width: 1360px) 100vw, 1360px"
+                    srcset="
+                      https://www.united.com.bd/wp-content/uploads/2021/11/2021-11-19-7.png          1360w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/2021-11-19-7-300x118.png   300w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/2021-11-19-7-1024x403.png 1024w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/2021-11-19-7-768x302.png   768w
+                    "
+                  /><noscript
+                    ><img
+                      decoding="async"
+                      width="1360"
+                      height="535"
+                      src="https://www.united.com.bd/wp-content/uploads/2021/11/2021-11-19-7.png"
+                      class="attachment-full size-full"
+                      alt=""
+                      srcset="
+                        https://www.united.com.bd/wp-content/uploads/2021/11/2021-11-19-7.png          1360w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/2021-11-19-7-300x118.png   300w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/2021-11-19-7-1024x403.png 1024w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/2021-11-19-7-768x302.png   768w
+                      "
+                      sizes="(max-width: 1360px) 100vw, 1360px"
+                  /></noscript>
+                </a>
+              </div>
+              <div class="content">
+                <h3>United Ashuganj Power Ltd. (UAPL)</h3>
+                <p>
+                  <span style="font-weight: 400"
+                    >One of the country’s fastest power plants to come into
+                    operation is United Ashuganj Power Ltd.</span
+                  >
+                </p>
+                <ul>
+                  <li>
+                    <span style="font-weight: 400"
+                      >Plant Name: United Ashuganj Power Ltd. (UAPL)</span
+                    >
+                  </li>
+                  <li><span style="font-weight: 400">Loc: Ashuganj</span></li>
+                </ul>
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-ashuganj-power-ltd-uapl/"
+                  class="read-more"
+                >
+                  Learn More
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.0988 10.1977L3 10.1977C2.58579 10.1977 2.25 9.86132 2.25 9.44633C2.25 9.03133 2.58579 8.69491 3 8.69491L13.0988 8.69492L10.6557 6.24716C10.3481 5.93904 10.3481 5.43949 10.6557 5.13137C10.9632 4.82325 11.4618 4.82325 11.7693 5.13137L15.5193 8.88843C15.8269 9.19655 15.8269 9.69611 15.5193 10.0042L11.7693 13.7613C11.4618 14.0694 10.9632 14.0694 10.6557 13.7613C10.3481 13.4532 10.3481 12.9536 10.6557 12.6455L13.0988 10.1977Z"
+                      fill="black"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 wow fadeInUp"
+            data-wow-delay="0.7s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.7s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="single-concerns-items">
+              <div class="thumb">
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-chattogram-power-ltd-ucpl/"
+                >
+                  <img
+                    data-lazyloaded="1"
+                    src="https://www.united.com.bd/wp-content/uploads/2021/11/UCPL.jpg"
+                    decoding="async"
+                    width="1600"
+                    height="1100"
+                    data-src="https://www.united.com.bd/wp-content/uploads/2021/11/UCPL.jpg"
+                    class="attachment-full size-full entered litespeed-loaded"
+                    alt=""
+                    data-srcset="https://www.united.com.bd/wp-content/uploads/2021/11/UCPL.jpg 1600w, https://www.united.com.bd/wp-content/uploads/2021/11/UCPL-300x206.jpg 300w, https://www.united.com.bd/wp-content/uploads/2021/11/UCPL-1024x704.jpg 1024w, https://www.united.com.bd/wp-content/uploads/2021/11/UCPL-768x528.jpg 768w, https://www.united.com.bd/wp-content/uploads/2021/11/UCPL-1536x1056.jpg 1536w"
+                    data-sizes="(max-width: 1600px) 100vw, 1600px"
+                    data-ll-status="loaded"
+                    sizes="(max-width: 1600px) 100vw, 1600px"
+                    srcset="
+                      https://www.united.com.bd/wp-content/uploads/2021/11/UCPL.jpg           1600w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/UCPL-300x206.jpg    300w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/UCPL-1024x704.jpg  1024w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/UCPL-768x528.jpg    768w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/UCPL-1536x1056.jpg 1536w
+                    "
+                  /><noscript
+                    ><img
+                      decoding="async"
+                      width="1600"
+                      height="1100"
+                      src="https://www.united.com.bd/wp-content/uploads/2021/11/UCPL.jpg"
+                      class="attachment-full size-full"
+                      alt=""
+                      srcset="
+                        https://www.united.com.bd/wp-content/uploads/2021/11/UCPL.jpg           1600w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/UCPL-300x206.jpg    300w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/UCPL-1024x704.jpg  1024w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/UCPL-768x528.jpg    768w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/UCPL-1536x1056.jpg 1536w
+                      "
+                      sizes="(max-width: 1600px) 100vw, 1600px"
+                  /></noscript>
+                </a>
+              </div>
+              <div class="content">
+                <h3>United Chattogram Power Ltd. (UCPL)</h3>
+                <p>
+                  <span style="font-weight: 400"
+                    >With experience in reciprocating engine power plants,
+                    United Group is moving towards a more</span
+                  >
+                </p>
+                <ul>
+                  <li>
+                    <span style="font-weight: 400"
+                      >Plant Name: United Chattogram Power Ltd. (UCPL)</span
+                    >
+                  </li>
+                  <li><span style="font-weight: 400">Loc: Anwara</span></li>
+                </ul>
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-chattogram-power-ltd-ucpl/"
+                  class="read-more"
+                >
+                  Learn More
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.0988 10.1977L3 10.1977C2.58579 10.1977 2.25 9.86132 2.25 9.44633C2.25 9.03133 2.58579 8.69491 3 8.69491L13.0988 8.69492L10.6557 6.24716C10.3481 5.93904 10.3481 5.43949 10.6557 5.13137C10.9632 4.82325 11.4618 4.82325 11.7693 5.13137L15.5193 8.88843C15.8269 9.19655 15.8269 9.69611 15.5193 10.0042L11.7693 13.7613C11.4618 14.0694 10.9632 14.0694 10.6557 13.7613C10.3481 13.4532 10.3481 12.9536 10.6557 12.6455L13.0988 10.1977Z"
+                      fill="black"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 wow fadeInUp"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.8s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="single-concerns-items">
+              <div class="thumb">
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-energy-ltd-uel/"
+                >
+                  <img
+                    data-lazyloaded="1"
+                    src="https://www.united.com.bd/wp-content/uploads/2021/11/Power.jpg"
+                    decoding="async"
+                    width="1366"
+                    height="768"
+                    data-src="https://www.united.com.bd/wp-content/uploads/2021/11/Power.jpg"
+                    class="attachment-full size-full entered litespeed-loaded"
+                    alt=""
+                    data-srcset="https://www.united.com.bd/wp-content/uploads/2021/11/Power.jpg 1366w, https://www.united.com.bd/wp-content/uploads/2021/11/Power-300x169.jpg 300w, https://www.united.com.bd/wp-content/uploads/2021/11/Power-1024x576.jpg 1024w, https://www.united.com.bd/wp-content/uploads/2021/11/Power-768x432.jpg 768w"
+                    data-sizes="(max-width: 1366px) 100vw, 1366px"
+                    data-ll-status="loaded"
+                    sizes="(max-width: 1366px) 100vw, 1366px"
+                    srcset="
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Power.jpg          1366w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Power-300x169.jpg   300w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Power-1024x576.jpg 1024w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Power-768x432.jpg   768w
+                    "
+                  /><noscript
+                    ><img
+                      decoding="async"
+                      width="1366"
+                      height="768"
+                      src="https://www.united.com.bd/wp-content/uploads/2021/11/Power.jpg"
+                      class="attachment-full size-full"
+                      alt=""
+                      srcset="
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Power.jpg          1366w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Power-300x169.jpg   300w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Power-1024x576.jpg 1024w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Power-768x432.jpg   768w
+                      "
+                      sizes="(max-width: 1366px) 100vw, 1366px"
+                  /></noscript>
+                </a>
+              </div>
+              <div class="content">
+                <h3>United Energy ltd. (UEL)</h3>
+                <p>
+                  <span style="font-weight: 400"
+                    >United Energy Ltd. (Formally known as Shahjahanullah Power
+                    Generation Company Ltd.)</span
+                  >
+                </p>
+                <ul>
+                  <li>
+                    <span style="font-weight: 400"
+                      >Plant Name: United Energy Ltd. (UEL)</span
+                    >
+                  </li>
+                  <li><span style="font-weight: 400">Loc: Sylhet</span></li>
+                </ul>
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-energy-ltd-uel/"
+                  class="read-more"
+                >
+                  Learn More
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.0988 10.1977L3 10.1977C2.58579 10.1977 2.25 9.86132 2.25 9.44633C2.25 9.03133 2.58579 8.69491 3 8.69491L13.0988 8.69492L10.6557 6.24716C10.3481 5.93904 10.3481 5.43949 10.6557 5.13137C10.9632 4.82325 11.4618 4.82325 11.7693 5.13137L15.5193 8.88843C15.8269 9.19655 15.8269 9.69611 15.5193 10.0042L11.7693 13.7613C11.4618 14.0694 10.9632 14.0694 10.6557 13.7613C10.3481 13.4532 10.3481 12.9536 10.6557 12.6455L13.0988 10.1977Z"
+                      fill="black"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 wow fadeInUp"
+            data-wow-delay="0.9s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.9s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="single-concerns-items">
+              <div class="thumb">
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-jamalpur-power-ltd-ujpl/"
+                >
+                  <img
+                    data-lazyloaded="1"
+                    src="https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1.jpg"
+                    decoding="async"
+                    width="1920"
+                    height="1291"
+                    data-src="https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1.jpg"
+                    class="attachment-full size-full entered litespeed-loaded"
+                    alt=""
+                    data-srcset="https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1.jpg 1920w, https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1-300x202.jpg 300w, https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1-1024x689.jpg 1024w, https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1-768x516.jpg 768w, https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1-1536x1033.jpg 1536w"
+                    data-sizes="(max-width: 1920px) 100vw, 1920px"
+                    data-ll-status="loaded"
+                    sizes="(max-width: 1920px) 100vw, 1920px"
+                    srcset="
+                      https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1.jpg           1920w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1-300x202.jpg    300w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1-1024x689.jpg  1024w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1-768x516.jpg    768w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1-1536x1033.jpg 1536w
+                    "
+                  /><noscript
+                    ><img
+                      decoding="async"
+                      width="1920"
+                      height="1291"
+                      src="https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1.jpg"
+                      class="attachment-full size-full"
+                      alt=""
+                      srcset="
+                        https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1.jpg           1920w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1-300x202.jpg    300w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1-1024x689.jpg  1024w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1-768x516.jpg    768w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/UJPL-Seleted-photo-scaled-1-1536x1033.jpg 1536w
+                      "
+                      sizes="(max-width: 1920px) 100vw, 1920px"
+                  /></noscript>
+                </a>
+              </div>
+              <div class="content">
+                <h3>United Jamalpur Power Ltd. (UJPL)</h3>
+                <p>
+                  <span style="font-weight: 400"
+                    >With experience gained from commissioning UMPL in record
+                    time, our next venture UJPL in another</span
+                  >
+                </p>
+                <ul>
+                  <li>
+                    <span style="font-weight: 400"
+                      >Plant Name: United Jamalpur Power Ltd. (UJPL)</span
+                    >
+                  </li>
+                  <li><span style="font-weight: 400">Loc: Jamalpur</span></li>
+                </ul>
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-jamalpur-power-ltd-ujpl/"
+                  class="read-more"
+                >
+                  Learn More
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.0988 10.1977L3 10.1977C2.58579 10.1977 2.25 9.86132 2.25 9.44633C2.25 9.03133 2.58579 8.69491 3 8.69491L13.0988 8.69492L10.6557 6.24716C10.3481 5.93904 10.3481 5.43949 10.6557 5.13137C10.9632 4.82325 11.4618 4.82325 11.7693 5.13137L15.5193 8.88843C15.8269 9.19655 15.8269 9.69611 15.5193 10.0042L11.7693 13.7613C11.4618 14.0694 10.9632 14.0694 10.6557 13.7613C10.3481 13.4532 10.3481 12.9536 10.6557 12.6455L13.0988 10.1977Z"
+                      fill="black"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 wow fadeInUp"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.1s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="single-concerns-items">
+              <div class="thumb">
+                <a href="https://www.united.com.bd/our-concerns/kpcl-i/">
+                  <img
+                    data-lazyloaded="1"
+                    src="https://www.united.com.bd/wp-content/uploads/2021/11/KPCL.jpg"
+                    decoding="async"
+                    width="1000"
+                    height="600"
+                    data-src="https://www.united.com.bd/wp-content/uploads/2021/11/KPCL.jpg"
+                    class="attachment-full size-full entered litespeed-loaded"
+                    alt=""
+                    data-srcset="https://www.united.com.bd/wp-content/uploads/2021/11/KPCL.jpg 1000w, https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-300x180.jpg 300w, https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-768x461.jpg 768w"
+                    data-sizes="(max-width: 1000px) 100vw, 1000px"
+                    data-ll-status="loaded"
+                    sizes="(max-width: 1000px) 100vw, 1000px"
+                    srcset="
+                      https://www.united.com.bd/wp-content/uploads/2021/11/KPCL.jpg         1000w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-300x180.jpg  300w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-768x461.jpg  768w
+                    "
+                  /><noscript
+                    ><img
+                      decoding="async"
+                      width="1000"
+                      height="600"
+                      src="https://www.united.com.bd/wp-content/uploads/2021/11/KPCL.jpg"
+                      class="attachment-full size-full"
+                      alt=""
+                      srcset="
+                        https://www.united.com.bd/wp-content/uploads/2021/11/KPCL.jpg         1000w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-300x180.jpg  300w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-768x461.jpg  768w
+                      "
+                      sizes="(max-width: 1000px) 100vw, 1000px"
+                  /></noscript>
+                </a>
+              </div>
+              <div class="content">
+                <h3>KPCL I</h3>
+                <p>
+                  <span style="font-weight: 400"
+                    >KPCL began its Commercial Operation with Unit I on October
+                    12th, 1998 at its plant in Goalpara, Khulna.</span
+                  >
+                </p>
+                <ul>
+                  <li>
+                    <span style="font-weight: 400">Plant Name: KPCL I</span>
+                  </li>
+                  <li>Loc: Khulna</li>
+                </ul>
+                <a
+                  href="https://www.united.com.bd/our-concerns/kpcl-i/"
+                  class="read-more"
+                >
+                  Learn More
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.0988 10.1977L3 10.1977C2.58579 10.1977 2.25 9.86132 2.25 9.44633C2.25 9.03133 2.58579 8.69491 3 8.69491L13.0988 8.69492L10.6557 6.24716C10.3481 5.93904 10.3481 5.43949 10.6557 5.13137C10.9632 4.82325 11.4618 4.82325 11.7693 5.13137L15.5193 8.88843C15.8269 9.19655 15.8269 9.69611 15.5193 10.0042L11.7693 13.7613C11.4618 14.0694 10.9632 14.0694 10.6557 13.7613C10.3481 13.4532 10.3481 12.9536 10.6557 12.6455L13.0988 10.1977Z"
+                      fill="black"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 wow fadeInUp"
+            data-wow-delay="0.11s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.11s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="single-concerns-items">
+              <div class="thumb">
+                <a href="https://www.united.com.bd/our-concerns/kpcl-ii/">
+                  <img
+                    data-lazyloaded="1"
+                    src="https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-2.jpg"
+                    decoding="async"
+                    width="1500"
+                    height="1125"
+                    data-src="https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-2.jpg"
+                    class="attachment-full size-full entered litespeed-loaded"
+                    alt=""
+                    data-srcset="https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-2.jpg 1500w, https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-2-300x225.jpg 300w, https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-2-1024x768.jpg 1024w, https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-2-768x576.jpg 768w"
+                    data-sizes="(max-width: 1500px) 100vw, 1500px"
+                    data-ll-status="loaded"
+                    sizes="(max-width: 1500px) 100vw, 1500px"
+                    srcset="
+                      https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-2.jpg          1500w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-2-300x225.jpg   300w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-2-1024x768.jpg 1024w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-2-768x576.jpg   768w
+                    "
+                  /><noscript
+                    ><img
+                      decoding="async"
+                      width="1500"
+                      height="1125"
+                      src="https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-2.jpg"
+                      class="attachment-full size-full"
+                      alt=""
+                      srcset="
+                        https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-2.jpg          1500w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-2-300x225.jpg   300w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-2-1024x768.jpg 1024w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-2-768x576.jpg   768w
+                      "
+                      sizes="(max-width: 1500px) 100vw, 1500px"
+                  /></noscript>
+                </a>
+              </div>
+              <div class="content">
+                <h3>KPCL II</h3>
+                <p>
+                  KPCL Unit II, a Furnace Oil (HFO) fired 115 MW power plant,
+                  has been built beside the existing Khulna
+                </p>
+                <ul>
+                  <li>Plant Name: KPCL II</li>
+                  <li>Loc: Khulna</li>
+                </ul>
+                <a
+                  href="https://www.united.com.bd/our-concerns/kpcl-ii/"
+                  class="read-more"
+                >
+                  Learn More
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.0988 10.1977L3 10.1977C2.58579 10.1977 2.25 9.86132 2.25 9.44633C2.25 9.03133 2.58579 8.69491 3 8.69491L13.0988 8.69492L10.6557 6.24716C10.3481 5.93904 10.3481 5.43949 10.6557 5.13137C10.9632 4.82325 11.4618 4.82325 11.7693 5.13137L15.5193 8.88843C15.8269 9.19655 15.8269 9.69611 15.5193 10.0042L11.7693 13.7613C11.4618 14.0694 10.9632 14.0694 10.6557 13.7613C10.3481 13.4532 10.3481 12.9536 10.6557 12.6455L13.0988 10.1977Z"
+                      fill="black"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 wow fadeInUp"
+            data-wow-delay="0.12s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.12s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="single-concerns-items">
+              <div class="thumb">
+                <a href="https://www.united.com.bd/our-concerns/kpcl-iii/">
+                  <img
+                    data-lazyloaded="1"
+                    src="https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-scaled.jpg"
+                    decoding="async"
+                    width="2560"
+                    height="1714"
+                    data-src="https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-scaled.jpg"
+                    class="attachment-full size-full entered litespeed-loaded"
+                    alt=""
+                    data-srcset="https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-scaled.jpg 2560w, https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-300x201.jpg 300w, https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-1024x685.jpg 1024w, https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-768x514.jpg 768w, https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-1536x1028.jpg 1536w, https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-2048x1371.jpg 2048w"
+                    data-sizes="(max-width: 2560px) 100vw, 2560px"
+                    data-ll-status="loaded"
+                    sizes="(max-width: 2560px) 100vw, 2560px"
+                    srcset="
+                      https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-scaled.jpg    2560w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-300x201.jpg    300w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-1024x685.jpg  1024w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-768x514.jpg    768w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-1536x1028.jpg 1536w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-2048x1371.jpg 2048w
+                    "
+                  /><noscript
+                    ><img
+                      decoding="async"
+                      width="2560"
+                      height="1714"
+                      src="https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-scaled.jpg"
+                      class="attachment-full size-full"
+                      alt=""
+                      srcset="
+                        https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-scaled.jpg    2560w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-300x201.jpg    300w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-1024x685.jpg  1024w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-768x514.jpg    768w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-1536x1028.jpg 1536w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/KPCL-3-2048x1371.jpg 2048w
+                      "
+                      sizes="(max-width: 2560px) 100vw, 2560px"
+                  /></noscript>
+                </a>
+              </div>
+              <div class="content">
+                <h3>KPCL III</h3>
+                <p
+                  id="block-c5ab1fa5-249a-4bf6-9d38-7a73bb13f549"
+                  class="block-editor-rich-text__editable block-editor-block-list__block wp-block is-multi-selected wp-block-paragraph rich-text"
+                  tabindex="0"
+                  aria-multiline="true"
+                  aria-label="Paragraph block"
+                  data-block="c5ab1fa5-249a-4bf6-9d38-7a73bb13f549"
+                  data-type="core/paragraph"
+                  data-title="Paragraph"
+                  data-empty="false"
+                >
+                  KPCL Unit III, previously known as Khan Jahan Ali Power
+                  Company Ltd. (KJAPCL),&nbsp;
+                </p>
+                <ul
+                  id="block-c8ab26a1-55e5-4b8c-9600-100e58f73ab2"
+                  class="block-editor-rich-text__editable block-editor-block-list__block wp-block is-multi-selected wp-block-list rich-text"
+                  tabindex="0"
+                  aria-multiline="true"
+                  aria-label="Block: List"
+                  data-block="c8ab26a1-55e5-4b8c-9600-100e58f73ab2"
+                  data-type="core/list"
+                  data-title="List"
+                >
+                  <li>Plant Name: KPCL III</li>
+                  <li>Loc: Jessore</li>
+                </ul>
+                <a
+                  href="https://www.united.com.bd/our-concerns/kpcl-iii/"
+                  class="read-more"
+                >
+                  Learn More
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.0988 10.1977L3 10.1977C2.58579 10.1977 2.25 9.86132 2.25 9.44633C2.25 9.03133 2.58579 8.69491 3 8.69491L13.0988 8.69492L10.6557 6.24716C10.3481 5.93904 10.3481 5.43949 10.6557 5.13137C10.9632 4.82325 11.4618 4.82325 11.7693 5.13137L15.5193 8.88843C15.8269 9.19655 15.8269 9.69611 15.5193 10.0042L11.7693 13.7613C11.4618 14.0694 10.9632 14.0694 10.6557 13.7613C10.3481 13.4532 10.3481 12.9536 10.6557 12.6455L13.0988 10.1977Z"
+                      fill="black"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 wow fadeInUp"
+            data-wow-delay="0.13s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.13s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="single-concerns-items">
+              <div class="thumb">
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-mymensingh-power-ltd-umpl/"
+                >
+                  <img
+                    data-lazyloaded="1"
+                    src="https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1.jpg"
+                    decoding="async"
+                    width="1920"
+                    height="1080"
+                    data-src="https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1.jpg"
+                    class="attachment-full size-full entered litespeed-loaded"
+                    alt=""
+                    data-srcset="https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1.jpg 1920w, https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1-300x169.jpg 300w, https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1-1024x576.jpg 1024w, https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1-768x432.jpg 768w, https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1-1536x864.jpg 1536w"
+                    data-sizes="(max-width: 1920px) 100vw, 1920px"
+                    data-ll-status="loaded"
+                    sizes="(max-width: 1920px) 100vw, 1920px"
+                    srcset="
+                      https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1.jpg          1920w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1-300x169.jpg   300w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1-1024x576.jpg 1024w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1-768x432.jpg   768w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1-1536x864.jpg 1536w
+                    "
+                  /><noscript
+                    ><img
+                      decoding="async"
+                      width="1920"
+                      height="1080"
+                      src="https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1.jpg"
+                      class="attachment-full size-full"
+                      alt=""
+                      srcset="
+                        https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1.jpg          1920w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1-300x169.jpg   300w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1-1024x576.jpg 1024w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1-768x432.jpg   768w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/United-Mymensingh-Power-Ltd_-scaled-1-1536x864.jpg 1536w
+                      "
+                      sizes="(max-width: 1920px) 100vw, 1920px"
+                  /></noscript>
+                </a>
+              </div>
+              <div class="content">
+                <h3>United Mymensingh Power Ltd. (UMPL)</h3>
+                <p>
+                  <span style="font-weight: 400"
+                    >We redefined “Quick” in a new way with UMPL. After signing
+                    Power Purchase Agreement (PPA)</span
+                  >
+                </p>
+                <ul>
+                  <li>
+                    <span style="font-weight: 400"
+                      >Plant Name: United Mymensingh Power Ltd. (UMPL)</span
+                    >
+                  </li>
+                  <li><span style="font-weight: 400">Loc: Jamalpur</span></li>
+                </ul>
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-mymensingh-power-ltd-umpl/"
+                  class="read-more"
+                >
+                  Learn More
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.0988 10.1977L3 10.1977C2.58579 10.1977 2.25 9.86132 2.25 9.44633C2.25 9.03133 2.58579 8.69491 3 8.69491L13.0988 8.69492L10.6557 6.24716C10.3481 5.93904 10.3481 5.43949 10.6557 5.13137C10.9632 4.82325 11.4618 4.82325 11.7693 5.13137L15.5193 8.88843C15.8269 9.19655 15.8269 9.69611 15.5193 10.0042L11.7693 13.7613C11.4618 14.0694 10.9632 14.0694 10.6557 13.7613C10.3481 13.4532 10.3481 12.9536 10.6557 12.6455L13.0988 10.1977Z"
+                      fill="black"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 wow fadeInUp"
+            data-wow-delay="0.14s"
+            style="
+              visibility: visible;
+              animation-duration: 1s;
+              animation-delay: 0.14s;
+              animation-name: fadeInUp;
+            "
+          >
+            <div class="single-concerns-items">
+              <div class="thumb">
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-payra-power-ltd-uppl/"
+                >
+                  <img
+                    data-lazyloaded="1"
+                    src="https://www.united.com.bd/wp-content/uploads/2021/11/Payra.jpg"
+                    decoding="async"
+                    width="1280"
+                    height="576"
+                    data-src="https://www.united.com.bd/wp-content/uploads/2021/11/Payra.jpg"
+                    class="attachment-full size-full entered litespeed-loaded"
+                    alt=""
+                    data-srcset="https://www.united.com.bd/wp-content/uploads/2021/11/Payra.jpg 1280w, https://www.united.com.bd/wp-content/uploads/2021/11/Payra-300x135.jpg 300w, https://www.united.com.bd/wp-content/uploads/2021/11/Payra-1024x461.jpg 1024w, https://www.united.com.bd/wp-content/uploads/2021/11/Payra-768x346.jpg 768w"
+                    data-sizes="(max-width: 1280px) 100vw, 1280px"
+                    data-ll-status="loaded"
+                    sizes="(max-width: 1280px) 100vw, 1280px"
+                    srcset="
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Payra.jpg          1280w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Payra-300x135.jpg   300w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Payra-1024x461.jpg 1024w,
+                      https://www.united.com.bd/wp-content/uploads/2021/11/Payra-768x346.jpg   768w
+                    "
+                  /><noscript
+                    ><img
+                      decoding="async"
+                      width="1280"
+                      height="576"
+                      src="https://www.united.com.bd/wp-content/uploads/2021/11/Payra.jpg"
+                      class="attachment-full size-full"
+                      alt=""
+                      srcset="
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Payra.jpg          1280w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Payra-300x135.jpg   300w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Payra-1024x461.jpg 1024w,
+                        https://www.united.com.bd/wp-content/uploads/2021/11/Payra-768x346.jpg   768w
+                      "
+                      sizes="(max-width: 1280px) 100vw, 1280px"
+                  /></noscript>
+                </a>
+              </div>
+              <div class="content">
+                <h3>United Payra Power Ltd. (UPPL)</h3>
+                <p>
+                  <span style="font-weight: 400"
+                    >UPPL is our latest plant completed and in operation as of
+                    date of COD. It houses the latest state of the art RE from
+                    Watrsila-18V50.</span
+                  >
+                </p>
+                <ul>
+                  <li>
+                    <span style="font-weight: 400"
+                      >Plant Name: United Payra Power Ltd. (UPPL)</span
+                    >
+                  </li>
+                  <li><span style="font-weight: 400">Loc: Patuakhali</span></li>
+                </ul>
+                <a
+                  href="https://www.united.com.bd/our-concerns/united-payra-power-ltd-uppl/"
+                  class="read-more"
+                >
+                  Learn More
+                  <svg
+                    width="18"
+                    height="19"
+                    viewBox="0 0 18 19"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.0988 10.1977L3 10.1977C2.58579 10.1977 2.25 9.86132 2.25 9.44633C2.25 9.03133 2.58579 8.69491 3 8.69491L13.0988 8.69492L10.6557 6.24716C10.3481 5.93904 10.3481 5.43949 10.6557 5.13137C10.9632 4.82325 11.4618 4.82325 11.7693 5.13137L15.5193 8.88843C15.8269 9.19655 15.8269 9.69611 15.5193 10.0042L11.7693 13.7613C11.4618 14.0694 10.9632 14.0694 10.6557 13.7613C10.3481 13.4532 10.3481 12.9536 10.6557 12.6455L13.0988 10.1977Z"
+                      fill="black"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- jQuery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="./assets/power.js"></script>
+
+    <!------------- Bootstrap js cdn ------------>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

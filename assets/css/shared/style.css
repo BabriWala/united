@@ -229,7 +229,7 @@ a:hover {
 /*=============== Global CSS End here ==============*/
 
 /* Image Slider */
-#image-slider .banner-slide-prev-btn {
+.banner-slide-prev-btn {
   width: 50px;
   height: 50px;
   line-height: 48px;
@@ -245,7 +245,7 @@ a:hover {
   border-radius: 10px 0 0;
   transition: all 1ms ease-in-out;
 }
-#image-slider .banner-slide-next-btn {
+.banner-slide-next-btn {
   width: 50px;
   height: 50px;
   line-height: 48px;
@@ -261,15 +261,44 @@ a:hover {
   border-radius: 0 0 10px;
   transition: all 1ms ease-in-out;
 }
-#image-slider .banner-slide-next-btn.active {
+.banner-slide-next-btn.active {
   background-color: #f05a23;
   transition: all 1ms ease-in;
 }
-#image-slider .banner-slide-prev-btn.active {
+.banner-slide-prev-btn.active {
   background-color: #f05a23;
   transition: all 1ms ease-in;
 }
-
+#awards .header-highlight .navigation a.next {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  border: 1px solid #f05a23;
+  border-radius: 0 0 5px;
+  transition: all 0.25s ease-in-out;
+}
+#awards .header-highlight .navigation a.prev {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  border: 1px solid #f05a23;
+  border-radius: 5px 0 0;
+  transition: all 0.25s ease-in;
+}
+#awards .header-highlight .navigation a.next.active {
+  background-color: #f05a23;
+  transition: all 0.25s ease-in-out;
+}
+#awards .header-highlight .navigation a.prev.active {
+  background-color: #f05a23;
+  transition: all 0.25s ease-in-out;
+}
 /* CTA */
 .cta {
   padding-top: 30px;
