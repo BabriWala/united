@@ -507,27 +507,87 @@
       slideToClickedSlide: true,
     });
     photogalleryNav.on("slideChangeTransitionStart", function () {
-      const slug = $(".photo-gallery-nav-mobile .swiper-slide-active a").attr(
-        "data-category"
-      );
-      $.ajax({
-        method: "POST",
-        url: urls.adminAjax,
-        // dataType: "json",
-        data: {
-          method: "POST",
-          action: "get_cateogories_gallery",
-          slug: slug,
-        },
-        beforeSend: function () {
-          $(".gallery").html("<p> Loading ..... </p>");
-        },
-        success: function (res) {
-          $(".gallery").html();
-          $(".gallery").html(res);
-        },
-        error: function (res) {},
-      });
+      // Data FEtch
+      // const slug = $(".photo-gallery-nav-mobile .swiper-slide-active a").attr(
+      //   "data-category"
+      // );
+      // $.ajax({
+      //   method: "POST",
+      //   url: urls.adminAjax,
+      // dataType: "json",
+      // data: {
+      //   method: "POST",
+      //   action: "get_cateogories_gallery",
+      //   slug: slug,
+      // },
+      // beforeSend: function () {
+      //   $(".gallery").html("<p> Loading ..... </p>");
+      // },
+      // success: function (res) {
+      //   $(".gallery").html();
+      // Demo Data
+      $(".gallery").html(`<div class="row">
+    <div class="col-lg-4 d-flex-dekstop wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+        <a href="#" class="single-gallery-item" data-id="1707">
+            <div class="single-col">
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007347951494096133IPCO-Airport-5-Star-Hotel_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+            </div>
+            <div class="single-col" data-total="3+">
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007347951494096133IPCO-Airport-Hotel-Retail-Project_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/1500734796149409616814920030961436615847p9-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+            </div>
+            <div class="content">
+                <h2>Ipco Developments</h2>
+                <span>6 Photos </span>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-4 d-flex-dekstop wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+        <a href="#" class="single-gallery-item" data-id="1705">
+            <div class="single-col">
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007339741494095738Gulshan-Center-Point_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+            </div>
+            <div class="single-col" data-total=""></div>
+            <div class="content">
+                <h2>Gulshan Centre Point</h2>
+                <span>1 Photos </span>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-4 d-flex-dekstop wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+        <a href="#" class="single-gallery-item" data-id="1702">
+            <div class="single-col">
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007337441494095698United-City_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+            </div>
+            <div class="single-col" data-total="">
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007337451494095697Picture1_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+            </div>
+            <div class="content">
+                <h2>Neptune Land Development Ltd</h2>
+                <span>2 Photos </span>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-4 d-flex-dekstop wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+        <a href="#" class="single-gallery-item" data-id="1695">
+            <div class="single-col">
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007336621494095562United-House_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+            </div>
+            <div class="single-col" data-total="3+">
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007336641494095563United-International-University-New-Campus_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007336641494095563Neptune-Hights_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+            </div>
+            <div class="content">
+                <h2>United Property Solutions Ltd Gallery</h2>
+                <span>6 Photos </span>
+            </div>
+        </a>
+    </div>
+</div>
+      `);
+      //   },
+      //   error: function (res) {},
+      // });
     });
     const mediaCat = $(".photo-gallery-nav a");
     mediaCat.on("click", function (e) {
@@ -547,56 +607,145 @@
       that.parent(".swiper-slide").addClass("swiper-slide-active");
       $(".gallery .row").remove(); // remove items
 
-      $.ajax({
-        method: "POST",
-        url: urls.adminAjax,
-        // dataType: "json",
-        data: {
-          method: "POST",
-          action: "get_cateogories_gallery",
-          slug: slug,
-        },
-        beforeSend: function () {
-          $(".gallery").html("<p> Loading ..... </p>");
-        },
-        success: function (res) {
-          $(".gallery").html();
-          $(".gallery").html(res);
-        },
-        error: function (res) {},
-      });
+      // $.ajax({
+      //   method: "POST",
+      //   url: urls.adminAjax,
+      // dataType: "json",
+      // data: {
+      //   method: "POST",
+      //   action: "get_cateogories_gallery",
+      //   slug: slug,
+      // },
+      // beforeSend: function () {
+      //   $(".gallery").html("<p> Loading ..... </p>");
+      // },
+      // success: function (res) {
+      //   $(".gallery").html();
+      $(".gallery").html(`<div class="row">
+    <div class="col-lg-4 d-flex-dekstop wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+        <a href="#" class="single-gallery-item" data-id="1707">
+            <div class="single-col">
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007347951494096133IPCO-Airport-5-Star-Hotel_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+            </div>
+            <div class="single-col" data-total="3+">
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007347951494096133IPCO-Airport-Hotel-Retail-Project_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/1500734796149409616814920030961436615847p9-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+            </div>
+            <div class="content">
+                <h2>Ipco Developments</h2>
+                <span>6 Photos </span>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-4 d-flex-dekstop wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+        <a href="#" class="single-gallery-item" data-id="1705">
+            <div class="single-col">
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007339741494095738Gulshan-Center-Point_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+            </div>
+            <div class="single-col" data-total=""></div>
+            <div class="content">
+                <h2>Gulshan Centre Point</h2>
+                <span>1 Photos </span>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-4 d-flex-dekstop wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+        <a href="#" class="single-gallery-item" data-id="1702">
+            <div class="single-col">
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007337441494095698United-City_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+            </div>
+            <div class="single-col" data-total="">
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007337451494095697Picture1_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+            </div>
+            <div class="content">
+                <h2>Neptune Land Development Ltd</h2>
+                <span>2 Photos </span>
+            </div>
+        </a>
+    </div>
+    <div class="col-lg-4 d-flex-dekstop wow fadeIn" data-wow-duration="1s" data-wow-delay="0.1s">
+        <a href="#" class="single-gallery-item" data-id="1695">
+            <div class="single-col">
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007336621494095562United-House_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+            </div>
+            <div class="single-col" data-total="3+">
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007336641494095563United-International-University-New-Campus_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+                <img width="150" height="150" src="https://www.united.com.bd/wp-content/uploads/2021/11/15007336641494095563Neptune-Hights_e-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" decoding="async" loading="lazy"/>
+            </div>
+            <div class="content">
+                <h2>United Property Solutions Ltd Gallery</h2>
+                <span>6 Photos </span>
+            </div>
+        </a>
+    </div>
+</div>
+          `);
+      //   },
+      //   error: function (res) {},
+      // });
     });
     $(".gallery").on("click", ".single-gallery-item", function (e) {
+      console.log("I am here");
       e.preventDefault();
-      let that = $(this),
-        id = that.attr("data-id");
-      $.ajax({
-        method: "POST",
-        url: urls.adminAjax,
-        // dataType: "json",
-        data: {
-          method: "POST",
-          action: "gallery_item",
-          id: id,
-        },
-        beforeSend: function () {},
-        success: function (res) {
-          $("#animated-thumbnails").html(res);
-          $("#animated-thumbnails").lightGallery({
-            closable: false,
-            escKey: false,
-          });
-          $("#animated-thumbnails a").trigger("click");
-          $(".lg-close").on("click", function (e) {
-            $("#animated-thumbnails").data("lightGallery").destroy(true);
-          });
-        },
-        error: function (res) {},
+
+      // Uncomment and use the AJAX call if needed
+      // let that = $(this),
+      // id = that.attr("data-id");
+      // $.ajax({
+      //   method: "POST",
+      //   url: urls.adminAjax,
+      //   dataType: "json",
+      //   data: {
+      //     action: "gallery_item",
+      //     id: id,
+      //   },
+      //   beforeSend: function () {},
+      //   success: function (res) {
+
+      // Ensure the target element is empty before adding new content
+      $("#animated-thumbnails").empty().html(`
+        <a href="https://www.united.com.bd/wp-content/uploads/2021/11/15007333861481453620vlcsnap-2014-11-30-18h44m27s7_resize.jpg" data-sub-html="<h3></h3> <p></p>">
+            <img src="https://www.united.com.bd/wp-content/uploads/2021/11/15007333861481453620vlcsnap-2014-11-30-18h44m27s7_resize.jpg" />
+        </a>
+        <a href="https://www.united.com.bd/wp-content/uploads/2021/11/15007333871481453623vlcsnap-2014-11-30-18h45m37s72_resize.jpg" data-sub-html="<h3></h3> <p></p>">
+            <img src="https://www.united.com.bd/wp-content/uploads/2021/11/15007333871481453623vlcsnap-2014-11-30-18h45m37s72_resize.jpg" />
+        </a>
+        <a href="https://www.united.com.bd/wp-content/uploads/2021/11/15007333881481453622vlcsnap-2014-11-30-18h44m22s0_resize.jpg" data-sub-html="<h3></h3> <p></p>">
+            <img src="https://www.united.com.bd/wp-content/uploads/2021/11/15007333881481453622vlcsnap-2014-11-30-18h44m22s0_resize.jpg" />
+        </a>
+        <a href="https://www.united.com.bd/wp-content/uploads/2021/11/15007333881481453619vlcsnap-2014-11-30-18h44m08s76_resize.jpg" data-sub-html="<h3></h3> <p></p>">
+            <img src="https://www.united.com.bd/wp-content/uploads/2021/11/15007333881481453619vlcsnap-2014-11-30-18h44m08s76_resize.jpg" />
+        </a>
+        <a href="https://www.united.com.bd/wp-content/uploads/2021/11/15007333891481453619vlcsnap-2014-11-30-18h45m23s191_resize.jpg" data-sub-html="<h3></h3> <p></p>">
+            <img src="https://www.united.com.bd/wp-content/uploads/2021/11/15007333891481453619vlcsnap-2014-11-30-18h45m23s191_resize.jpg" />
+        </a>
+        <a href="https://www.united.com.bd/wp-content/uploads/2021/11/15007333891481453624vlcsnap-2014-11-30-18h44m58s191_resize.jpg" data-sub-html="<h3></h3> <p></p>">
+            <img src="https://www.united.com.bd/wp-content/uploads/2021/11/15007333891481453624vlcsnap-2014-11-30-18h44m58s191_resize.jpg" />
+        </a>
+    `);
+
+      // Initialize lightGallery
+      $("#animated-thumbnails").lightGallery({
+        closable: false,
+        escKey: false,
       });
+
+      // Trigger the first image click to open the gallery
+      $("#animated-thumbnails a").first().trigger("click");
+
+      // Destroy lightGallery instance when the close button is clicked
+      $(".lg-close").on("click", function (e) {
+        $("#animated-thumbnails").data("lightGallery").destroy(true);
+      });
+      //   },
+      //   error: function (res) {},
+      // });
     });
+
     $("#animated-thumbnails").on("lgBeforeClose", function () {
       console.log("close");
     });
+
     // Research & investor Cateories Tab
     $(".research-nav-mobile").on("click", "a", function (e) {
       e.preventDefault();
