@@ -184,37 +184,92 @@
         console.log("<<< item year " + itemYear);
         -slideItem(mswiper.activeIndex);
         swiper2.removeAllSlides();
-        $.ajax({
-          method: "POST",
-          url: urls.adminAjax,
-          // dataType: "json",
-          data: {
-            method: "POST",
-            action: "get_slider_body",
-            id: itemYear,
-          },
-          beforeSend: function () {},
-          success: function (res) {
-            swiper2.appendSlide(res);
-            var item = $(".carousel_container2 .swiper-slide").length;
-            console.log("slider lenth >> " + item);
-            if (item == 1) {
-              $("#slider-archive .navigation").css("opacity", 0);
-            } else {
-              $("#slider-archive .navigation").css("opacity", 1);
-              // var timelineContentHeight = $(
-              // 	'#slider-archive .content'
-              // ).outerHeight();
-              // console.log(timelineContentHeight);
-              // $('#slider-archive .navigation').css(
-              // 	'top',
-              // 	timelineContentHeight + 40
-              // );
-            }
-          },
+        // Demo Data
+        // $.ajax({
+        //   method: "POST",
+        //   url: urls.adminAjax,
+        // dataType: "json",
+        // data: {
+        //   method: "POST",
+        //   action: "get_slider_body",
+        //   id: itemYear,
+        // },
+        // beforeSend: function () {},
+        // success: function (res) {
+        swiper2.appendSlide(`<div class="swiper-slide animated fadeInRight">
+                  <div class="content-panel">
+                      <div class="content">
+                          <div class="row">
+                              
+          <p>Orange Solutions Limited and Orange IT Limited are launched</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>        <div class="swiper-slide animated fadeInRight">
+                  <div class="content-panel">
+                      <div class="content">
+                          <div class="row">
+                              
+          <p>Completion of construction of Leviathan Global BD Ltd. (const.)</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>        <div class="swiper-slide animated fadeInRight">
+                  <div class="content-panel">
+                      <div class="content">
+                          <div class="row">
+                              
+          <p>Launch of United Medical College</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>        <div class="swiper-slide animated fadeInRight">
+                  <div class="content-panel">
+                      <div class="content">
+                          <div class="row">
+                              
+          <p>Relocation to United House at United City, the new Corporate HQ</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>        <div class="swiper-slide animated fadeInRight">
+                  <div class="content-panel">
+                      <div class="content">
+                          <div class="row">
+                              
+          <p>Launching of Elevate, a premium fitness solution</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>        <div class="swiper-slide animated fadeInRight">
+                  <div class="content-panel">
+                      <div class="content">
+                          <div class="row">
+                              
+          <p>Launch of Chef’s Table Courtside at United City</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>`);
+        var item = $(".carousel_container2 .swiper-slide").length;
+        console.log("slider lenth >> " + item);
+        if (item == 1) {
+          $("#slider-archive .navigation").css("opacity", 0);
+        } else {
+          $("#slider-archive .navigation").css("opacity", 1);
+          // var timelineContentHeight = $(
+          // 	'#slider-archive .content'
+          // ).outerHeight();
+          // console.log(timelineContentHeight);
+          // $('#slider-archive .navigation').css(
+          // 	'top',
+          // 	timelineContentHeight + 40
+          // );
+        }
+        // },
 
-          error: function (res) {},
-        });
+        // error: function (res) {},
+        // });
         return false;
       });
       // Content Box Slide Config
@@ -283,28 +338,82 @@
           swiper2.removeAllSlides();
           clearTimeout();
           setTimeout(function () {
-            $.ajax({
-              method: "POST",
-              cache: true,
-              url: urls.adminAjax,
-              // dataType: "json",
-              data: {
-                method: "POST",
-                action: "get_slider_body",
-                id: itemYear,
-              },
-              beforeSend: function () {},
-              success: function (res) {
-                swiper2.appendSlide(res);
-                var item = $(".carousel_container2 .swiper-slide").length;
-                if (item == 1) {
-                  $("#slider-archive .navigation").css("opacity", 0);
-                } else {
-                  $("#slider-archive .navigation").css("opacity", 1);
-                }
-              },
-              error: function (res) {},
-            });
+            // $.ajax({
+            //   method: "POST",
+            //   cache: true,
+            //   url: urls.adminAjax,
+            // dataType: "json",
+            // data: {
+            //   method: "POST",
+            //   action: "get_slider_body",
+            //   id: itemYear,
+            // },
+            // beforeSend: function () {},
+            // success: function (res) {
+            swiper2.appendSlide(`<div class="swiper-slide animated fadeInRight">
+                  <div class="content-panel">
+                      <div class="content">
+                          <div class="row">
+                              
+          <p>Orange Solutions Limited and Orange IT Limited are launched</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>        <div class="swiper-slide animated fadeInRight">
+                  <div class="content-panel">
+                      <div class="content">
+                          <div class="row">
+                              
+          <p>Completion of construction of Leviathan Global BD Ltd. (const.)</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>        <div class="swiper-slide animated fadeInRight">
+                  <div class="content-panel">
+                      <div class="content">
+                          <div class="row">
+                              
+          <p>Launch of United Medical College</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>        <div class="swiper-slide animated fadeInRight">
+                  <div class="content-panel">
+                      <div class="content">
+                          <div class="row">
+                              
+          <p>Relocation to United House at United City, the new Corporate HQ</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>        <div class="swiper-slide animated fadeInRight">
+                  <div class="content-panel">
+                      <div class="content">
+                          <div class="row">
+                              
+          <p>Launching of Elevate, a premium fitness solution</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>        <div class="swiper-slide animated fadeInRight">
+                  <div class="content-panel">
+                      <div class="content">
+                          <div class="row">
+                              
+          <p>Launch of Chef’s Table Courtside at United City</p>
+                          </div>
+                      </div>
+                  </div>
+              </div>`);
+            var item = $(".carousel_container2 .swiper-slide").length;
+            if (item == 1) {
+              $("#slider-archive .navigation").css("opacity", 0);
+            } else {
+              $("#slider-archive .navigation").css("opacity", 1);
+            }
+            //   },
+            //   error: function (res) {},
+            // });
           }, 500);
         });
       }
@@ -1186,11 +1295,11 @@
     const TeamModalClose = $(".close-modal");
     TeamModalClose.on("click", function (e) {
       e.preventDefault();
-      $(".modal").removeClass("slideInDown");
-      $(".modal").addClass("fadeOutUp");
+      $(".custom-modal").removeClass("slideInDown");
+      $(".custom-modal").addClass("fadeOutUp");
       setTimeout(() => {
-        $(".modal").removeClass("open");
-        $(".modal").removeClass("fadeOutUp");
+        $(".custom-modal").removeClass("open");
+        $(".custom-modal").removeClass("fadeOutUp");
         $("body").css("overflow-y", "auto");
         $("body").removeClass("modal-open-window");
       }, 1000);
@@ -1199,22 +1308,23 @@
     // Moodal Open
     $(".member").on("click", ".modal-learn-more", function (e) {
       e.preventDefault();
-      var that = $(this),
-        prentdiv = that.parents(".member");
-      prentdiv.find(".modal").addClass("open slideInDown");
+      // var that = $(this),
+      //   prentdiv = that.parents(".member");
+      $(".custom-modal").addClass("open slideInDown");
+      // prentdiv.find(".modal").addClass("open slideInDown");
       $("body").css("overflow-y", "hidden");
       $("body").addClass("modal-open-window");
-      const modalText = window.matchMedia("(max-width: 960px)");
-      if (modalText.matches) {
-        var windowHeight = $(window).height();
-        console.log(windowHeight);
-        var imageHeight = $(
-          ".team .modal.open .modal-dialog .modal-content .custom-row .left"
-        ).innerHeight();
-        var calcHeight = windowHeight - imageHeight;
-        $(".modal-content .overview").css("max-height", calcHeight + 40);
-      }
-      console.log(calcHeight);
+      // const modalText = window.matchMedia("(max-width: 960px)");
+      // if (modalText.matches) {
+      //   var windowHeight = $(window).height();
+      //   console.log(windowHeight);
+      //   var imageHeight = $(
+      //     ".team .modal.open .modal-dialog .modal-content .custom-row .left"
+      //   ).innerHeight();
+      //   var calcHeight = windowHeight - imageHeight;
+      //   $(".modal-content .overview").css("max-height", calcHeight + 40);
+      // }
+      // console.log(calcHeight);
     });
 
     // About

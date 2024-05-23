@@ -1938,7 +1938,9 @@ var urls = {
       );
     },
     /*!**********************************!*\
-  !*** ./src/scripts/lightcase.js ***!
+  !*** .
+  
+  /src/scripts/lightcase.js ***!
   \**********************************/
     "./src/scripts/lightcase.js": () => {
       eval(
