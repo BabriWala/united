@@ -66,25 +66,21 @@
     // Operation Section Slider
     const operation = new Swiper(".operation-slider", {
       slidesPerView: 1,
-      autoHeight: true,
-      //enable auto height
+      autoplay: true,
       loop: true,
-      effect: "fade",
-      fadeEffect: {
-        crossFade: true,
-      },
-      virtualTranslate: true,
       navigation: {
         nextEl: "#operation .navigation .next",
         prevEl: "#operation .navigation .prev",
       },
     });
+    console.log("blog slider");
 
     // Blog Section Slider
     const blog = new Swiper(".blog-container", {
       slidesPerView: 2,
       loop: true,
       spaceBetween: 30,
+      // effect: "fade",
       navigation: {
         nextEl: "#blog-slider .navigation .next",
         prevEl: "#blog-slider .navigation .prev",
