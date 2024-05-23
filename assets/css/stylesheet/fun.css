@@ -1,5 +1,5 @@
 .fun-fact {
-  padding-bottom: 0;
+  padding-bottom: 0 !important;
 }
 .fun-fact .single-funfact {
   display: flex;
